@@ -1,9 +1,7 @@
 +++
-title = "About"
-description = "about me"
+title = "关于"
 date = "2024-04-03"
-aliases = ["contact"]
 author = "Licht"
 +++
 
-About
+关于
