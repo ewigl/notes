@@ -1,0 +1,11 @@
+[[menu.main]]
+identifier = "posts"
+name = "笔记"
+pageRef = "/posts"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "关于"
+pageRef = "/about"
+weight = 2

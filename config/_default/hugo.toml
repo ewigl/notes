@@ -2,34 +2,3 @@ languageCode = 'zh-cn'
 defaultContentLanguage = "zh-cn"
 title = "Licht's Notes"
 theme = 'tailwind'
-
-
-[params]
-
-[params.header]
-logo = "images/logo.png"
-
-[params.footer]
-since = 2024
-poweredby = false
-
-[[params.social_media.items]]
-enabled = true
-title = 'Github'
-icon = 'brand-github'
-link = 'https://github.com/ewigl'
-
-
-[menu]
-
-[[menu.main]]
-identifier = "posts"
-name = "笔记"
-pageRef = "/posts"
-weight = 1
-
-[[menu.main]]
-identifier = "about"
-name = "关于"
-pageRef = "/about"
-weight = 2
