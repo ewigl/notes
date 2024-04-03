@@ -1,9 +1,7 @@
 +++
 title = 'App List'
 date = 2024-04-02T22:32:26+08:00
-draft = true
 description = "常用App"
-
 +++
 
 ## Windows
