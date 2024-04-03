@@ -1,0 +1,25 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-CN'
+title = "Licht's Notes"
+theme = 'tailwind'
+
+
+[params]
+[params.header]
+logo = "images/logo.png"
+[params.footer]
+since = 2024
+poweredby = false
+
+
+[menu]
+[[menu.main]]
+identifier = "post"
+name = "文章"
+pageRef = "/posts"
+weight = 1
+[[menu.main]]
+identifier = "about"
+name = "关于"
+pageRef = "/about"
+weight = 2
