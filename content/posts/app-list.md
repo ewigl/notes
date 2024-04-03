@@ -1,7 +1,7 @@
 +++
-title = 'App List'
-date = 2024-04-02T22:32:26+08:00
-description = "常用App"
+title = 'Apps'
+date = 2024-04-02
+description = "常用App列表"
 +++
 
 ## Windows
@@ -20,3 +20,7 @@ description = "常用App"
 ### KernelSU & Modules
 
 - [KernelSU](https://github.com/tiann/KernelSU)
+- [Box for Root](https://github.com/taamarin/box_for_magisk)
+- [HideNavBar](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar)
+- [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
+- [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
