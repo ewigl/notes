@@ -1,7 +1,7 @@
 +++
-title = 'Mihomo启动参数 - Mihomo Params'
+title = 'Mihomo启动参数'
 date = 2024-04-13
-description = "Mihomo命令行启动参数 - Mihomo Command Line Parameters" 
+description = "Mihomo命令行启动参数" 
 author = "Licht"
 tags = ["Mihomo"]
 categories = ["软件", "指南" ]
