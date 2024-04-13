@@ -4,7 +4,7 @@ date = 2024-04-13
 description = "Mihomo命令行启动参数 - Mihomo Command Line Parameters" 
 author = "Licht"
 tags = ["Mihomo"]
-categories = ["软件","Apps", "指南", "Guide" ]
+categories = ["软件", "指南" ]
 +++
 
 ### 背景

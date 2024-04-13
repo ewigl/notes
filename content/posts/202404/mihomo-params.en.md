@@ -4,7 +4,7 @@ date = 2024-04-13
 description = "Mihomo Command Line Parameters" 
 author = "Licht"
 tags = ["Mihomo"]
-categories = ["软件","Apps", "指南", "Guide" ]
+categories = ["Apps", "Guide" ]
 +++
 
 ### Background
