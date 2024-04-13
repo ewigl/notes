@@ -1,10 +1,10 @@
 +++
-title = "关于"
+title = "About"
 date = 1999-11-02
 author = "Licht"
 description = "Coder, Gamer, Dreamer"
 +++
 
-## 社交账户
+## Social Medias
 
 [Github](https://github.com/ewigl)
