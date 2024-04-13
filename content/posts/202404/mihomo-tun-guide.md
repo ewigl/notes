@@ -31,7 +31,7 @@ categories = ["软件", "指南" ]
 1. 点击 <font color="#1f883d">Code</font> -> Download ZIP， 解压缩。
 2. 修改 `config.yaml` 中的 `proxy-providers` 配置。
 
-   - 如果你使用订阅服务，在 Subscription 中填上你自己的订阅链接。
+   - 如果你使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上你自己的订阅链接。
 
    - 如果你使用自建服务器或想在本地存储服务器信息，将 proxies-example 文件夹重命名为 proxies，并按照 Local.yaml 中的格式填写服务器信息。(更多格式参考 Mihomo Docs)
 

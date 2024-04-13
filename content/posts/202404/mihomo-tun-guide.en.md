@@ -31,7 +31,7 @@ Because Tun Mode can enable the “global proxy” of all network traffic, inclu
 1. Click <font color="#1f883d">Code</font> -> Download ZIP, unzip.
 2. Modify `proxy-providers` in `config.yaml`.
 
-   - If you are using a subscription service, fill in your subscription link in the Subscription.
+   - If you are using a subscription service, fill in your subscription link in the `Subscription` section in `config.yaml`.
 
    - If you use a custom server or want to store server information locally, rename proxies-example to proxies and fill in the server information in Local.yaml. (Format reference: Mihomo Docs)
 
