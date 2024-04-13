@@ -3,7 +3,6 @@ title = 'Apps List'
 date = 2024-04-02
 description = "General App List, Windows and Android" 
 author = "Licht"
-tags = [ "Apps"]
 categories = ["Apps"]
 +++
 
