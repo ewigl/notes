@@ -1,7 +1,10 @@
 +++
-title = 'Apps'
+title = 'Apps List'
 date = 2024-04-02
-description = "常用App列表"
+description = "常用App列表，Windows和Android" 
+author = "Licht"
+tags = ["软件"]
+categories = ["软件"]
 +++
 
 ## Windows
@@ -15,9 +18,9 @@ description = "常用App列表"
 - 卸载 Edge [Edge_Removal](https://github.com/AveYo/fox/blob/main/Edge_Removal.bat)
 - 磁盘空间可视化 [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/download.html)
 
-## Android
+## 安卓
 
-### KernelSU & Modules
+### KernelSU & 模块
 
 - [KernelSU](https://github.com/tiann/KernelSU)
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
