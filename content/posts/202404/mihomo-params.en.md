@@ -9,7 +9,7 @@ categories = ["Apps", "Guide" ]
 
 ### Background
 
-We haven't found any related documentation, because we only have a few parameters, so I'll just remark them here.
+Haven't found any related documentation, only a few parameters, so I'll just remark them here.
 
 ### Source
 
