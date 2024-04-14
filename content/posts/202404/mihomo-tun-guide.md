@@ -136,7 +136,7 @@ categories = ["软件", "指南" ]
 
 ## 预览
 
-![Preview](./images/0.png)
+![Preview](../images/0.png)
 
 ## 参考文档
 

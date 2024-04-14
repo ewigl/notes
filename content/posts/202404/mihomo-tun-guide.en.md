@@ -135,7 +135,7 @@ Or use admin permission to run `mihomo.stop.bat`.
 
 ## Preview
 
-![Preview](./images/0.png)
+![Preview](../images/0.png)
 
 ## References
 
