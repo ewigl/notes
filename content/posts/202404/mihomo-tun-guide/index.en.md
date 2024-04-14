@@ -110,7 +110,7 @@ categories = ["Apps", "Guide" ]
 4. Double click `mihomo.startup.vbs` to run, allow admin permission.
 5. Controller dashboard：[http://localhost:9090/ui](http://localhost:9090/ui). default secret: `998486`, can be changed in `config.yaml`.
 
-### Windows start up task and skip account control window
+### Windows start up task and skip UAC
 
 1. Open Windows Task Scheduler.
 2. Import `Mihomo StartUp.xml`, or NEW a task to run `mihomo.startup.vbs`.
@@ -133,7 +133,12 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 3.  Copy `custom-rules`, `metacubexd`, `proxies(optional)`, `GeoIP.dat`, `GeoSite.dat` to `/data/adb/box/calsh`.
 4.  Modify `/data/adb/box` settings.ini, set `network_mode` to "tun".
 5.  Reboot.
-6.  Controller dashboard：[http://localhost:9090/ui](http://localhost:9090/ui). default secret: `998486`, can be changed in `config.yaml`.
+
+### BFR FAQ:
+
+1.  Controller dashboard：[http://localhost:9090/ui](http://localhost:9090/ui). default secret: `998486`, can be changed in `config.yaml`.
+2.  In Magisk or KernelSU module manager, enable or disable the module to start or stop the proxy, No need to reboot.
+3.  Log files in `/data/adb/box/run` folder.
 
 ## Preview
 
@@ -148,3 +153,5 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 [Mihomo Docs](https://wiki.metacubex.one/config/)
 
 [Mihomo Params](https://ewigl.github.io/notes/en/posts/202404/mihomo-params/)
+
+<!-- ## FAQ -->

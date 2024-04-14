@@ -73,7 +73,7 @@ categories = ["软件", "指南" ]
 
     - 如果你使用自建服务器或想在本地存储服务器信息，创建一个 `proxies` 文件夹，在 `proxies` 文件夹中创建一个 `Local.yaml` 文件，并填上服务器信息（proxy-providers）。
 
-      `Local.yaml:`(格式参考：[Mihomo Docs](https://wiki.metacubex.one/config/)，或使用各种订阅转换服务自动生成)
+      `Local.yaml:`(格式参考：[Mihomo Docs](https://wiki.metacubex.one/config/)，或使用各种订阅转换服务自动生成。)
 
       ```yaml
       proxies:
@@ -87,7 +87,6 @@ categories = ["软件", "指南" ]
             password: 123456789,
             udp: true,
           }
-
         # vmess
         - {
             name: 🇺🇸 US,
@@ -134,7 +133,12 @@ categories = ["软件", "指南" ]
 3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)`, `GeoIP.dat`, `GeoSite.dat` 到 `/data/adb/box/calsh`.
 4.  修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
 5.  重启。
-6.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。默认密码：`998486`，可在 `config.yaml` 中修改。
+
+#### BFR FAQ:
+
+1.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。默认密码：`998486`，可在 `config.yaml` 中修改。
+2.  在 Magisk 或 KernelSU 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
+3.  Log 文件在 `/data/adb/box/run` 文件夹中。
 
 ## 预览
 
@@ -149,3 +153,5 @@ categories = ["软件", "指南" ]
 [Mihomo Docs](https://wiki.metacubex.one/config/)
 
 [Mihomo Params](https://ewigl.github.io/notes/posts/202404/mihomo-params/)
+
+<!-- ## FAQ -->
