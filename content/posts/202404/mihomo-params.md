@@ -1,6 +1,6 @@
 +++
 title = 'Mihomo 启动参数'
-date = 2024-04-13
+date = 2024-04-12
 description = "Mihomo 命令行启动参数" 
 author = "Licht"
 tags = ["Mihomo"]

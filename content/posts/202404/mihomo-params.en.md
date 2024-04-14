@@ -1,6 +1,6 @@
 +++
 title = 'Mihomo Params'
-date = 2024-04-13
+date = 2024-04-12
 description = "Mihomo Command Line Parameters" 
 author = "Licht"
 tags = ["Mihomo"]
