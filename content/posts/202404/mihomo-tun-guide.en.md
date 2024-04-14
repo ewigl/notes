@@ -29,11 +29,77 @@ Because Tun Mode can enable the “global proxy” of all network traffic, inclu
 ## Windows configuration
 
 1. Click <font color="#1f883d">Code</font> -> Download ZIP, unzip.
-2. Modify `proxy-providers` in `config.yaml`.
+2. Modify `config.yaml`.
 
-   - If you are using a subscription service, fill in your subscription link in the `Subscription` section in `config.yaml`.
+   - If you are using a subscription service, uncomment all `- Subscription` lines and fill your subscription link in the `Subscription` section under `proxy-providers`.
 
-   - If you use a custom server or want to store server information locally, rename proxies-example to proxies and fill in the server information in Local.yaml. (Format reference: Mihomo Docs)
+     `config.yaml`
+
+     ```yaml
+     proxy-groups:
+       # ...
+       - name: 🇺🇸 America
+         type: select
+         use:
+           # - Local
+           - Subscription
+         filter: "US|🇺🇸"
+       # ...
+
+     proxy-providers:
+       # Local:
+       #   type: file
+       #   path: ./proxies/Local.yaml
+       #   health-check:
+       #     enable: true
+       #     url: http://www.gstatic.com/generate_204
+       #     interval: 7200
+
+       Subscription:
+         type: http
+         # your subscription url here
+         url: https://your.subscription.url
+         path: ./proxies/Subscription.yaml
+         health-check:
+           enable: true
+           url: http://www.gstatic.com/generate_204
+           interval: 7200
+     ```
+
+   - If you use self-host servers or want to store server information locally, create a folder named `proxies`, create a file named `Local.yaml` in `proxies`.
+
+     `Local.yaml`(Format reference: Mihomo Docs)
+
+     ```yaml
+     proxies:
+       # shadowsocks
+       - {
+           name: 🇭🇰 HK,
+           server: server.address.hk,
+           port: 54321,
+           type: ss,
+           cipher: chacha20-ietf-poly1305,
+           password: 123456789,
+           udp: true,
+         }
+       # vmess
+       - {
+           name: 🇺🇸 US,
+           server: 123.456.789.666,
+           port: 443,
+           type: vmess,
+           uuid: 123456-7890-47c1-b1c3-6666666666666666,
+           alterId: 0,
+           cipher: auto,
+           tls: true,
+           skip-cert-verify: false,
+           servername: rac.123456.xyz,
+           network: ws,
+           ws-opts: { path: /123456, headers: { Host: rac.123456.xyz } },
+           udp: true,
+         }
+       # ...
+     ```
 
 3. Modify `mihomo-windows-amd64.exe`'s compatiable settings, tick "admin permission".
 4. Double click `mihomo.startup.vbs` to run, allow admin permission.
@@ -69,7 +135,7 @@ Or use admin permission to run `mihomo.stop.bat`.
 
 ## Preview
 
-![Preview](https://raw.githubusercontent.com/ewigl/mihomo/main/images/0.png)
+![Preview](./images/0.png)
 
 ## References
 

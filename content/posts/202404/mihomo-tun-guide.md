@@ -28,16 +28,83 @@ categories = ["软件", "指南" ]
 
 ## Windows 配置
 
-1. 点击 <font color="#1f883d">Code</font> -> Download ZIP， 解压缩。
-2. 修改 `config.yaml` 中的 `proxy-providers` 配置。
+1.  点击 <font color="#1f883d">Code</font> -> Download ZIP， 解压缩。
+2.  修改 `config.yaml`。
 
-   - 如果你使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上你自己的订阅链接。
+    - 如果你使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上你自己的订阅链接。
 
-   - 如果你使用自建服务器或想在本地存储服务器信息，将 proxies-example 文件夹重命名为 proxies，并按照 Local.yaml 中的格式填写服务器信息。(更多格式参考 Mihomo Docs)
+      `config.yaml`
 
-3. **修改 `mihomo-windows-amd64.exe` 的兼容性设置，勾选“以管理员权限身份运行此程序”** (Tun 模式必须以管理员身份运行 Mihomo)。
-4. 双击 `mihomo.startup.vbs` 运行，允许管理员权限
-5. 控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。默认密码：`998486`，可在 `config.yaml` 中修改。
+      ```yaml
+      proxy-groups:
+        # ...
+        - name: 🇺🇸 America
+          type: select
+          use:
+            # - Local
+            - Subscription
+          filter: "US|🇺🇸"
+        # ...
+
+      proxy-providers:
+        # Local:
+        #   type: file
+        #   path: ./proxies/Local.yaml
+        #   health-check:
+        #     enable: true
+        #     url: http://www.gstatic.com/generate_204
+        #     interval: 7200
+
+        Subscription:
+          type: http
+          # your subscription url here
+          url: https://your.subscription.url
+          path: ./proxies/Subscription.yaml
+          health-check:
+            enable: true
+            url: http://www.gstatic.com/generate_204
+            interval: 7200
+      ```
+
+    - 如果你使用自建服务器或想在本地存储服务器信息，创建一个 `proxies` 文件夹，并在 `proxies` 文件夹中创建一个 `Local.yaml` 文件，并填上服务器信息。
+
+      `Local.yaml:`(格式参考：Mihomo Docs)
+
+      ```yaml
+      proxies:
+        # shadowsocks
+        - {
+            name: 🇭🇰 HK,
+            server: server.address.hk,
+            port: 54321,
+            type: ss,
+            cipher: chacha20-ietf-poly1305,
+            password: 123456789,
+            udp: true,
+          }
+
+        # vmess
+        - {
+            name: 🇺🇸 US,
+            server: 123.456.789.666,
+            port: 443,
+            type: vmess,
+            uuid: 123456-7890-47c1-b1c3-6666666666666666,
+            alterId: 0,
+            cipher: auto,
+            tls: true,
+            skip-cert-verify: false,
+            servername: rac.123456.xyz,
+            network: ws,
+            ws-opts: { path: /123456, headers: { Host: rac.123456.xyz } },
+            udp: true,
+          }
+        # ...
+      ```
+
+3.  **修改 `mihomo-windows-amd64.exe` 的兼容性设置，勾选“以管理员权限身份运行此程序”** (Tun 模式必须以管理员身份运行 Mihomo)。
+4.  双击 `mihomo.startup.vbs` 运行，允许管理员权限
+5.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。默认密码：`998486`，可在 `config.yaml` 中修改。
 
 ### 设置开机自启并跳过管理员用户账户控制
 
@@ -69,7 +136,7 @@ categories = ["软件", "指南" ]
 
 ## 预览
 
-![Preview](https://raw.githubusercontent.com/ewigl/mihomo/main/images/0.png)
+![Preview](./images/0.png)
 
 ## 参考文档
 
