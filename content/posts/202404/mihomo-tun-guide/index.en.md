@@ -9,22 +9,25 @@ categories = ["Apps", "Guide" ]
 
 ## Why
 
-Because Tun Mode can enable the “global proxy” of all network traffic, including “small black box” and UWP applications.
+- Tun mode can implement the true meaning of "Global Proxy", control all network traffic, including "CMD Box" and UWP applications.
+- Set the startup on boot up to implement "No Sense" "Transparent Proxy", comfortable.
+- The kernel has RESTFUL API, Web UI is enough, no need for GUI software (for me).
+- Various GUI software on the task bar will leave a tray icon, less icon less un-beautiful, why not.
+- PC local runs the kernel, it does not affect the family network of other devices (yes, I said I am using the router plugin), outside of work hours can have no sense proxy.
 
 ## Directory structure
 
 - box_for_root - Box For Root (Magisk / KernelSU Module) required files
 - custom-rules - Custom rules, according to personal needs to modify
-- metacubexd - Web UI using [Metacubexd](https://github.com/metacubex/metacubexd)
-- proxies - Proxy server folder (store your server configuration, optional)
-- proxies-example - Proxy server example folder (proxies folder structure example)
+- metacubexd - Web UI [Metacubexd](https://github.com/metacubex/metacubexd)
+- proxies - Proxy server folder (store your server configuration locally)
 
   ···
 
 - mihomo.startup.vbs - .VBS for silent start, hide the "black box"
 - Mihomo StartUp.xml - Windows Task Scheduler backup file
-- update-geo-files.bat
-- update-metacubexd.bat
+- update-geo-files.bat - Update Geo data files script
+- update-metacubexd.bat - Update Metacubexd script
 
 ## Windows configuration
 
@@ -33,7 +36,7 @@ Because Tun Mode can enable the “global proxy” of all network traffic, inclu
 
    - If you are using a subscription service, uncomment all `- Subscription` lines and fill your subscription link in the `Subscription` section under `proxy-providers`.
 
-     `config.yaml`
+     `config.yaml`示例：
 
      ```yaml
      proxy-groups:
@@ -41,12 +44,14 @@ Because Tun Mode can enable the “global proxy” of all network traffic, inclu
        - name: 🇺🇸 America
          type: select
          use:
+           # comment out all "- Local" in the `proxy-groups` section if you do not want to use local files
            # - Local
            - Subscription
          filter: "US|🇺🇸"
        # ...
 
      proxy-providers:
+       # comment out "Local:" section in the `proxy-providers` section if you do not want to use local files
        # Local:
        #   type: file
        #   path: ./proxies/Local.yaml
@@ -57,7 +62,7 @@ Because Tun Mode can enable the “global proxy” of all network traffic, inclu
 
        Subscription:
          type: http
-         # your subscription url here
+         # your subscription link here
          url: https://your.subscription.url
          path: ./proxies/Subscription.yaml
          health-check:
@@ -68,7 +73,7 @@ Because Tun Mode can enable the “global proxy” of all network traffic, inclu
 
    - If you use self-host servers or want to store server information locally, create a folder named `proxies`, create a file named `Local.yaml` in `proxies`.
 
-     `Local.yaml`(Format reference: Mihomo Docs)
+     `Local.yaml`(Reference:[Mihomo Docs](https://wiki.metacubex.one/config/), or use any subscription converter.)
 
      ```yaml
      proxies:
@@ -101,7 +106,7 @@ Because Tun Mode can enable the “global proxy” of all network traffic, inclu
        # ...
      ```
 
-3. Modify `mihomo-windows-amd64.exe`'s compatiable settings, tick "admin permission".
+3. Right click -> see properties, modify `mihomo-windows-amd64.exe`'s compatiable settings, tick "admin permission".
 4. Double click `mihomo.startup.vbs` to run, allow admin permission.
 5. Controller dashboard：[http://localhost:9090/ui](http://localhost:9090/ui). default secret: `998486`, can be changed in `config.yaml`.
 
@@ -114,24 +119,21 @@ Because Tun Mode can enable the “global proxy” of all network traffic, inclu
 
 ### Stop Mihomo
 
-In Task manager, end task `mihomo-windows-amd64.exe`.
+Run `mihomo.stop.bat`.
 
-Or use admin permission to run `mihomo.stop.bat`.
+Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 
 ## Android configuration
 
 ### Box For Root usage:
 
-0.  Bring Box For Root.
-1.  Modify `proxy-providers` in `config.yaml`.
-
-    - If you are using a subscription service, fill in your subscription link in the Subscription.
-
-    - If you use a custom server or want to store server information locally, rename proxies-example to proxies and fill in the server information in Local.yaml. (Format reference: Mihomo Docs)
-
+0.  Flash [Box For Root](https://github.com/taamarin/box_for_magisk) using Magisk or KernelSU, no need to reboot immediately.
+1.  Modify `config.yaml`. (Steps same as Windows configuration above)
 2.  Copy files from `box_for_root` to `/data/adb/box`.
-3.  Copy `custom-rules`, `metacubexd`, `(proxies)`, `GeoIP.dat`, `GeoSite.dat` to `/data/adb/box/calsh`.
-4.  Reboot.
+3.  Copy `custom-rules`, `metacubexd`, `proxies(optional)`, `GeoIP.dat`, `GeoSite.dat` to `/data/adb/box/calsh`.
+4.  Modify `/data/adb/box` settings.ini, set `network_mode` to "tun".
+5.  Reboot.
+6.  Controller dashboard：[http://localhost:9090/ui](http://localhost:9090/ui). default secret: `998486`, can be changed in `config.yaml`.
 
 ## Preview
 
