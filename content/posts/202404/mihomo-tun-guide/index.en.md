@@ -148,10 +148,12 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 
 [Mihomo](https://github.com/MetaCubeX/mihomo)
 
-[Box For Root](https://github.com/taamarin/box_for_magisk)
-
 [Mihomo Docs](https://wiki.metacubex.one/config/)
 
-[Mihomo Params](https://ewigl.github.io/notes/en/posts/202404/mihomo-params/)
+[Mihomo Params](https://ewigl.github.io/notes/posts/202404/mihomo-params/)
 
-<!-- ## FAQ -->
+[Box For Root](https://github.com/taamarin/box_for_magisk)
+
+## FBI WARNING
+
+This is a simple implementation of tun mode, more customization features can be found in the official documentation.

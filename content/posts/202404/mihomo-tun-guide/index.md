@@ -148,10 +148,12 @@ categories = ["软件", "指南" ]
 
 [Mihomo](https://github.com/MetaCubeX/mihomo)
 
-[Box For Root](https://github.com/taamarin/box_for_magisk)
-
 [Mihomo Docs](https://wiki.metacubex.one/config/)
 
 [Mihomo Params](https://ewigl.github.io/notes/posts/202404/mihomo-params/)
 
-<!-- ## FAQ -->
+[Box For Root](https://github.com/taamarin/box_for_magisk)
+
+## FBI WARNING
+
+这是实现 tun 模式的自用简单配置，更多定制功能自行参考官方文档。
