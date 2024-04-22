@@ -8,16 +8,36 @@ categories = ["软件"]
 
 ## Windows
 
-### 便携工具
+### 必备
 
-- 右键菜单管理 [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)
-- 图片超分 [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
-- 微信防撤回 [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
-- 系统优化 [Winaero Tweaker](https://winaerotweaker.com/)
-- 卸载 Edge [Edge_Removal](https://github.com/AveYo/fox/blob/main/Edge_Removal.bat)
-- 磁盘空间可视化 [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/download.html)
+- [7zip](https://www.7-zip.org/)
+- [aria2](https://github.com/ewigl/aria2)
+- [AutoHotKey](https://www.autohotkey.com/)
+- [Calibre](https://calibre-ebook.com/)
+- [CCleaner - Portable](https://www.ccleaner.com/ccleaner/builds)
+- [CheatEngine](https://cheatengine.org/)
+- [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
+- [ffmpeg](https://ffmpeg.org/download.html)
+- [foobar2000](https://www.foobar2000.org/)
+- [Internet Download Manager](https://www.internetdownloadmanager.com/)
+- [IrfanView](https://www.irfanview.com/)
+- [OBS Studio](https://obsproject.com/)
+- [qBittorrent](https://www.qbittorrent.org/)
+- [Sublime Text](https://www.sublimetext.com/)
+- [Telegram](https://telegram.org/)
+- [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
+- [VLC](https://www.videolan.org/vlc/)
 
-## 安卓
+### 便携
+
+- [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)
+- [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
+- [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
+- [Winaero Tweaker](https://winaerotweaker.com/)
+- [Edge_Removal](https://github.com/AveYo/fox/blob/main/Edge_Removal.bat)
+- [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/download.html)
+
+## Android
 
 ### KernelSU & 模块
 
