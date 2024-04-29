@@ -8,6 +8,12 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+  home:
+    - HTML
+    # - RSS
+    - JSON
+
 params:
   description: "Licht's Notes"
   author: Licht
