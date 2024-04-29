@@ -1,0 +1,98 @@
+baseURL: "https://ewigl.github.io/notes/"
+title: "Licht's Notes"
+defaultContentLanguage: "zh"
+theme: "PaperMod"
+paginate: 8
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    # - RSS
+    - JSON
+
+params:
+  description: "Licht's Notes"
+  author: Licht
+
+  ShowReadingTime: true
+  displayFullLangName: true
+  # hideSummary: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowPageNums: true
+  ShowToc: true
+
+  disableSpecial1stPost: true
+
+  hideFooter: true
+
+  assets:
+    favicon: "./favicon.ico"
+
+  label:
+    text: "Licht"
+    icon: ./images/logo.png
+    iconHeight: 32
+
+  homeInfoParams:
+    Title: "Licht's Notes"
+    Content: Welcome👋
+
+  socialIcons:
+    - name: Github
+      url: "https://github.com/ewigl"
+
+languages:
+  zh:
+    languageCode: "zh"
+    languageName: "中文"
+    weight: 1
+    menu:
+      main:
+        - name: "文章"
+          url: "posts/"
+          weight: 1
+        - name: "归档"
+          url: "archives/"
+          weight: 2
+        - name: 搜索
+          url: search/
+          weight: 5
+        - name: 标签
+          url: tags/
+          weight: 6
+        - name: 分类
+          url: categories/
+          weight: 7
+        - name: "关于"
+          url: "about/"
+          weight: 8
+
+  en:
+    languageCode: "en"
+    languageName: "English"
+    weight: 2
+    menu:
+      main:
+        - name: "Posts"
+          url: "posts/"
+          weight: 1
+        - name: "Archives"
+          url: "archives/"
+          weight: 2
+        - name: "Search"
+          url: search/
+          weight: 5
+        - name: "Tags"
+          url: tags/
+          weight: 6
+        - name: "Categories"
+          url: categories/
+          weight: 7
+        - name: "About"
+          url: "about/"
+          weight: 8

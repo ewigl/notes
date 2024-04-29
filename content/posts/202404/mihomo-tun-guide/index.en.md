@@ -1,11 +1,16 @@
-+++
-title = 'Mihomo Tun Mode'
-date = 2024-04-13
-description = "https://github.com/ewigl/mihomo" 
-author = "Licht"
-tags = ["Mihomo", "Tun"]
-categories = ["Apps", "Guide" ]
-+++
+---
+title: "Mihomo Tun Mode"
+date: 2024-04-13
+
+cover:
+  image: "/posts/202404/mihomo-tun-guide/images/0.png"
+  alt: "Cover"
+summary: "https://github.com/ewigl/mihomo"
+description: "https://github.com/ewigl/mihomo"
+
+tags: ["Mihomo", "Tun"]
+categories: ["Apps", "Guide"]
+---
 
 ## Why
 
@@ -142,7 +147,7 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 
 ## Preview
 
-![Preview](./images/0.png)
+![Preview](/notes/posts/202404/mihomo-tun-guide/images/0.png)
 
 ## References
 
