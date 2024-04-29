@@ -155,7 +155,7 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 
 [Mihomo Docs](https://wiki.metacubex.one/config/)
 
-[Mihomo Params](https://ewigl.github.io/notes/posts/202404/mihomo-params/)
+[Mihomo Params](https://ewigl.github.io/notes/en/posts/202404/mihomo-params/)
 
 [Box For Root](https://github.com/taamarin/box_for_magisk)
 
