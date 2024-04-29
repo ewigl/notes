@@ -1,0 +1,39 @@
+title: "Licht's Notes"
+defaultContentLanguage: "zh"
+theme: "PaperMod"
+paginate: 8
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  description: "Licht's Notes"
+  author: Licht
+
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowPageNums: true
+  ShowToc: true
+
+  disableSpecial1stPost: true
+
+  hideFooter: true
+
+  assets:
+    favicon: "./favicon.ico"
+
+  label:
+    text: "Licht"
+    icon: ./images/logo.png
+    iconHeight: 32
+
+  homeInfoParams:
+    Title: "Licht's Notes"
+    Content: Welcome👋
+
+  socialIcons:
+    - name: Github
+      url: "https://github.com/ewigl"

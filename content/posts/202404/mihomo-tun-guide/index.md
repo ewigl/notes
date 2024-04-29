@@ -1,11 +1,11 @@
-+++
-title = 'Mihomo Tun 模式配置'
-date = 2024-04-13
-description = "https://github.com/ewigl/mihomo" 
-author = "Licht"
-tags = ["Mihomo", "Tun"]
-categories = ["软件", "指南" ]
-+++
+---
+title: "Mihomo Tun 模式配置"
+date: 2024-04-13
+description: "https://github.com/ewigl/mihomo"
+author: "Licht"
+tags: ["Mihomo", "Tun"]
+categories: ["软件", "指南"]
+---
 
 ## 为什么
 
