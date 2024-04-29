@@ -1,10 +1,12 @@
-+++
-title = 'Apps List'
-date = 2024-04-02
-description = "常用App列表，Windows和Android" 
-author = "Licht"
-categories = ["软件"]
-+++
+---
+title: "Apps List"
+date: 2024-04-02
+
+summary: "常用 App 列表，Windows 和 Android"
+description: "常用 App 列表，Windows 和 Android"
+
+categories: ["Apps"]
+---
 
 ## Windows
 

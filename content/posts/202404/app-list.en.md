@@ -1,10 +1,12 @@
-+++
-title = 'Apps List'
-date = 2024-04-02
-description = "General App List, Windows and Android" 
-author = "Licht"
-categories = ["Apps"]
-+++
+---
+title: "Apps List"
+date: 2024-04-02
+
+summary: "General App List, Windows and Android"
+description: "General App List, Windows and Android"
+
+categories: ["Apps"]
+---
 
 ## Windows
 
