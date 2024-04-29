@@ -1,3 +1,4 @@
+baseURL: "https://ewigl.github.io/notes/"
 title: "Licht's Notes"
 defaultContentLanguage: "zh"
 theme: "PaperMod"
