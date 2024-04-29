@@ -20,7 +20,7 @@ params:
 
   ShowReadingTime: true
   displayFullLangName: true
-  hideSummary: true
+  # hideSummary: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   ShowPageNums: true

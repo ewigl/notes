@@ -5,6 +5,10 @@ description: "https://github.com/ewigl/mihomo"
 author: "Licht"
 tags: ["Mihomo", "Tun"]
 categories: ["软件", "指南"]
+
+cover:
+  image: "images/0.png"
+  alt: "Cover"
 ---
 
 ## 为什么
