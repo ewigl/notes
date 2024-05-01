@@ -15,7 +15,6 @@ outputs:
     - JSON
 
 params:
-  description: "Licht's Notes"
   author: Licht
 
   ShowReadingTime: true

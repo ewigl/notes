@@ -5,7 +5,7 @@ date: 2024-04-02
 summary: "常用 App 列表，Windows 和 Android"
 description: "常用 App 列表，Windows 和 Android"
 
-categories: ["Apps"]
+categories: ["软件"]
 ---
 
 ## Windows
