@@ -58,7 +58,7 @@ languages:
         - name: "归档"
           url: "archives/"
           weight: 2
-        - name: 搜索
+        - name: 搜索🔍
           url: search/
           weight: 5
         - name: 标签
@@ -67,9 +67,12 @@ languages:
         - name: 分类
           url: categories/
           weight: 7
+        - name: 备份
+          url: "backups/"
+          weight: 8
         - name: "关于"
           url: "about/"
-          weight: 8
+          weight: 9
 
   en:
     languageCode: "en"
@@ -83,7 +86,7 @@ languages:
         - name: "Archives"
           url: "archives/"
           weight: 2
-        - name: "Search"
+        - name: "Search🔍"
           url: search/
           weight: 5
         - name: "Tags"
@@ -92,6 +95,9 @@ languages:
         - name: "Categories"
           url: categories/
           weight: 7
+        - name: "Backups"
+          url: "backups/"
+          weight: 8
         - name: "About"
           url: "about/"
-          weight: 8
+          weight: 9
