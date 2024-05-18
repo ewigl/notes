@@ -8,6 +8,7 @@ author: "Licht"
 
 #### Windows 应用
 
+- [AriaNG Config](./config-files/AriaNgConfig.json)
 - [IrfanView](./config-files/i_view64.ini) - `.`
 - [Potplayer](./config-files/PotPlayerMini64.ini) - `.`
 
