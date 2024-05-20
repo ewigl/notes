@@ -30,6 +30,7 @@ categories: ["软件", "指南"]
   ···
 
 - mihomo.startup.vbs - VBS 脚本，实现隐藏小黑框启动
+- mihomo.stop.bat - 停止 Mihomo
 - Mihomo StartUp.xml - Windows 任务计划程序的备份文件
 - updater.bat - 更新 Geo 数据文件和 Metacubexd 的脚本
 

@@ -30,6 +30,7 @@ categories: ["Apps", "Guide"]
   ···
 
 - mihomo.startup.vbs - .VBS for silent start, hide the "black box"
+- mihomo.stop.bat - Batch to stop Mihomo
 - Mihomo StartUp.xml - Windows Task Scheduler backup file
 - updater.bat - Script to update Geo data file and Metacubexd
 
