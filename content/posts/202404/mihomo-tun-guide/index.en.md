@@ -31,8 +31,7 @@ categories: ["Apps", "Guide"]
 
 - mihomo.startup.vbs - .VBS for silent start, hide the "black box"
 - Mihomo StartUp.xml - Windows Task Scheduler backup file
-- update-geo-files.bat - Update Geo data files script
-- update-metacubexd.bat - Update Metacubexd script
+- updater.bat - Script to update Geo data file and Metacubexd
 
 ## Windows configuration
 

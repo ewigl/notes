@@ -31,8 +31,7 @@ categories: ["软件", "指南"]
 
 - mihomo.startup.vbs - VBS 脚本，实现隐藏小黑框启动
 - Mihomo StartUp.xml - Windows 任务计划程序的备份文件
-- update-geo-files.bat - 更新 Geo 数据文件的脚本
-- update-metacubexd.bat - 更新 Metacubexd 控制台的脚本
+- updater.bat - 更新 Geo 数据文件和 Metacubexd 的脚本
 
 ## Windows 配置
 
