@@ -12,17 +12,8 @@ tags: ["Mihomo", "Tun"]
 categories: ["软件", "指南"]
 ---
 
-## 为什么
-
-- Tun 模式可以实现真正意义上的“全局代理”，接管所有网络流量，包括“CMD 小黑框”、UWP 软件等。
-- 设置开机自启后可以实现“无感”的“透明代理”，舒服。
-- 内核自带 RESTFUL API，Web UI 够用，不需要 GUI 软件（对我来说）。
-- 各种 GUI 软件在任务栏会留出一个 tray icon，icon 能少一个是一个，why not。
-- PC 本地运行内核，不会影响家庭网络中的其他设备（是的我说的就是路由器插件），外出时陌生网络也可以无感代理。
-
 ## 目录结构
 
-- box_for_root - Box For Root (Magisk / KernelSU 模块) 所需的文件
 - custom-rules - 自定义规则，根据个人需求修改
 - metacubexd - Web UI [Metacubexd](https://github.com/metacubex/metacubexd)
 - proxies - 代理服务器文件夹 (在本地存放你的服务器配置)
@@ -134,7 +125,7 @@ categories: ["软件", "指南"]
 
 0.  刷入 Box For Root，无需重启。
 1.  修改 `config.yaml`。**（步骤参考 Windows 配置第二步）**
-2.  复制 `box_for_root` 中的文件到 `/data/adb/box`.
+2.  下载 mihomo android arme64 版本，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
 3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)`, `GeoIP.dat`, `GeoSite.dat` 到 `/data/adb/box/calsh`.
 4.  修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
 5.  重启。

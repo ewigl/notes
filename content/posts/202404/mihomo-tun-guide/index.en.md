@@ -12,17 +12,8 @@ tags: ["Mihomo", "Tun"]
 categories: ["Apps", "Guide"]
 ---
 
-## Why
-
-- Tun mode can implement the true meaning of "Global Proxy", control all network traffic, including "CMD Box" and UWP applications.
-- Set the startup on boot up to implement "No Sense" "Transparent Proxy", comfortable.
-- The kernel has RESTFUL API, Web UI is enough, no need for GUI software (for me).
-- Various GUI software on the task bar will leave a tray icon, less icon less un-beautiful, why not.
-- PC local runs the kernel, it does not affect the family network of other devices (yes, I said I am using the router plugin), outside of work hours can have no sense proxy.
-
 ## Directory structure
 
-- box_for_root - Box For Root (Magisk / KernelSU Module) required files
 - custom-rules - Custom rules, according to personal needs to modify
 - metacubexd - Web UI [Metacubexd](https://github.com/metacubex/metacubexd)
 - proxies - Proxy server folder (store your server configuration locally)
@@ -134,7 +125,7 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 
 0.  Flash [Box For Root](https://github.com/taamarin/box_for_magisk) using Magisk or KernelSU, no need to reboot immediately.
 1.  Modify `config.yaml`. (Steps same as Windows configuration above)
-2.  Copy files from `box_for_root` to `/data/adb/box`.
+2.  Download mihomo android arme64 version, unzip and rename it to `mihomo`, copy `mihomo` to `/data/adb/box/bin/xclash`.
 3.  Copy `custom-rules`, `metacubexd`, `proxies(optional)`, `GeoIP.dat`, `GeoSite.dat` to `/data/adb/box/calsh`.
 4.  Modify `/data/adb/box` settings.ini, set `network_mode` to "tun".
 5.  Reboot.
