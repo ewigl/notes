@@ -12,7 +12,7 @@ tags: ["Mihomo", "Tun"]
 categories: ["软件", "指南"]
 ---
 
-### 目录结构
+## 目录结构
 
 - custom-rules - 自定义规则，根据个人需求修改
 - metacubexd - Web UI
@@ -25,7 +25,7 @@ categories: ["软件", "指南"]
 - Mihomo StartUp.xml - Windows 任务计划程序的备份文件
 - updater.bat - 更新 Geo 数据文件和 Metacubexd 的脚本
 
-### Windows 配置
+## Windows 配置
 
 1.  点击 <font color="#1f883d">Code</font> -> Download ZIP， 解压缩、放到你平时安装软件的地方。
 2.  修改 `config.yaml`。
@@ -106,22 +106,22 @@ categories: ["软件", "指南"]
 4.  双击 `mihomo.startup.vbs` 运行，允许管理员权限。
 5.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。默认密码：`998486`，可在 `config.yaml` 中修改。
 
-#### 开机自启并跳过 UAC
+### 开机自启并跳过 UAC
 
 1. 打开 Windows 任务计划程序
 2. 导入 `Mihomo StartUp.xml`，或新建一个任务来开机运行 `mihomo.startup.vbs`.
 3. 按需修改任务名称、文件路径 **（必须修改，除非你的路径和我一样为"D:\Apps\Mihomo"）**、触发器、条件等等。
 4. **在“常规”选项卡中， 勾选“使用最高权限运行”**。（如果不设置此选项，每次开机会跳出 UAC 窗口，除非你的 UAC 设置本来就是无警告（真的有人会这样做吗））
 
-#### 停止 Mihomo
+### 停止 Mihomo
 
 双击运行 `mihomo.stop.bat`。
 
 或者打开任务管理器，结束 `mihomo-windows-amd64.exe`.
 
-### Android 配置
+## Android 配置
 
-#### Box For Root 使用方法:
+### Box For Root 使用方法:
 
 0.  刷入 Box For Root，无需重启。
 1.  修改 `config.yaml`。**（步骤参考 Windows 配置第二步）**
@@ -136,7 +136,7 @@ categories: ["软件", "指南"]
 2.  在 Magisk 或 KernelSU 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
 3.  Log 文件在 `/data/adb/box/run` 文件夹中。
 
-### 参考文档
+## 参考文档
 
 [Mihomo](https://github.com/MetaCubeX/mihomo)
 
@@ -146,6 +146,6 @@ categories: ["软件", "指南"]
 
 [Box For Root](https://github.com/taamarin/box_for_magisk)
 
-### FBI WARNING
+## FBI WARNING
 
 这是实现 tun 模式的自用简单配置，更多定制功能自行参考官方文档。

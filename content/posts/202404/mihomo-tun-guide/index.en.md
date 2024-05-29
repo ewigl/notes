@@ -12,7 +12,7 @@ tags: ["Mihomo", "Tun"]
 categories: ["Apps", "Guide"]
 ---
 
-### Directory structure
+## Directory structure
 
 - custom-rules - Custom rules, according to personal needs to modify
 - metacubexd - Web UI
@@ -25,7 +25,7 @@ categories: ["Apps", "Guide"]
 - Mihomo StartUp.xml - Windows Task Scheduler backup file
 - updater.bat - Script to update Geo data file and Metacubexd
 
-### Windows configuration
+## Windows configuration
 
 1. Click <font color="#1f883d">Code</font> -> Download ZIP, unzip.
 2. Modify `config.yaml`.
@@ -106,22 +106,22 @@ categories: ["Apps", "Guide"]
 4. Double click `mihomo.startup.vbs` to run, allow admin permission.
 5. Controller dashboard：[http://localhost:9090/ui](http://localhost:9090/ui). default secret: `998486`, can be changed in `config.yaml`.
 
-#### Windows start up task and skip UAC
+### Windows start up task and skip UAC
 
 1. Open Windows Task Scheduler.
 2. Import `Mihomo StartUp.xml`, or NEW a task to run `mihomo.startup.vbs`.
 3. Change task's name, file path, triger, condition...
 4. **In "General/Common" tab, tick 'admin/higherst permission'.**
 
-#### Stop Mihomo
+### Stop Mihomo
 
 Run `mihomo.stop.bat`.
 
 Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 
-### Android configuration
+## Android configuration
 
-#### Box For Root usage:
+### Box For Root usage:
 
 0.  Flash [Box For Root](https://github.com/taamarin/box_for_magisk) using Magisk or KernelSU, no need to reboot immediately.
 1.  Modify `config.yaml`. (Steps same as Windows configuration above)
@@ -130,13 +130,13 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 4.  Modify `/data/adb/box` settings.ini, set `network_mode` to "tun".
 5.  Reboot.
 
-#### BFR FAQ:
+### BFR FAQ:
 
 1.  Controller dashboard：[http://localhost:9090/ui](http://localhost:9090/ui). default secret: `998486`, can be changed in `config.yaml`.
 2.  In Magisk or KernelSU module manager, enable or disable the module to start or stop the proxy, No need to reboot.
 3.  Log files in `/data/adb/box/run` folder.
 
-### References
+## References
 
 [Mihomo](https://github.com/MetaCubeX/mihomo)
 
@@ -146,6 +146,6 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 
 [Box For Root](https://github.com/taamarin/box_for_magisk)
 
-### FBI WARNING
+## FBI WARNING
 
 This is a simple implementation of tun mode, more customization features can be found in the official documentation.
