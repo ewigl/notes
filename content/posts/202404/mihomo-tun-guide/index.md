@@ -136,10 +136,6 @@ categories: ["软件", "指南"]
 2.  在 Magisk 或 KernelSU 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
 3.  Log 文件在 `/data/adb/box/run` 文件夹中。
 
-## 预览
-
-![Preview](./images/0.png)
-
 ## 参考文档
 
 [Mihomo](https://github.com/MetaCubeX/mihomo)

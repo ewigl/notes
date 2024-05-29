@@ -136,10 +136,6 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 2.  In Magisk or KernelSU module manager, enable or disable the module to start or stop the proxy, No need to reboot.
 3.  Log files in `/data/adb/box/run` folder.
 
-## Preview
-
-![Preview](/notes/posts/202404/mihomo-tun-guide/images/0.png)
-
 ## References
 
 [Mihomo](https://github.com/MetaCubeX/mihomo)
