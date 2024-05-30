@@ -121,7 +121,7 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 
 ## Android configuration
 
-### Box For Root usage:
+### Box For Root usage
 
 0.  Flash [Box For Root](https://github.com/taamarin/box_for_magisk) using Magisk or KernelSU, no need to reboot immediately.
 1.  Modify `config.yaml`. (Steps same as Windows configuration above)
@@ -130,7 +130,7 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 4.  Modify `/data/adb/box` settings.ini, set `network_mode` to "tun".
 5.  Reboot.
 
-### BFR FAQ:
+### BFR FAQ
 
 1.  Controller dashboard：[http://localhost:9090/ui](http://localhost:9090/ui). default secret: `998486`, can be changed in `config.yaml`.
 2.  In Magisk or KernelSU module manager, enable or disable the module to start or stop the proxy, No need to reboot.

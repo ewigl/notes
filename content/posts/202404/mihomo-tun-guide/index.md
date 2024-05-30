@@ -130,7 +130,7 @@ categories: ["软件", "指南"]
 4.  修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
 5.  重启。
 
-#### BFR FAQ:
+#### BFR FAQ
 
 1.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。默认密码：`998486`，可在 `config.yaml` 中修改。
 2.  在 Magisk 或 KernelSU 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。

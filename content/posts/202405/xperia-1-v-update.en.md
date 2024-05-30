@@ -9,7 +9,7 @@ tags: ["Xperia"]
 categories: ["Android"]
 ---
 
-## Update System:
+## Update System
 
 1. Download the latest firmware from [XperiFirm](https://xdaforums.com/t/tool-xperifirm-xperia-firmware-downloader-v5-7-0.2834142/)
 2. Download [NewFlasher](https://xdaforums.com/t/tool-newflasher-xperia-command-line-flasher.3619426/), copy `newflasher.exe` and `newflasher.x64` to the firmware directory
@@ -17,7 +17,7 @@ categories: ["Android"]
 4. Run NewFlasher
 5. **Note: input `y` to keep data when asking if you want to keep data.**
 
-## ROOT - Ksu:
+## ROOT - Ksu
 
 0. Download [UnSIN](https://xdaforums.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v2-0.3128106/)
 1. In the firmware directory, find `init_boot_X-FLASH-ALL-25B1.sin`
@@ -35,6 +35,6 @@ categories: ["Android"]
 3. `value="true"` change to `value="false"`
 4. Reboot
 
-## Lawnchair - Ksu:
+## Lawnchair - Ksu
 
 [Guide](https://ewigl.github.io/notes/posts/202405/lawnchair-quickswitch/)
