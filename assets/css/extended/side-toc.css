@@ -1,0 +1,9 @@
+@media (min-width: 1600px) {
+  .post-single .toc {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: none;
+    border: none;
+  }
+}
