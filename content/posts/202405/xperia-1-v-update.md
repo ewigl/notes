@@ -6,7 +6,7 @@ summary: "Xperia 1 V 手动更新系统步骤"
 description: "Xperia 1 V 手动更新系统步骤"
 
 tags: ["Xperia"]
-categories: ["安卓"]
+categories: ["Android"]
 ---
 
 ## 更新系统:

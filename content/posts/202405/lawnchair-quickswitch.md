@@ -6,7 +6,7 @@ summary: "Lawnchair Quickswitch 集成, Android 14, KSU"
 description: "Lawnchair Quickswitch 集成, Android 14, KSU"
 
 tags: ["Lawnchair", "Quickswitch", "Android"]
-categories: ["软件", "指南", "安卓"]
+categories: ["软件", "指南", "Android"]
 ---
 
 ### 环境

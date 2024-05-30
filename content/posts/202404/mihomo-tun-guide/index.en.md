@@ -9,7 +9,7 @@ summary: "https://github.com/ewigl/mihomo"
 description: "https://github.com/ewigl/mihomo"
 
 tags: ["Mihomo", "Tun"]
-categories: ["Apps", "Guide"]
+categories: ["Apps", "Guide", "Windows", "Adnroid"]
 ---
 
 ## Directory structure
