@@ -9,7 +9,7 @@ summary: "https://github.com/ewigl/mihomo"
 description: "https://github.com/ewigl/mihomo"
 
 tags: ["Mihomo", "Tun"]
-categories: ["软件", "指南", "Windows", "Adnroid"]
+categories: ["软件", "指南", "Windows", "Android"]
 ---
 
 ## 目录结构
