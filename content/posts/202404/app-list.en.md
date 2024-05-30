@@ -24,11 +24,11 @@ categories: ["Apps"]
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
 - [IrfanView](https://www.irfanview.com/)
 - [OBS Studio](https://obsproject.com/)
+- [PotPlayer](https://potplayer.daum.net/)
 - [qBittorrent](https://www.qbittorrent.org/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Telegram](https://telegram.org/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
-- [VLC](https://www.videolan.org/vlc/)
 
 ### Portable
 
