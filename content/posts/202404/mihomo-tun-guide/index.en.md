@@ -125,7 +125,7 @@ Or open Task Manager, terminate `mihomo-windows-amd64.exe`.
 
 0.  Flash [Box For Root](https://github.com/taamarin/box_for_magisk) using Magisk or KernelSU, no need to reboot immediately.
 1.  Modify `config.yaml`. (Steps same as Windows configuration above)
-2.  Download mihomo android arme64 version, unzip and rename it to `mihomo`, copy `mihomo` to `/data/adb/box/bin/xclash`.
+2.  Download mihomo android arm64 version, unzip and rename it to `mihomo`, copy `mihomo` to `/data/adb/box/bin/xclash`.
 3.  Copy `custom-rules`, `metacubexd`, `proxies(optional)`, `GeoIP.dat`, `GeoSite.dat` to `/data/adb/box/calsh`.
 4.  Modify `/data/adb/box` settings.ini, set `network_mode` to "tun".
 5.  Reboot.

@@ -125,7 +125,7 @@ categories: ["软件", "指南", "Windows", "Android"]
 
 0.  刷入 Box For Root，无需重启。
 1.  修改 `config.yaml`。**（步骤参考 Windows 配置第二步）**
-2.  下载 mihomo android arme64 版本，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
+2.  下载 mihomo android arm64 版本，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
 3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)`, `GeoIP.dat`, `GeoSite.dat` 到 `/data/adb/box/calsh`.
 4.  修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
 5.  重启。
