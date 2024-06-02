@@ -14,7 +14,8 @@ categories: ["Guide", "Windows"]
 3. Find `Computer Configuration - Manage Templates - Control Panel`
 4. On the right side, find `Settings page visibility`
 5. Refer to the help section, set the settings that need to be hidden, reference: [Microsoft Learn](https://go.microsoft.com/fwlink/?linkid=2102995)
-6. Example
+6. Check "Enabled"
+7. Input Example
 
    ```
    hide:maps;search-permissions;cortana-windowssearch;tabletmode;project;crossdevice;autoplay;usb;mobile-devices;speech;gaming-gamedvr;easeofaccess-eyecontrol;easeofaccess-highcontrast;easeofaccess-colorfilter;findmydevice;gaming-gamebar;

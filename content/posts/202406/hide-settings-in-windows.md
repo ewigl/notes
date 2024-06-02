@@ -14,7 +14,8 @@ categories: ["指南", "Windows"]
 3. 找到 计算机配置 - 管理模板 - 控制面板
 4. 在右侧窗口找到`设置页面可见性`
 5. 根据帮助提示, 设置需要隐藏的设置选项, 参考文档: [Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/uwp/launch-resume/launch-settings-app)
-6. 示例
+6. 勾选`已启用`
+7. 填写示例
 
    ```
    hide:maps;search-permissions;cortana-windowssearch;tabletmode;project;crossdevice;autoplay;usb;mobile-devices;speech;gaming-gamedvr;easeofaccess-eyecontrol;easeofaccess-highcontrast;easeofaccess-colorfilter;findmydevice;gaming-gamebar;
