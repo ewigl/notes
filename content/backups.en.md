@@ -38,12 +38,14 @@ author: "Licht"
 - [foobar2000](https://www.foobar2000.org/)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
 - [IrfanView](https://www.irfanview.com/)
+- [Mihomo](https://github.com/ewigl/mihomo)
 - [OBS Studio](https://obsproject.com/)
 - [PotPlayer](https://potplayer.daum.net/)
 - [qBittorrent](https://www.qbittorrent.org/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [TaskbarTools.exe](./windows-apps/TaskbarTools.exe)
 - [Telegram](https://telegram.org/)
+- [Thunderbird](https://www.thunderbird.net/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 
 ### Portable
