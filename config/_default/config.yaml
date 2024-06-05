@@ -1,7 +1,7 @@
-baseURL: "https://ewigl.github.io/notes/"
-title: "Licht's Notes"
-defaultContentLanguage: "zh"
-theme: "PaperMod"
+baseURL: https://ewigl.github.io/notes/
+title: Licht's Notes
+defaultContentLanguage: zh
+theme: PaperMod
 paginate: 8
 
 minify:
@@ -30,30 +30,30 @@ params:
   hideFooter: true
 
   assets:
-    favicon: "./favicon.ico"
+    favicon: ./favicon.ico
 
   label:
-    text: "Licht"
+    text: Licht
     icon: ./images/logo.png
     iconHeight: 32
 
   homeInfoParams:
-    Title: "Licht's Notes"
+    Title: Licht's Notes
     Content: Welcome👋
 
   socialIcons:
     - name: Github
-      url: "https://github.com/ewigl"
+      url: https://github.com/ewigl
 
 languages:
   zh:
-    languageCode: "zh"
-    languageName: "中文"
+    languageCode: zh
+    languageName: 中文
     weight: 1
     menu:
       main:
         - name: 归档 📚
-          url: "archives/"
+          url: archives/
           weight: 2
         - name: 搜索 🔍
           url: search/
@@ -65,33 +65,33 @@ languages:
           url: categories/
           weight: 7
         - name: 备份 📁
-          url: "backups/"
+          url: backups/
           weight: 8
         - name: 关于 👨‍💻
-          url: "about/"
+          url: about/
           weight: 9
 
   en:
-    languageCode: "en"
-    languageName: "English"
+    languageCode: en
+    languageName: English
     weight: 2
     menu:
       main:
-        - name: "Archives 📚"
-          url: "archives/"
+        - name: Archives 📚
+          url: archives/
           weight: 2
-        - name: "Search 🔍"
+        - name: Search 🔍
           url: search/
           weight: 5
-        - name: "Tags 🔖"
+        - name: Tags 🔖
           url: tags/
           weight: 6
-        - name: "Categories 🧰"
+        - name: Categories 🧰
           url: categories/
           weight: 7
-        - name: "Backups 📁"
-          url: "backups/"
+        - name: Backups 📁
+          url: backups/
           weight: 8
-        - name: "About 👨‍💻"
-          url: "about/"
+        - name: About 👨‍💻
+          url: about/
           weight: 9
