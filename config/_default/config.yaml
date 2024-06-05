@@ -50,20 +50,19 @@ languages:
     languageCode: zh
     languageName: 中文
     weight: 1
+    taxonomies:
+      tag: tags
     menu:
       main:
-        - name: 归档 📚
-          url: archives/
-          weight: 2
         - name: 搜索 🔍
           url: search/
+          weight: 2
+        - name: 归档 📚
+          url: archives/
           weight: 5
         - name: 标签 🔖
           url: tags/
           weight: 6
-        - name: 分类 🧰
-          url: categories/
-          weight: 7
         - name: 备份 📁
           url: backups/
           weight: 8
@@ -75,20 +74,19 @@ languages:
     languageCode: en
     languageName: English
     weight: 2
+    taxonomies:
+      tag: tags
     menu:
       main:
-        - name: Archives 📚
-          url: archives/
-          weight: 2
         - name: Search 🔍
           url: search/
+          weight: 2
+        - name: Archives 📚
+          url: archives/
           weight: 5
         - name: Tags 🔖
           url: tags/
           weight: 6
-        - name: Categories 🧰
-          url: categories/
-          weight: 7
         - name: Backups 📁
           url: backups/
           weight: 8
