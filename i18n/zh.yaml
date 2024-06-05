@@ -1,2 +1,5 @@
 - id: tags
   translation: "标签 🔖"
+
+- id: categories
+  translation: "分类 🧰"
