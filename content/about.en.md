@@ -1,5 +1,5 @@
 ---
-title: About 👨‍💻
+title: About ♏
 date: 1999-11-02
 
 showToc: false
