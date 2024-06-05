@@ -5,8 +5,7 @@ date: 2024-05-30T22:35:02+08:00
 summary: "Xperia 1 V 手动更新系统步骤"
 description: "Xperia 1 V 手动更新系统步骤"
 
-tags: ["Xperia"]
-categories: ["Android"]
+tags: ["Android", "Xperia"]
 ---
 
 ## 更新系统:

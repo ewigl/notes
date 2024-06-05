@@ -6,7 +6,6 @@ summary: "Hide Windows Settings"
 description: "Hide Windows Settings"
 
 tags: ["Windows"]
-categories: ["Guide", "Windows"]
 ---
 
 1. WIN + R

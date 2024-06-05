@@ -6,7 +6,6 @@ summary: "Mihomo Command Line Parameters"
 description: "Mihomo Command Line Parameters"
 
 tags: ["Mihomo"]
-categories: ["Apps", "Guide"]
 ---
 
 ### Background

@@ -6,7 +6,6 @@ summary: "隐藏 Windows 设置中的选项"
 description: "隐藏 Windows 设置中的选项"
 
 tags: ["Windows"]
-categories: ["指南", "Windows"]
 ---
 
 1. WIN + R

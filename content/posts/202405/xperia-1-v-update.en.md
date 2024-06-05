@@ -5,8 +5,7 @@ date: 2024-05-30T22:35:02+08:00
 summary: "Xperia 1 V Manual Update System Steps"
 description: "Xperia 1 V Manual Update System Steps"
 
-tags: ["Xperia"]
-categories: ["Android"]
+tags: ["Android", "Xperia"]
 ---
 
 ## Update System

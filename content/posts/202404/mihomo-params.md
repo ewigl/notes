@@ -6,7 +6,6 @@ summary: "Mihomo 命令行启动参数"
 description: "Mihomo 命令行启动参数"
 
 tags: ["Mihomo"]
-categories: ["软件", "指南"]
 ---
 
 ### 背景
