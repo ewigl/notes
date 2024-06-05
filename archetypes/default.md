@@ -2,8 +2,8 @@
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: { { .Date } }
 
-summary: ""
-description: ""
+summary:
+description:
 
 tags: []
 categories: []

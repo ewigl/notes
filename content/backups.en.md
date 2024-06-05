@@ -1,7 +1,6 @@
 ---
-title: "Backups"
+title: Backups 📁
 date: 1999-11-02
-author: "Licht"
 ---
 
 ## Configuration Files
