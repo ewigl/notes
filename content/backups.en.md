@@ -3,11 +3,11 @@ title: Backups 📁
 date: 1999-11-02
 ---
 
-## Configuration Files
+## Config files
 
 **Windows**
 
-- [AriaNG Config](./config-files/AriaNgConfig.json)
+- [AriaNG](./config-files/AriaNgConfig.json)
 - [IrfanView](./config-files/i_view64.ini) - `.`
 - [Potplayer](./config-files/PotPlayerMini64.ini) - `.`
 
@@ -22,41 +22,68 @@ date: 1999-11-02
 - [Linguist](./config-files/linguist-config_1716007473167.json)
 - [uBlock Origin](./config-files/my-ublock-backup_2024-05-18_12.52.01.txt)
 
-## Windows Apps
+## Windows
 
-### Necessary
+### Basic Apps
 
 - [7zip](https://www.7-zip.org/)
-- [aria2](https://github.com/ewigl/aria2)
+- [Adobe PhotoShop](https://w14.monkrus.ws/)
 - [AutoHotKey](https://www.autohotkey.com/)
 - [Calibre](https://calibre-ebook.com/)
-- [CCleaner - Portable](https://www.ccleaner.com/ccleaner/builds)
 - [CheatEngine](https://cheatengine.org/)
-- [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
-- [ffmpeg](https://ffmpeg.org/download.html)
 - [foobar2000](https://www.foobar2000.org/)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
 - [IrfanView](https://www.irfanview.com/)
-- [Mihomo](https://github.com/ewigl/mihomo)
 - [OBS Studio](https://obsproject.com/)
 - [PotPlayer](https://potplayer.daum.net/)
+- [PowerToys](https://github.com/microsoft/PowerToys/releases)
 - [qBittorrent](https://www.qbittorrent.org/)
+- [Ryujinx (portable)](https://ryujinx.org/download)
 - [Sublime Text](https://www.sublimetext.com/)
-- [TaskbarTools.exe](./windows-apps/TaskbarTools.exe)
+- [Steam](https://store.steampowered.com/)
 - [Telegram](https://telegram.org/)
 - [Thunderbird](https://www.thunderbird.net/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 
-### Portable
+### Portable Tools
 
+- [aria2](https://github.com/ewigl/aria2)
+- [CCleaner - Portable](https://www.ccleaner.com/ccleaner/builds)
 - [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)
+- [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
+- [Edge_Removal](https://github.com/AveYo/fox/blob/main/Edge_Removal.bat)
+- [Mihomo](https://github.com/ewigl/mihomo)
+- [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)
 - [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
 - [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
-- [Winaero Tweaker](https://winaerotweaker.com/)
-- [Edge_Removal](https://github.com/AveYo/fox/blob/main/Edge_Removal.bat)
 - [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/download.html)
+- [TaskbarTools.exe (Direct)](./windows-apps/TaskbarTools.exe)
+- [Winaero Tweaker](https://winaerotweaker.com/)
 
-## Android Apps
+### Development Environment / Runtime / Command Line Tools
+
+- [ffmpeg](https://ffmpeg.org/download.html)
+- [Git](https://git-scm.com/)
+- [Go](https://go.dev/dl/)
+- [Hugo](https://github.com/gohugoio/hugo/releases)
+- [JDK](https://www.oracle.com/java/technologies/downloads/)
+- [MSVCR Latest](https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- [nvm-windows](https://github.com/coreybutler/nvm-windows)
+- [platform-tools](https://developer.android.com/tools/releases/platform-tools)
+- [PowerShell](https://github.com/PowerShell/PowerShell/releases)
+
+### Non-essential
+
+- [AdobeCreativeCloudCleanerTool (Direct)](https://swupmf.adobe.com/webfeed/CleanerTool/win/AdobeCreativeCloudCleanerTool.exe)
+- [Blender](https://www.blender.org/download/)
+- [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextractgui/files/)
+- [Godot Engine](https://godotengine.org/)
+- [LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit)
+- [mkvtoolnix](https://mkvtoolnix.download/downloads.html)
+- [MS365 E5 Renew Plus](https://e5renew.com/)
+- [sd.webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
+## Android
 
 ### KernelSU & Modules
 
@@ -64,4 +91,5 @@ date: 1999-11-02
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
 - [HideNavBar](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar)
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
+- [QuickSwitch](https://github.com/skittles9823/QuickSwitch)
 - [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
