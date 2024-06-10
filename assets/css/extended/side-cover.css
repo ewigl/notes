@@ -11,6 +11,9 @@
 
 .post-entry .entry-header {
   grid-row-start: 1;
+  /* text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; */
 }
 
 .post-entry .entry-content {

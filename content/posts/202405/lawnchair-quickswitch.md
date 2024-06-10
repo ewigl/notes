@@ -1,5 +1,5 @@
 ---
-title: "Lawnchair Quickswitch 集成"
+title: "Lawnchair X Quickswitch"
 date: 2024-05-18
 
 summary: "Lawnchair Quickswitch 集成, Android 14, KSU"
