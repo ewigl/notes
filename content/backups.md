@@ -81,6 +81,7 @@ date: 2024-05-29
 - [LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit)
 - [mkvtoolnix](https://mkvtoolnix.download/downloads.html)
 - [MS365 E5 Renew Plus](https://e5renew.com/)
+- [Rufus](https://github.com/pbatard/rufus/releases)
 - [sd.webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 ## Android
