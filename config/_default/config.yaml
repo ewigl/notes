@@ -17,7 +17,7 @@ outputs:
 params:
   author: Licht
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   displayFullLangName: true
   # hideSummary: true
   ShowPostNavLinks: true
