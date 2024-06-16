@@ -8,10 +8,6 @@ description: "Mihomo 命令行启动参数"
 tags: ["Mihomo"]
 ---
 
-### 背景
-
-网上未找到相关文档，因为只有几个参数，所以简单整理备注一下。
-
 ### 来源
 
 [Mihomo 源码](https://github.com/MetaCubeX/mihomo/blob/Meta/main.go)

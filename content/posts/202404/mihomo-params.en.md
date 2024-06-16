@@ -8,10 +8,6 @@ description: "Mihomo Command Line Parameters"
 tags: ["Mihomo"]
 ---
 
-### Background
-
-Haven't found any related documentation, only a few parameters, so I'll just remark them here.
-
 ### Source
 
 [Mihomo source code](https://github.com/MetaCubeX/mihomo/blob/Meta/main.go)
