@@ -44,6 +44,7 @@ date: 2024-05-29
 - [Telegram](https://telegram.org/)
 - [Thunderbird](https://www.thunderbird.net/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
+- [VSCode](https://code.visualstudio.com/download)
 
 ### 便携工具
 

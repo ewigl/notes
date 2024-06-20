@@ -44,6 +44,7 @@ date: 1999-11-02
 - [Telegram](https://telegram.org/)
 - [Thunderbird](https://www.thunderbird.net/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
+- [VSCode](https://code.visualstudio.com/download)
 
 ### Portable Tools
 
