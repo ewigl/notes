@@ -28,7 +28,6 @@ date: 2024-05-29
 
 - [7zip](https://www.7-zip.org/)
 - [Adobe PhotoShop](https://w14.monkrus.ws/)
-- [AutoHotKey](https://www.autohotkey.com/)
 - [Calibre](https://calibre-ebook.com/)
 - [CheatEngine](https://cheatengine.org/)
 - [foobar2000](https://www.foobar2000.org/)
@@ -38,7 +37,6 @@ date: 2024-05-29
 - [PotPlayer](https://potplayer.daum.net/)
 - [PowerToys](https://github.com/microsoft/PowerToys/releases)
 - [qBittorrent](https://www.qbittorrent.org/)
-- [Ryujinx (portable)](https://ryujinx.org/download)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Steam](https://store.steampowered.com/)
 - [Telegram](https://telegram.org/)
@@ -76,6 +74,7 @@ date: 2024-05-29
 ### 非必须
 
 - [AdobeCreativeCloudCleanerTool (直链)](https://swupmf.adobe.com/webfeed/CleanerTool/win/AdobeCreativeCloudCleanerTool.exe)
+- [AutoHotKey](https://www.autohotkey.com/)
 - [Blender](https://www.blender.org/download/)
 - [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextractgui/files/)
 - [Godot Engine](https://godotengine.org/)
@@ -83,6 +82,7 @@ date: 2024-05-29
 - [mkvtoolnix](https://mkvtoolnix.download/downloads.html)
 - [MS365 E5 Renew Plus](https://e5renew.com/)
 - [Rufus](https://github.com/pbatard/rufus/releases)
+- [Ryujinx (portable)](https://ryujinx.org/download)
 - [sd.webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 ## Android
