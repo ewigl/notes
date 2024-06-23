@@ -21,7 +21,6 @@ date: 2024-05-29
 - [Sublime Text](https://www.sublimetext.com/)
 - [Steam](https://store.steampowered.com/)
 - [Telegram](https://telegram.org/)
-- [Thunderbird](https://www.thunderbird.net/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 - [VSCode](https://code.visualstudio.com/download)
 
