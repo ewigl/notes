@@ -1,6 +1,6 @@
 ---
 title: "Steam Depot Download"
-date: 2024-06-24
+date: 2024-06-23
 
 summary: "How to Download Steam Depot"
 description: "How to Download Steam Depot"
