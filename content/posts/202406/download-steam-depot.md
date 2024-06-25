@@ -1,9 +1,9 @@
 ---
-title: "Steam Depot 下载"
+title: "下载 Steam Depot"
 date: 2024-06-23
 
-summary: "Steam Depot 下载"
-description: "Steam Depot 下载"
+summary: "下载Steam Depot"
+description: "下载Steam Depot"
 
 tags: ["Steam"]
 ---

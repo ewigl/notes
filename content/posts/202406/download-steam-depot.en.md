@@ -1,9 +1,9 @@
 ---
-title: "Steam Depot Download"
+title: "Download Steam Depot"
 date: 2024-06-23
 
-summary: "How to Download Steam Depot"
-description: "How to Download Steam Depot"
+summary: "How to download Steam depot"
+description: "How to download Steam depot"
 
 tags: ["Steam"]
 ---
