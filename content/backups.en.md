@@ -18,15 +18,14 @@ date: 1999-11-02
 - [PotPlayer](https://potplayer.daum.net/)
 - [PowerToys](https://github.com/microsoft/PowerToys/releases)
 - [qBittorrent](https://www.qbittorrent.org/)
-- [Sublime Text](https://www.sublimetext.com/)
 - [Steam](https://store.steampowered.com/)
+- [Sublime Text](https://www.sublimetext.com/)
 - [Telegram](https://telegram.org/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 - [VSCode](https://code.visualstudio.com/download)
 
 ### Portable Tools
 
-- [aria2](https://github.com/ewigl/aria2)
 - [CCleaner - Portable](https://www.ccleaner.com/ccleaner/builds)
 - [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)
 - [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
