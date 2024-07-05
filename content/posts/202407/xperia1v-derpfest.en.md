@@ -2,8 +2,8 @@
 title: "Xperia 1 V Derpfest"
 date: 2024-07-04
 
-summary: "Xperia 1 V Derpfest"
-description: "Xperia 1 V Derpfest"
+summary: "Flash Derpfest to Xperia 1 V "
+description: "Flash Derpfest to Xperia 1 V"
 
 tags: ["Android", "Xperia"]
 ---
