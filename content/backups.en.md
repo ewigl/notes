@@ -66,11 +66,12 @@ date: 1999-11-02
 
 ## Android
 
-### KernelSU & Modules
+### KernelSU & APatch & Modules
 
+- [APatch](https://github.com/bmax121/APatch)
 - [KernelSU](https://github.com/tiann/KernelSU)
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
-- [HideNavBar](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar)
+<!-- - [HideNavBar](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar) -->
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
-- [QuickSwitch](https://github.com/skittles9823/QuickSwitch)
+<!-- - [QuickSwitch](https://github.com/skittles9823/QuickSwitch) -->
 - [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
