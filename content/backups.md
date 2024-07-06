@@ -8,8 +8,8 @@ date: 2024-05-29
 ### 基础 Apps
 
 - [7zip](https://www.7-zip.org/)
-- [Adobe PhotoShop](https://w14.monkrus.ws/)
-- [Calibre](https://calibre-ebook.com/)
+- [Adobe PhotoShop & ...](https://w14.monkrus.ws/)
+- [Calibre](https://calibre-ebook.com/download_windows)
 - [CheatEngine](https://cheatengine.org/)
 - [foobar2000](https://www.foobar2000.org/)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
@@ -31,7 +31,6 @@ date: 2024-05-29
 - [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
 - [Edge_Removal](https://github.com/AveYo/fox/blob/main/Edge_Removal.bat)
 - [Mihomo](https://github.com/ewigl/mihomo)
-- [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)
 - [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
 - [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
 - [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/download.html)
@@ -53,6 +52,7 @@ date: 2024-05-29
 ### 非必须
 
 - [AdobeCreativeCloudCleanerTool (直链)](https://swupmf.adobe.com/webfeed/CleanerTool/win/AdobeCreativeCloudCleanerTool.exe)
+<!-- - [AdobeGenP](https://www.reddit.com/r/GenP/wiki/redditgenpguides/#wiki_.2B50_download_directory) -->
 - [AutoHotKey](https://www.autohotkey.com/)
 - [Blender](https://www.blender.org/download/)
 - [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextractgui/files/)
@@ -60,6 +60,7 @@ date: 2024-05-29
 - [LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit)
 - [mkvtoolnix](https://mkvtoolnix.download/downloads.html)
 - [MS365 E5 Renew Plus](https://e5renew.com/)
+- [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)
 - [Rufus](https://github.com/pbatard/rufus/releases)
 - [Ryujinx (portable)](https://ryujinx.org/download)
 - [sd.webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
@@ -70,9 +71,9 @@ date: 2024-05-29
 
 - [APatch](https://github.com/bmax121/APatch)
 - [KernelSU](https://github.com/tiann/KernelSU)
-
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
-<!-- - [HideNavBar](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar) -->
+  <!-- - [HideNavBar](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar) -->
+  <!-- - [Lawnchair](https://github.com/LawnchairLauncher/lawnchair/releases) -->
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 <!-- - [QuickSwitch](https://github.com/skittles9823/QuickSwitch) -->
 - [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
