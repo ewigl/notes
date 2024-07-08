@@ -1,5 +1,5 @@
 ---
-title: Change Windows File Default "Open With"
+title: Windows Ext Options
 date: 2024-06-24
 
 summary: Change Default "Open With" Option in Windows

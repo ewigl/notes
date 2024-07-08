@@ -1,5 +1,5 @@
 ---
-title: "删改 Windows 文件默认打开方式"
+title: "删改 Windows Ext"
 date: 2024-06-24
 
 summary: "删改 Windows 特定扩展名文件默认打开方式"

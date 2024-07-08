@@ -1,5 +1,5 @@
 ---
-title: "隐藏 Windows 设置选项"
+title: "隐藏 Windows 设置"
 date: 2024-06-02T22:40:58+08:00
 
 summary: "隐藏 Windows 设置中的选项"
