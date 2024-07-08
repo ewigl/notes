@@ -22,31 +22,73 @@ tags: ["Mihomo", "Tun", "Windows", "Android"]
 - mihomo.startup.vbs - VBS 脚本，实现隐藏小黑框启动
 - mihomo.stop.bat - 停止 Mihomo
 - Mihomo StartUp.xml - Windows 任务计划程序的备份文件
-- updater.bat - 更新 Geo 数据文件和 Metacubexd 的脚本
+- ~~updater.bat - 更新 Geo 数据文件和 Metacubexd 的脚本~~ Metacubexd 已支持更新 Geo 数据文件和 WebUI
 
 ## Windows 配置
 
-1.  点击 <font color="#1f883d">Code</font> -> Download ZIP， 解压缩、放到你平时安装软件的地方。
+1.  点击 <font color="#1f883d">Code</font> -> Download ZIP， 解压缩、放到平时安装软件的目录。
 2.  修改 `config.yaml`。
 
-    - 如果你使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上你自己的订阅链接。
+    - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接。
 
-      `config.yaml`示例：
+      `config.yaml`片段示例：
 
       ```yaml
       proxy-groups:
-        # ...
-        - name: 🇺🇸 America
+        - name: 🚀
+          type: select
+          proxies:
+            - 🇺🇸 美国
+            - 🇭🇰 香港
+            - 🇨🇳 台湾
+            - 🇸🇬 狮城
+            - 🇯🇵 日本
+            - 🇺🇳 全球
+
+        # Regions
+        - name: 🇺🇸 美国
           type: select
           use:
-            # 不使用 Local 做 proxy-provider 的时候需要注释掉所有 proxy-groups 中的 “- Local"
             # - Local
             - Subscription
-          filter: "US|🇺🇸"
-        # ...
+          filter: "US|🇺🇸|美国"
+
+        - name: 🇭🇰 香港
+          type: select
+          use:
+            # - Local
+            - Subscription
+          filter: "HK|🇭🇰|香港"
+
+        - name: 🇨🇳 台湾
+          type: select
+          use:
+            # - Local
+            - Subscription
+          filter: "TW|🇨🇳|🇹🇼|台湾"
+
+        - name: 🇸🇬 狮城
+          type: select
+          use:
+            # - Local
+            - Subscription
+          filter: "SG|🇸🇬|新加坡|狮城"
+
+        - name: 🇯🇵 日本
+          type: select
+          use:
+            # - Local
+            - Subscription
+          filter: "JP|🇯🇵|日本"
+
+        - name: 🇺🇳 全球
+          type: select
+          use:
+            # - Local
+            - Subscription
 
       proxy-providers:
-        # 不想使用 Local 做 proxy-provider 的时候注释掉 “Local:” 部分
+        # 注释掉 “Local:” 部分
         # Local:
         #   type: file
         #   path: ./proxies/Local.yaml
@@ -66,39 +108,106 @@ tags: ["Mihomo", "Tun", "Windows", "Android"]
             interval: 7200
       ```
 
-    - 如果你使用自建服务器或想在本地存储服务器信息，创建一个 `proxies` 文件夹，在 `proxies` 文件夹中创建一个 `Local.yaml` 文件，并填上服务器信息（proxy-providers）。
+    - 如果使用自建服务器或想在本地存储服务器信息，创建 `proxies` 文件夹，在 `proxies` 内创建 `Local.yaml` 文件。
 
-      `Local.yaml:`(格式参考：[Mihomo Docs](https://wiki.metacubex.one/config/proxies/)，或使用各种订阅转换服务自动生成。)
+      `config.yaml`片段示例：
+
+      ```yaml
+      proxy-groups:
+        - name: 🚀
+          type: select
+          proxies:
+            - 🇺🇸 美国
+            - 🇭🇰 香港
+            - 🇨🇳 台湾
+            - 🇸🇬 狮城
+            - 🇯🇵 日本
+            - 🇺🇳 全球
+
+        # Regions
+        - name: 🇺🇸 美国
+          type: select
+          use:
+            - Local
+            # - Subscription
+          filter: "US|🇺🇸|美国"
+
+        - name: 🇭🇰 香港
+          type: select
+          use:
+            - Local
+            # - Subscription
+          filter: "HK|🇭🇰|香港"
+
+        - name: 🇨🇳 台湾
+          type: select
+          use:
+            - Local
+            # - Subscription
+          filter: "TW|🇨🇳|🇹🇼|台湾"
+
+        - name: 🇸🇬 狮城
+          type: select
+          use:
+            - Local
+            # - Subscription
+          filter: "SG|🇸🇬|新加坡|狮城"
+
+        - name: 🇯🇵 日本
+          type: select
+          use:
+            - Local
+            # - Subscription
+          filter: "JP|🇯🇵|日本"
+
+        - name: 🇺🇳 全球
+          type: select
+          use:
+            - Local
+            # - Subscription
+
+      proxy-providers:
+        Local:
+          type: file
+          path: ./proxies/Local.yaml
+          health-check:
+            enable: true
+            url: http://www.gstatic.com/generate_204
+            interval: 7200
+
+        # Subscription:
+        #   type: http
+        #   # your subscription url here
+        #   url: https://your.subscription.url
+        #   path: ./proxies/Subscription.yaml
+        #   health-check:
+        #     enable: true
+        #     url: http://www.gstatic.com/generate_204
+        #     interval: 7200
+      ```
+
+      `Local.yaml`示例：
 
       ```yaml
       proxies:
-        # shadowsocks
         - {
-            name: 🇭🇰 HK,
-            server: server.address.hk,
-            port: 54321,
+            name: 🇺🇸 美国,
+            server: us.server,
+            port: 8848,
             type: ss,
             cipher: chacha20-ietf-poly1305,
-            password: 123456789,
+            password: 12345678,
             udp: true,
           }
-        # vmess
         - {
-            name: 🇺🇸 US,
-            server: 123.456.789.666,
-            port: 443,
-            type: vmess,
-            uuid: 123456-7890-47c1-b1c3-6666666666666666,
-            alterId: 0,
-            cipher: auto,
-            tls: true,
-            skip-cert-verify: false,
-            servername: rac.123456.xyz,
-            network: ws,
-            ws-opts: { path: /123456, headers: { Host: rac.123456.xyz } },
+            name: 🇭🇰 香港,
+            server: hongkong.server,
+            port: 8848,
+            type: ss,
+            cipher: chacha20-ietf-poly1305,
+            password: 12345678,
             udp: true,
           }
-        # ...
       ```
 
 3.  右键 -> 属性，修改 `mihomo-windows-amd64.exe` 的兼容性设置，勾选“以管理员权限身份运行此程序” **（Tun 模式需要管理员权限）**。
