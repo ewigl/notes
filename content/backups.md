@@ -1,6 +1,6 @@
 ---
 title: 备份 📁
-date: 2024-05-29
+date: 2024-07-08
 ---
 
 ## Windows
@@ -52,7 +52,6 @@ date: 2024-05-29
 ### 非必须
 
 - [AdobeCreativeCloudCleanerTool (直链)](https://swupmf.adobe.com/webfeed/CleanerTool/win/AdobeCreativeCloudCleanerTool.exe)
-<!-- - [AdobeGenP](https://www.reddit.com/r/GenP/wiki/redditgenpguides/#wiki_.2B50_download_directory) -->
 - [AutoHotKey](https://www.autohotkey.com/)
 - [Blender](https://www.blender.org/download/)
 - [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextractgui/files/)
@@ -64,6 +63,7 @@ date: 2024-05-29
 - [Rufus](https://github.com/pbatard/rufus/releases)
 - [Ryujinx (portable)](https://ryujinx.org/download)
 - [sd.webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+<!-- - [AdobeGenP](https://www.reddit.com/r/GenP/wiki/redditgenpguides/#wiki_.2B50_download_directory) -->
 
 ## Android
 
@@ -72,8 +72,8 @@ date: 2024-05-29
 - [APatch](https://github.com/bmax121/APatch)
 - [KernelSU](https://github.com/tiann/KernelSU)
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
+- [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
+- [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
   <!-- - [HideNavBar](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar) -->
   <!-- - [Lawnchair](https://github.com/LawnchairLauncher/lawnchair/releases) -->
-- [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
-<!-- - [QuickSwitch](https://github.com/skittles9823/QuickSwitch) -->
-- [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
+  <!-- - [QuickSwitch](https://github.com/skittles9823/QuickSwitch) -->
