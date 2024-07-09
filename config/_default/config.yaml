@@ -65,6 +65,9 @@ languages:
           weight: 6
         - name: 备份 📁
           url: backups/
+          weight: 7
+        - name: 番剧 📺
+          url: anime/
           weight: 8
         - name: 关于 ♏
           url: about/
@@ -89,6 +92,9 @@ languages:
           weight: 6
         - name: Backups 📁
           url: backups/
+          weight: 7
+        - name: Anime 📺
+          url: anime/
           weight: 8
         - name: About ♏
           url: about/
