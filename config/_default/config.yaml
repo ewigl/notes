@@ -93,9 +93,9 @@ languages:
         - name: Backups 📁
           url: backups/
           weight: 7
-        - name: Anime 📺
-          url: anime/
-          weight: 8
+        # - name: Anime 📺
+        #   url: anime/
+        #   weight: 8
         - name: About ♏
           url: about/
           weight: 9
