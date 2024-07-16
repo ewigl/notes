@@ -6,26 +6,46 @@ summary: 追番列表
 description: 追番列表
 ---
 
-## 名词
+## 流媒体
 
 > **Ani-One**：全称“Anime for everyone!”，是由香港羚邦动画成立的动画播放频道。
 > ------ [维基百科](https://zh.wikipedia.org/wiki/%E7%BE%9A%E9%82%A6%E9%9B%86%E5%9C%98#Ani-One)
+>
+> 链接：
+>
+> - [Ani-One Asia](https://www.youtube.com/AniOneAsia): 亚洲地区，多国语言外挂字幕，1080P。
+>
+> - [Ani-One 中文官方動畫頻道](https://www.youtube.com/@AniOneAnime)：亚洲地区，繁中内嵌 + 简繁外挂字幕，1080P。
 
 > **巴哈姆特动画疯**：是由巴哈姆特电玩资讯站于台湾运营的 OTT 动画播放平台，并采用中华电信流媒体服务，动画播放中允许用户发出影片弹幕式的回复讯息，服务力求能达到与日本当季动画同步播出。
 > ------ [维基百科](https://zh.wikipedia.org/zh-cn/%E5%B7%B4%E5%93%88%E5%A7%86%E7%89%B9%E5%8B%95%E7%95%AB%E7%98%8B)
+>
+> 链接：
+>
+> - [巴哈姆特动画疯](https://ani.gamer.com.tw/): 台湾地区，繁中内嵌字幕，非会员 720P + 30s 广告，会员 1080P 无广告。
 
 > **木棉花国际股份有限公司**：（英语：Muse Communication Co., Ltd.），是在台湾成立的动画代理行销公司。
 > ------ [维基百科](https://zh.wikipedia.org/wiki/%E6%9C%A8%E6%A3%89%E8%8A%B1%E5%9C%8B%E9%9A%9B)
+>
+> 链接：
+>
+> - [Muse 木棉花-TW](https://www.youtube.com/@MuseTW)：台湾地区，繁中内嵌字幕，720P。
+
+## 下载站
+
+> **蜜柑计划**：新一代的动漫下载站。
+>
+> 链接：
+>
+> - [Mikan Project Global](https://mikanani.me/)
+> - [Mikan Project CN](https://mikanime.tv/)
+
+## 小知识
 
 > **僧侣档**：此系列的动画都是由成人漫画改编的泡面番，存在电视播放的“通常版”和 Anime Zone 播放的“完全版”（R-18）两个版本。此系列动画的第一部作品是《与僧侣交往的色欲之夜》，“僧侣档”之名也由此而来。原本只是民间这样称呼，后来官方也认可了这个称呼。
 > ------ [萌娘百科](https://zh.moegirl.org.cn/zh-hans/%E5%83%A7%E4%BE%A3%E6%A1%A3)
 
-## 链接
-
-- [Ani-One-Asia YouTube](https://www.youtube.com/AniOneAsia)
-- [Muse-TW YouTube](https://www.youtube.com/@MuseTW)
-- [巴哈姆特动画疯](https://ani.gamer.com.tw/)
-- [Mikan Project](https://mikanani.me/)
+---
 
 ## 2024 年 07 月
 
