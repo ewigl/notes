@@ -1,6 +1,9 @@
 ---
 title: 番剧 📺
 date: 2024-07-08
+
+summary: 追番列表
+description: 追番列表
 ---
 
 ## 名词
@@ -21,28 +24,29 @@ date: 2024-07-08
 
 - [Ani-One-Asia YouTube](https://www.youtube.com/AniOneAsia)
 - [Muse-TW YouTube](https://www.youtube.com/@MuseTW)
-- [Baha](https://ani.gamer.com.tw/)
+- [巴哈姆特动画疯](https://ani.gamer.com.tw/)
 - [Mikan Project](https://mikanani.me/)
 
 ## 2024 年 07 月
 
 | 番名                                             | 原著          | 类型           | 观看 / 下载          | 备注       |
 | ------------------------------------------------ | ------------- | -------------- | -------------------- | ---------- |
-| 不时轻声地以俄语遮羞的邻座艾莉同学               | 轻小说 - 连载 | 恋爱 戏剧      | YouTube, Mikan, Baha | -          |
-| 地下城里的人们                                   | 漫画 - 连载   | 地下城 奇幻    | Mikan, Baha          | -          |
-| 拉面赤猫                                         | 漫画 - 连载   | 美食           | Mikan, Baha,YouTube  | -          |
-| 鹿乃子乃子乃子虎视眈眈                           | 漫画 - 连载   | 百合 日常 喜剧 | Mikan, Baha          | -          |
-| 前辈是伪娘                                       | 漫画 - 连载   | 恋爱喜剧 成长  | Mikan, Baha          | -          |
-| 擅长逃跑的殿下                                   | 漫画 - 连载   | 历史           | Mikan, Baha          | -          |
-| 天穗之咲稻姬                                     | 游戏          | 农场模拟       | Mikan, Baha, YouTube | -          |
-| 为何我的世界被遗忘了？                           | 轻小说 - 连载 | 奇幻           | Mikan, Baha, YouTube | -          |
-| 我的妻子不具感情                                 | 漫画 - 连载   | 温馨 家庭 科幻 | Mikan, Baha          | -          |
-| 我要【招架】一切～反误解的世界最强想成为冒险家～ | 轻小说 - 连载 | 冒险 奇幻      | Mikan                | -          |
-| 新人大叔冒险者，被最强队伍操到死成无敌           | 轻小说 - 连载 | 奇幻           | Mikan, YouTube, Baha | -          |
-| 亚托莉 -我挚爱的时光-                            | 游戏          | 恋爱           | Mikan, Baha          |            |
+| 不时轻声地以俄语遮羞的邻座艾莉同学               | 轻小说 - 连载 | 恋爱 戏剧      | Baha, Mikan, YouTube | -          |
+| 地下城里的人们                                   | 漫画 - 连载   | 地下城 奇幻    | Baha, Mikan          | -          |
+| 拉面赤猫                                         | 漫画 - 连载   | 美食           | Baha, Mikan,YouTube  | -          |
+| 鹿乃子乃子乃子虎视眈眈                           | 漫画 - 连载   | 百合 日常 喜剧 | Baha, Mikan          | -          |
+| 学姐是男孩                                       | 漫画 - 连载   | 恋爱喜剧 成长  | Baha, Mikan          | -          |
+| 擅长逃跑的殿下                                   | 漫画 - 连载   | 历史           | Baha, Mikan          | -          |
+| 深夜 PUNCH                                       | -             | 喜剧           | Baha, Mikan          | -          |
+| 天穗之咲稻姬                                     | 游戏          | 农场模拟       | Baha, Mikan, YouTube | -          |
+| 为何我的世界被遗忘了？                           | 轻小说 - 连载 | 奇幻           | Baha, Mikan, YouTube | -          |
+| 我的妻子不具感情                                 | 漫画 - 连载   | 温馨 家庭 科幻 | Baha, Mikan          | -          |
+| 我要【招架】一切～反误解的世界最强想成为冒险家～ | 轻小说 - 连载 | 冒险 奇幻      | Baha, Mikan          | -          |
+| 新人大叔冒险者，被最强队伍操到死成无敌           | 轻小说 - 连载 | 奇幻           | Baha, Mikan, YouTube | -          |
+| 亚托莉 -我挚爱的时光-                            | 游戏          | 恋爱           | Baha, Mikan          |            |
 | 夜游生活！                                       | 漫画 - 连载   | 恋爱 奇幻      | Mikan                | 僧侣档 R18 |
 | 异世界失格                                       | 漫画 - 连载   | 异世界 冒险    | Mikan                | -          |
-| 异世界悠闲纪行～边养娃边当冒险者～               | 轻小说 - 连载 | 异世界 养娃    | Mikan, YouTube       | -          |
+| 异世界悠闲纪行～边养娃边当冒险者～               | 轻小说 - 连载 | 异世界 养娃    | Baha, Mikan, YouTube | -          |
 
 ## 2013 年 10 月
 
