@@ -31,7 +31,7 @@ description: 追番列表
 >
 > - [Muse 木棉花-TW](https://www.youtube.com/@MuseTW)：台湾地区，繁中内嵌字幕，720P。
 
-## 下载站
+## 资源站
 
 > **蜜柑计划**：新一代的动漫下载站。
 >
