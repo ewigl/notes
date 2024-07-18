@@ -14,8 +14,6 @@ description: 追番列表
 >
 > **Ani-Mi Asia**：2023 年 10 月开设的品牌，将中国大陆的作品本地化后，在香港和台湾等中文地区推出。
 >
-> ------ [维基百科](https://zh.wikipedia.org/wiki/%E7%BE%9A%E9%82%A6%E9%9B%86%E5%9C%98#Ani-One)
->
 > 链接：
 >
 > - [Ani-One Asia](https://www.youtube.com/AniOneAsia): 亚洲地区，多国语言外挂字幕，1080P。
@@ -32,15 +30,11 @@ description: 追番列表
 
 > **巴哈姆特动画疯**：是由巴哈姆特电玩资讯站于台湾运营的 OTT 动画播放平台，并采用中华电信流媒体服务，动画播放中允许用户发出影片弹幕式的回复讯息，服务力求能达到与日本当季动画同步播出。
 >
-> ------ [维基百科](https://zh.wikipedia.org/zh-cn/%E5%B7%B4%E5%93%88%E5%A7%86%E7%89%B9%E5%8B%95%E7%95%AB%E7%98%8B)
->
 > 链接：
 >
 > - [巴哈姆特动画疯](https://ani.gamer.com.tw/): 台湾地区，繁中内嵌字幕，非会员 720P + 30s 广告，会员 1080P 无广告。
 
 > **木棉花国际股份有限公司**：（英语：Muse Communication Co., Ltd.），是在台湾成立的动画代理行销公司。
->
-> ------ [维基百科](https://zh.wikipedia.org/wiki/%E6%9C%A8%E6%A3%89%E8%8A%B1%E5%9C%8B%E9%9A%9B)
 >
 > 链接：
 >
