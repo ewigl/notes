@@ -11,10 +11,10 @@ description: 追番列表
 | 媒体                                                                           | 类别    | 详情                                                                | 备注                |
 | ------------------------------------------------------------------------------ | ------- | ------------------------------------------------------------------- | ------------------- |
 | [**Ani-One Asia**](https://www.youtube.com/AniOneAsia)                         | YouTube | 亚洲地区，多国语言外挂字幕，1080P。                                 | Anime for everyone! |
-| [Ani-One 中文官方動畫頻道](https://www.youtube.com/@AniOneAnime)               | YouTube | 亚洲地区，繁中内嵌 + 简繁外挂字幕，1080P。                          |                     |
+| [Ani-One 中文官方動畫頻道](https://www.youtube.com/@AniOneAnime)               | YouTube | 亚洲地区，繁中内嵌 + 简繁外挂字幕，1080P。                          | -                   |
 | [Ani-Mi Asia](https://www.youtube.com/@AnimiforAsia)                           | YouTube | 亚洲地区，多国语言外挂字幕，1080P。                                 | 国漫                |
 | [哔哩哔哩动画 Anime Made By Bilibili](https://www.youtube.com/@MadeByBilibili) | YouTube | 全球地区，中英外挂字幕，1080P。                                     | 国漫                |
-| [**巴哈姆特动画疯**](https://ani.gamer.com.tw/)                                | Website | 台湾地区，繁中内嵌字幕，非会员 720P + 30s 广告，会员 1080P 无广告。 |                     |
+| [**巴哈姆特动画疯**](https://ani.gamer.com.tw/)                                | Website | 台湾地区，繁中内嵌字幕，非会员 720P + 30s 广告，会员 1080P 无广告。 | -                   |
 | [Muse 木棉花-TW](https://www.youtube.com/@MuseTW)                              | YouTube | 台湾地区，繁中内嵌字幕，720P。                                      | 有和谐              |
 
 ## 资源站
@@ -60,10 +60,10 @@ description: 追番列表
 
 | 番名               | 原著 | 类型      | 观看 / 下载                                    | 备注 |
 | ------------------ | ---- | --------- | ---------------------------------------------- | ---- |
-| 来自风平浪静的明天 | -    | 恋爱 奇幻 | [VCB-Studio](https://vcb-s.com/archives/14374) |      |
+| 来自风平浪静的明天 | -    | 恋爱 奇幻 | [VCB-Studio](https://vcb-s.com/archives/14374) | -    |
 
 ## 2006 年 10 月
 
 | 番名                    | 原著 | 类型                  | 观看 / 下载                                   | 备注 |
 | ----------------------- | ---- | --------------------- | --------------------------------------------- | ---- |
-| Code Geass 反叛的鲁路修 | -    | 悲剧 科幻 战争 机器人 | [VCB-Studio](https://vcb-s.com/archives/2415) |      |
+| Code Geass 反叛的鲁路修 | -    | 悲剧 科幻 战争 机器人 | [VCB-Studio](https://vcb-s.com/archives/2415) | -    |
