@@ -45,7 +45,7 @@ description: 追番列表
 | 鹿乃子乃子乃子虎视眈眈                           | 漫画 - 连载   | 百合 日常 喜剧 | Baha, Mikan          | -      |
 | 学姐是男孩                                       | 漫画 - 连载   | 恋爱喜剧 成长  | Baha, Mikan          | -      |
 | 擅长逃跑的殿下                                   | 漫画 - 连载   | 历史           | Baha, Mikan          | -      |
-| 深夜 PUNCH                                       | -             | 喜剧           | Baha, Mikan          | -      |
+| 深夜 PUNCH                                       | -             | 喜剧           | Baha, Mikan, YouTube | -      |
 | 天穗之咲稻姬                                     | 游戏          | 农场模拟       | Baha, Mikan, YouTube | -      |
 | 为何我的世界被遗忘了？                           | 轻小说 - 连载 | 奇幻           | Baha, Mikan, YouTube | -      |
 | 我的妻子不具感情                                 | 漫画 - 连载   | 温馨 家庭 科幻 | Baha, Mikan          | -      |
