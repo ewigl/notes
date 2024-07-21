@@ -6,7 +6,7 @@
     /* center */
     transform: translateY(-50%);
     /* max-width */
-    max-width: calc((100vw - var(--main-width) - var(--gap) * 14) / 2);
+    max-width: calc((100vw - var(--main-width) - var(--gap) * 20) / 2);
     /* text */
     overflow: hidden;
     text-overflow: ellipsis;
