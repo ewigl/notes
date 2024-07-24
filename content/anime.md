@@ -8,14 +8,14 @@ description: 追番列表
 
 ## 流媒体
 
-| 媒体                                                                           | 类别    | 详情                                                                | 备注                |
-| ------------------------------------------------------------------------------ | ------- | ------------------------------------------------------------------- | ------------------- |
-| [**Ani-One Asia**](https://www.youtube.com/AniOneAsia)                         | YouTube | 亚洲地区，多国语言外挂字幕，1080P。                                 | Anime for everyone! |
-| [Ani-One 中文官方動畫頻道](https://www.youtube.com/@AniOneAnime)               | YouTube | 亚洲地区，繁中内嵌 + 简繁外挂字幕，1080P。                          | -                   |
-| [Ani-Mi Asia](https://www.youtube.com/@AnimiforAsia)                           | YouTube | 亚洲地区，多国语言外挂字幕，1080P。                                 | 国漫                |
-| [哔哩哔哩动画 Anime Made By Bilibili](https://www.youtube.com/@MadeByBilibili) | YouTube | 全球地区，中英外挂字幕，1080P。                                     | 国漫                |
-| [**巴哈姆特动画疯**](https://ani.gamer.com.tw/)                                | Website | 台湾地区，繁中内嵌字幕，非会员 720P + 30s 广告，会员 1080P 无广告。 | -                   |
-| [Muse 木棉花-TW](https://www.youtube.com/@MuseTW)                              | YouTube | 台湾地区，繁中内嵌字幕，720P。                                      | 有和谐              |
+| 媒体                                                              | 类别    | 详情                                                                | 备注                |
+| ----------------------------------------------------------------- | ------- | ------------------------------------------------------------------- | ------------------- |
+| [**Ani-One Asia**](https://www.youtube.com/AniOneAsia)            | YouTube | 亚洲地区，多国语言外挂字幕，1080P。                                 | Anime for everyone! |
+| [Ani-One 中文官方動畫頻道](https://www.youtube.com/@AniOneAnime)  | YouTube | 亚洲地区，繁中内嵌 + 简繁外挂字幕，1080P。                          | -                   |
+| [Ani-Mi Asia](https://www.youtube.com/@AnimiforAsia)              | YouTube | 亚洲地区，多国语言外挂字幕，1080P。                                 | 国漫                |
+| [Anime Made By Bilibili](https://www.youtube.com/@MadeByBilibili) | YouTube | 全球地区，中英外挂字幕，1080P。                                     | 国漫                |
+| [**巴哈姆特动画疯**](https://ani.gamer.com.tw/)                   | Website | 台湾地区，繁中内嵌字幕，非会员 720P + 30s 广告，会员 1080P 无广告。 | -                   |
+| [Muse 木棉花-TW](https://www.youtube.com/@MuseTW)                 | YouTube | 台湾地区，繁中内嵌字幕，720P。                                      | 和谐                |
 
 ## 资源站
 
@@ -37,24 +37,23 @@ description: 追番列表
 
 ## 2024 年 07 月
 
-| 番名                                             | 原著          | 类型           | 观看 / 下载          | 备注   |
-| ------------------------------------------------ | ------------- | -------------- | -------------------- | ------ |
-| 不时轻声地以俄语遮羞的邻座艾莉同学               | 轻小说 - 连载 | 恋爱 戏剧      | Baha, Mikan, YouTube | -      |
-| 地下城里的人们                                   | 漫画 - 连载   | 地下城 奇幻    | Baha, Mikan          | -      |
-| 拉面赤猫                                         | 漫画 - 连载   | 美食           | Baha, Mikan,YouTube  | -      |
-| 鹿乃子乃子乃子虎视眈眈                           | 漫画 - 连载   | 百合 日常 喜剧 | Baha, Mikan          | -      |
-| 学姐是男孩                                       | 漫画 - 连载   | 恋爱喜剧 成长  | Baha, Mikan          | -      |
-| 擅长逃跑的殿下                                   | 漫画 - 连载   | 历史           | Baha, Mikan          | -      |
-| 深夜 PUNCH                                       | -             | 喜剧           | Baha, Mikan, YouTube | -      |
-| 天穗之咲稻姬                                     | 游戏          | 农场模拟       | Baha, Mikan, YouTube | -      |
-| 为何我的世界被遗忘了？                           | 轻小说 - 连载 | 奇幻           | Baha, Mikan, YouTube | -      |
-| 我的妻子不具感情                                 | 漫画 - 连载   | 温馨 家庭 科幻 | Baha, Mikan          | -      |
-| 我要【招架】一切～反误解的世界最强想成为冒险家～ | 轻小说 - 连载 | 冒险 奇幻      | Baha, Mikan          | -      |
-| 新人大叔冒险者，被最强队伍操到死成无敌           | 轻小说 - 连载 | 奇幻           | Baha, Mikan, YouTube | -      |
-| 亚托莉 -我挚爱的时光-                            | 游戏          | 恋爱           | Baha, Mikan          | -      |
-| 夜游生活！                                       | 漫画 - 连载   | 恋爱 奇幻      | Mikan                | 僧侣档 |
-| 异世界失格                                       | 漫画 - 连载   | 异世界 冒险    | Mikan                | -      |
-| 异世界悠闲纪行～边养娃边当冒险者～               | 轻小说 - 连载 | 异世界 养娃    | Baha, Mikan, YouTube | -      |
+| 番名                                             | 原著        | 类型           | 观看 / 下载          | 备注   |
+| ------------------------------------------------ | ----------- | -------------- | -------------------- | ------ |
+| 不时轻声地以俄语遮羞的邻座艾莉同学               | 小说 - 连载 | 恋爱 喜剧      | Baha, Mikan, YouTube | -      |
+| 曾經、魔法少女和邪惡相互為敵。                   | 漫画 - 停更 | 恋爱 喜剧      | Baha, Mikan          | -      |
+| 地下城里的人们                                   | 漫画 - 连载 | 地下城         | Baha, Mikan          | -      |
+| 拉面赤猫                                         | 漫画 - 连载 | 美食 成长      | Baha, Mikan,YouTube  | -      |
+| 鹿乃子乃子乃子虎视眈眈                           | 漫画 - 连载 | 百合 日常 喜剧 | Baha, Mikan          | -      |
+| 学姐是男孩                                       | 漫画 - 连载 | 恋爱 喜剧 成长 | Baha, Mikan          | -      |
+| 擅长逃跑的殿下                                   | 漫画 - 连载 | 历史 喜剧      | Baha, Mikan          | -      |
+| 深夜 PUNCH                                       | -           | 喜剧           | Baha, Mikan, YouTube | -      |
+| 为何我的世界被遗忘了？                           | 小说 - 连载 | 奇幻           | Baha, Mikan, YouTube | -      |
+| 我的妻子不具感情                                 | 漫画 - 连载 | 温馨 家庭 科幻 | Baha, Mikan          | -      |
+| 我要【招架】一切～反误解的世界最强想成为冒险家～ | 小说 - 连载 | 冒险 奇幻      | Baha, Mikan          | -      |
+| 新人大叔冒险者，被最强队伍操到死成无敌           | 小说 - 连载 | 奇幻           | Baha, Mikan, YouTube | -      |
+| 夜游生活！                                       | 漫画 - 连载 | 恋爱           | Mikan                | 僧侣档 |
+| 异世界失格                                       | 漫画 - 连载 | 异世界 冒险    | Mikan                | -      |
+| 异世界悠闲纪行～边养娃边当冒险者～               | 小说 - 连载 | 异世界 养娃    | Baha, Mikan, YouTube | -      |
 
 ## 2013 年 10 月
 

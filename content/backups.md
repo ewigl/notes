@@ -1,6 +1,6 @@
 ---
 title: 备份 📁
-date: 2024-07-08
+date: 2024-07-24
 ---
 
 ## Windows
@@ -10,7 +10,6 @@ date: 2024-07-08
 - [7zip](https://www.7-zip.org/)
 - [Adobe PhotoShop & ...](https://w14.monkrus.ws/)
 - [Calibre](https://calibre-ebook.com/download_windows)
-- [CheatEngine](https://cheatengine.org/)
 - [foobar2000](https://www.foobar2000.org/)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
 - [IrfanView](https://www.irfanview.com/)
@@ -54,6 +53,8 @@ date: 2024-07-08
 - [AdobeCreativeCloudCleanerTool (直链)](https://swupmf.adobe.com/webfeed/CleanerTool/win/AdobeCreativeCloudCleanerTool.exe)
 - [AutoHotKey](https://www.autohotkey.com/)
 - [Blender](https://www.blender.org/download/)
+- [CheatEngine](https://cheatengine.org/)
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 - [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextractgui/files/)
 - [Godot Engine](https://godotengine.org/)
 - [LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit)
@@ -62,8 +63,8 @@ date: 2024-07-08
 - [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)
 - [Rufus](https://github.com/pbatard/rufus/releases)
 - [Ryujinx (portable)](https://ryujinx.org/download)
-- [sd.webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-<!-- - [AdobeGenP](https://www.reddit.com/r/GenP/wiki/redditgenpguides/#wiki_.2B50_download_directory) -->
+  <!-- - [sd.webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) -->
+  <!-- - [AdobeGenP](https://www.reddit.com/r/GenP/wiki/redditgenpguides/#wiki_.2B50_download_directory) -->
 
 ## Android
 
