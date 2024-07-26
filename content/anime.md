@@ -14,7 +14,7 @@ description: 追番列表
 | [Ani-One 中文官方動畫頻道](https://www.youtube.com/@AniOneAnime)  | YouTube | 亚洲地区，繁中内嵌 + 简繁外挂字幕，1080P。                          | -                   |
 | [Ani-Mi Asia](https://www.youtube.com/@AnimiforAsia)              | YouTube | 亚洲地区，多国语言外挂字幕，1080P。                                 | 国漫                |
 | [Anime Made By Bilibili](https://www.youtube.com/@MadeByBilibili) | YouTube | 全球地区，中英外挂字幕，1080P。                                     | 国漫                |
-| [**巴哈姆特动画疯**](https://ani.gamer.com.tw/)                   | Website | 台湾地区，繁中内嵌字幕，非会员 720P + 30s 广告，会员 1080P 无广告。 | -                   |
+| [**巴哈姆特动画疯**](https://ani.gamer.com.tw/)                   | Website | 台湾地区，繁中内嵌字幕，非会员 720P + 30s 广告，会员 1080P 无广告。 | 弹幕                |
 | [Muse 木棉花-TW](https://www.youtube.com/@MuseTW)                 | YouTube | 台湾地区，繁中内嵌字幕，720P。                                      | 和谐                |
 
 ## 资源站
