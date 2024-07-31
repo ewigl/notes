@@ -50,24 +50,24 @@ Version: 0625
 
 Features:
 
-| Feature                  | Detail    |
-| ------------------------ | --------- |
-| Creator Mode             | ✓         |
-| 4K Fullscreen            | ✓         |
-| 4K Refresh Rate          | ✓         |
-| Pro Apps                 | ApkMirror |
-| Dolby Audio              | ✓         |
-| Camera Button Fast Start | ✓         |
-| GApps                    | ✓         |
-| Face Unlock              | ✓         |
-| Customization            | Rich      |
+| Feature                   | Detail    |
+| ------------------------- | --------- |
+| Creator Mode              | ✓         |
+| 4K Fullscreen             | ✓         |
+| 120HZ Refresh Rate Global | ✓         |
+| Pro Apps                  | ApkMirror |
+| Dolby Audio               | ✓         |
+| Camera Button Fast Start  | ✓         |
+| GApps                     | ✓         |
+| Face Unlock               | ✓         |
+| Customization             | Rich      |
 
 Bug:
 | Bug | Detail |
 | ----------------------- | --------- |
-| Theme Colors Unmatch | Status Bar |
+| Theme Colors Unmatch | Status Bar etc |
 | Dolby Audio Volume unstabel | solved by... turn it off |
-| Default Notifactions, Ring Bells have no sound | needs manually add your rings|
+| Default Notifactions and Rings HAVE no sound | added music works |
 
 PS:
 
@@ -80,26 +80,26 @@ Version: 0630
 
 Features:
 
-| Feature                  | Detail       |
-| ------------------------ | ------------ |
-| Creator Mode             | ✓            |
-| 4K Fullscreen            | ✓            |
-| 4K Refresh Rate          | ✓            |
-| Pro Apps                 | ApkMirror    |
-| Dolby Audio              | ✓            |
-| Camera Button Fast Start | ✓            |
-| GApps                    | MindTheGApps |
-| Face Unlock              | ×            |
-| Customization            | Normal       |
+| Feature                   | Detail       |
+| ------------------------- | ------------ |
+| Creator Mode              | ✓            |
+| 4K Fullscreen             | ✓            |
+| 120HZ Refresh Rate Global | ✓            |
+| Pro Apps                  | ApkMirror    |
+| Dolby Audio               | ×            |
+| Camera Button Fast Start  | ✓            |
+| GApps                     | MindTheGApps |
+| Face Unlock               | ×            |
+| Customization             | Normal       |
 
 Bug:
 
-| Bug                                                        | Detail                  |
-| ---------------------------------------------------------- | ----------------------- |
-| Bank Apps Not work                                         |                         |
-| Fingerprint Indicator on wrong location                    | Volume buttons position |
-| Need to back twice in Message app to back to previous view | ?                       |
-| Message app's notifaction bar has no "read" button         | or it is meant to be?   |
+| Bug                                                        | Detail                     |
+| ---------------------------------------------------------- | -------------------------- |
+| Some Bank Apps Not work                                    | Chinese Apps Reinforcement |
+| Fingerprint Indicator on wrong location                    | Volume buttons position    |
+| Need to back twice in Message app to back to previous view | ?                          |
+| Message app's notifaction bar has no "read" button         | or it is meant to be?      |
 
 PS:
 
