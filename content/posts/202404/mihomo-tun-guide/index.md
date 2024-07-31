@@ -1,6 +1,6 @@
 ---
 title: "Mihomo Tun 模式配置"
-date: 2024-04-13
+date: 2024-07-31
 
 cover:
   image: "images/0.png"
@@ -13,16 +13,16 @@ tags: ["Mihomo", "Tun", "Windows", "Android"]
 
 ## 目录结构
 
-- custom-rules - 自定义规则，根据个人需求修改
+- custom-rules - 本地自定义规则
 - metacubexd - Web UI
-- proxies - 代理服务器文件夹 (在本地存放你的服务器配置)
+- proxies - 服务器、节点配置文件
 
   ···
 
 - mihomo.startup.vbs - VBS 脚本，实现隐藏小黑框启动
 - mihomo.stop.bat - 停止 Mihomo
 - Mihomo StartUp.xml - Windows 任务计划程序的备份文件
-- ~~updater.bat - 更新 Geo 数据文件和 Metacubexd 的脚本~~ Metacubexd 已支持更新 Geo 数据文件和 WebUI
+- ~~updater.bat~~ Metacubexd 已支持更新 Geo 数据文件、 Web UI、Core。
 
 ## Windows 配置
 
@@ -108,7 +108,7 @@ tags: ["Mihomo", "Tun", "Windows", "Android"]
             interval: 7200
       ```
 
-    - 如果使用自建服务器或想在本地存储服务器信息，创建 `proxies` 文件夹，在 `proxies` 内创建 `Local.yaml` 文件。
+    - 如果使用自建服务器或在本地存储服务器信息，创建 `proxies` 文件夹，在 `proxies` 内创建 `Local.yaml` 文件。
 
       `config.yaml`片段示例：
 
@@ -229,10 +229,10 @@ tags: ["Mihomo", "Tun", "Windows", "Android"]
 
 ## Android 配置
 
-### Box For Root 使用方法:
+### Box For Root:
 
 0.  刷入 Box For Root，无需重启。
-1.  修改 `config.yaml`。**（步骤参考 Windows 配置第二步）**
+1.  修改 `config.yaml`。（步骤参考 Windows 配置第二步）
 2.  下载 mihomo android arm64 版本，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
 3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)`, `GeoIP.dat`, `GeoSite.dat` 到 `/data/adb/box/calsh`.
 4.  修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。

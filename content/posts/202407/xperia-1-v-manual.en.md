@@ -8,7 +8,7 @@ description: Xperia 1 V system updating, root, customize etc.
 tags: ["Android", "Xperia"]
 ---
 
-## Official System
+## Official System (HK)
 
 ### Update
 
