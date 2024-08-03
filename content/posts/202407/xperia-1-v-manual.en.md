@@ -76,7 +76,7 @@ PS:
 
 ### LineageOS [Official](https://wiki.lineageos.org/devices/pdx234/)
 
-Version: 0630
+Version: 0728
 
 Features:
 
@@ -104,6 +104,7 @@ Bug:
 PS:
 
 - No Ksu Support, can be rooted by falshing boot.img provided by DerpFest.
+- can be rooted by APatch.
 - Play Integrity Fixed by modules.
 
 ## Notes

@@ -77,7 +77,7 @@ Bug：
 
 ### LineageOS [Official](https://wiki.lineageos.org/devices/pdx234/)
 
-版本：0630
+版本：0728
 
 功能：
 
@@ -105,6 +105,7 @@ Bug：
 补充：
 
 - 不可使用 KernelSU Root，可刷入 DerpFest 内核获取 GKI 模式 Root 权限。
+- 可使用 APatch 获取 Root 权限。
 - Play Integrity Fix 可用。
 
 ## 注意事项
