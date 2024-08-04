@@ -5,7 +5,7 @@ date: 2024-06-09
 summary: NexusMods Guide
 description: NexusMods Guide
 
-tags: ["Game", "Mod"，"NexusMods"]
+tags: ["Game", "Mod", "NexusMods"]
 ---
 
 ## URL

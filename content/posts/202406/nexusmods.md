@@ -5,7 +5,7 @@ date: 2024-06-09
 summary: NexusMods 指南
 description: NexusMods 指南
 
-tags: ["Game", "Mod"，"NexusMods"]
+tags: ["Game", "Mod", "NexusMods"]
 ---
 
 ## 网址
