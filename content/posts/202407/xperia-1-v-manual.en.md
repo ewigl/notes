@@ -94,12 +94,12 @@ Features:
 
 Bug:
 
-| Bug                                                        | Detail                     |
-| ---------------------------------------------------------- | -------------------------- |
-| Some Bank Apps Not work                                    | Chinese Apps Reinforcement |
-| Fingerprint Indicator on wrong location                    | Volume buttons position    |
-| Need to back twice in Message app to back to previous view | ?                          |
-| Message app's notifaction bar has no "read" button         | or it is meant to be?      |
+| Bug                                                        | Detail                         |
+| ---------------------------------------------------------- | ------------------------------ |
+| Some Bank Apps Not work                                    | Chinese Apps Reinforcement     |
+| Fingerprint Indicator on wrong location                    | Full Resulotion (4K) Mode only |
+| Need to back twice in Message app to back to previous view | Full Resulotion (4K) Mode only |
+| Message app's notifaction bar has no "read" button         | or it is meant to be?          |
 
 PS:
 
