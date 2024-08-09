@@ -8,7 +8,7 @@ description: 一些自动签到脚本
 tags: ["Auto Checkin", "iKuuu", "HIFINI"]
 ---
 
-## Github Actions Example
+## Github Actions
 
 ![00](/notes/posts/202408/images/00.png)
 
@@ -16,11 +16,12 @@ tags: ["Auto Checkin", "iKuuu", "HIFINI"]
 
 ## Auto Checkin
 
+### [HIFINI](https://github.com/ewigl/hifini-auto-checkin)
+
+- COOKIE: bbs_sid=YourBbs_Sid;bbs_token=YourBbs_Token;cookie_test=YourCookieTest
+  ![02](/notes/posts/202408/images/02.png)
+
 ### [iKuuu](https://github.com/ewigl/ikuuu-auto-checkin)
 
 - EMAIL: email@example.com
 - PASSWD: YourPassword
-
-### [HIFINI](https://github.com/ewigl/hifini-auto-checkin)
-
-- COOKIE: bbs_sid=YourBbs_Sid;bbs_token=YourBbs_Token;cookie_test=YourCookieTest
