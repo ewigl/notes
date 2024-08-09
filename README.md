@@ -7,7 +7,7 @@
 ### 自定义样式 🎨
 
 - [文章封面放在侧边, side-cover](./assets/css/extended/side-cover.css)
-  ![side-cover](./static/images/readme/side-cover.png)
+  ![side-cover](./readme/side-cover.png)
 
 - [文章目录放在侧边, side-toc](./assets/css/extended/side-toc.css)
-  ![side-toc](./static/images/readme/side-toc.png)
+  ![side-toc](./readme/side-toc.png)
