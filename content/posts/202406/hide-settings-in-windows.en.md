@@ -2,6 +2,9 @@
 title: "Hide Windows Settings"
 date: 2024-06-02T22:40:58+08:00
 
+cover:
+  image: "/notes/posts/202406//images/hide-windows-settings-cover.png"
+  alt: "Cover"
 summary: "Hide Windows Settings"
 description: "Hide Windows Settings"
 

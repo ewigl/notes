@@ -3,7 +3,7 @@ title: "Mihomo Tun 模式配置"
 date: 2024-07-31
 
 cover:
-  image: "images/0.png"
+  image: "/notes/posts/202404/mihomo-tun-guide/images/cover.png"
   alt: "Cover"
 summary: "https://github.com/ewigl/mihomo"
 description: "https://github.com/ewigl/mihomo"
