@@ -3,7 +3,7 @@ title: "隐藏 Windows 设置"
 date: 2024-06-02T22:40:58+08:00
 
 cover:
-  image: "/notes/posts/202406//images/hide-windows-settings-cover.png"
+  image: "images/shared/windows.jpg"
   alt: "Cover"
 summary: "隐藏 Windows 设置中的选项"
 description: "隐藏 Windows 设置中的选项"

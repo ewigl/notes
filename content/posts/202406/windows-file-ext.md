@@ -2,6 +2,9 @@
 title: "删改 Windows Ext"
 date: 2024-06-24
 
+cover:
+  image: "images/shared/windows.jpg"
+  alt: "Cover"
 summary: "删改 Windows 特定扩展名文件默认打开方式"
 description: "删改 Windows 特定扩展名文件默认打开方式"
 

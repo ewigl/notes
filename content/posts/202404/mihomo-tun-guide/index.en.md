@@ -3,7 +3,7 @@ title: "Mihomo Tun Mode"
 date: 2024-04-13
 
 cover:
-  image: "/notes/posts/202404/mihomo-tun-guide/images/cover.png"
+  image: "posts/202404/mihomo-tun-guide/cover.png"
   alt: "Cover"
 summary: "https://github.com/ewigl/mihomo"
 description: "https://github.com/ewigl/mihomo"

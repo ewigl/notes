@@ -2,6 +2,9 @@
 title: "Temp Mail"
 date: 2024-08-03
 
+cover:
+  image: "images/shared/email.jpg"
+  alt: "Cover"
 summary: Temp E-Mails
 description: Temp E-Mails
 

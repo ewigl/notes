@@ -2,6 +2,9 @@
 title: "自动签到"
 date: 2024-08-09
 
+cover:
+  image: "images/shared/pencil.png"
+  alt: "Cover"
 summary: 一些自动签到脚本
 description: 一些自动签到脚本
 

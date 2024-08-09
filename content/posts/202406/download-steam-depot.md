@@ -2,6 +2,9 @@
 title: "下载 Steam Depot"
 date: 2024-06-23
 
+cover:
+  image: "images/shared/steam.jpg"
+  alt: "Cover"
 summary: "下载 Steam Depot"
 description: "下载 Steam Depot"
 
