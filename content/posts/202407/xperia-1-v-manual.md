@@ -77,7 +77,7 @@ Bug：
 
 ### LineageOS [Official](https://wiki.lineageos.org/devices/pdx234/)
 
-版本：0728
+版本：0804
 
 功能：
 

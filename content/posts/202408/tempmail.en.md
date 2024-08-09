@@ -12,7 +12,7 @@ tags: ["Temp Mail", "Email", "Privacy"]
 
 - Privacy Protection
 
-## Partially Temp E-Mails
+## Temp E-Mails
 
 - [10 Minute Mail](https://10minutemail.com/)
 - [AdGuard ](https://adguard.com/zh_cn/adguard-temp-mail/overview.html)

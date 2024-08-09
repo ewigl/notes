@@ -12,7 +12,7 @@ tags: ["Temp Mail", "Email", "Privacy"]
 
 - 隐私保护
 
-## 部分临时邮箱
+## 临时邮箱
 
 - [10 Minute Mail](https://10minutemail.com/)
 - [AdGuard 匿名邮箱](https://adguard.com/zh_cn/adguard-temp-mail/overview.html)
