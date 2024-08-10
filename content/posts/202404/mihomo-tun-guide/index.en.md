@@ -3,7 +3,7 @@ title: "Mihomo Tun Mode"
 date: 2024-04-13
 
 cover:
-  image: "posts/202404/mihomo-tun-guide/cover.png"
+  image: "images/shared/keyboard-light.webp"
   alt: "Cover"
 summary: "https://github.com/ewigl/mihomo"
 description: "https://github.com/ewigl/mihomo"

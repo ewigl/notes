@@ -3,7 +3,7 @@ title: "Xperia 1 V"
 date: 2024-07-08
 
 cover:
-  image: "images/shared/android.jpg"
+  image: "images/shared/android.webp"
   alt: "Cover"
 summary: Xperia 1 V 系统更新，Root，自定义等
 description: Xperia 1 V 系统更新，Root，自定义等

@@ -3,7 +3,7 @@ title: "Hide Windows Settings"
 date: 2024-06-02T22:40:58+08:00
 
 cover:
-  image: "images/shared/windows.jpg"
+  image: "images/shared/windows.webp"
   alt: "Cover"
 summary: "Hide Windows Settings"
 description: "Hide Windows Settings"

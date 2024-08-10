@@ -3,7 +3,7 @@ title: "Download Steam Depot"
 date: 2024-06-23
 
 cover:
-  image: "images/shared/steam.jpg"
+  image: "images/shared/steam.webp"
   alt: "Cover"
 summary: "How to download Steam depot"
 description: "How to download Steam depot"

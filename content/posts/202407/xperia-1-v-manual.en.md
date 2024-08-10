@@ -3,7 +3,7 @@ title: Xperia 1 V Manual
 date: 2024-07-08
 
 cover:
-  image: "images/shared/android.jpg"
+  image: "images/shared/android.webp"
   alt: "Cover"
 summary: Xperia 1 V system updating, root, customize etc.
 description: Xperia 1 V system updating, root, customize etc.

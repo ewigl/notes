@@ -3,7 +3,7 @@ title: "隐藏 Windows 设置"
 date: 2024-06-02T22:40:58+08:00
 
 cover:
-  image: "images/shared/windows.jpg"
+  image: "images/shared/windows.webp"
   alt: "Cover"
 summary: "隐藏 Windows 设置中的选项"
 description: "隐藏 Windows 设置中的选项"

@@ -3,7 +3,7 @@ title: "Auto Checkin"
 date: 2024-08-09
 
 cover:
-  image: "images/shared/pencil.png"
+  image: "images/shared/pencil.webp"
   alt: "Cover"
 summary: Some auto checkin scripts
 description: Some auto checkin scripts

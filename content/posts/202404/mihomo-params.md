@@ -3,7 +3,7 @@ title: "Mihomo 启动参数"
 date: 2024-04-12
 
 cover:
-  image: "images/shared/terminal.png"
+  image: "images/shared/terminal.webp"
   alt: "Cover"
 summary: "Mihomo 命令行启动参数"
 description: "Mihomo 命令行启动参数"

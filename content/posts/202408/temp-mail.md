@@ -3,7 +3,7 @@ title: "临时邮箱"
 date: 2024-08-03
 
 cover:
-  image: "images/shared/email.jpg"
+  image: "images/shared/email.webp"
   alt: "Cover"
 summary: 临时邮箱
 description: 临时邮箱

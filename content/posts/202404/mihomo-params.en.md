@@ -3,7 +3,7 @@ title: "Mihomo Params"
 date: 2024-04-12
 
 cover:
-  image: "images/shared/terminal.png"
+  image: "images/shared/terminal.webp"
   alt: "Cover"
 summary: "Mihomo Command Line Parameters"
 description: "Mihomo Command Line Parameters"
