@@ -5,7 +5,7 @@ date: 2024-07-24
 
 ## Windows
 
-### 基础 Apps
+### Basic Apps
 
 - [7zip](https://www.7-zip.org/)
 - [Adobe PhotoShop & ...](https://w14.monkrus.ws/)
@@ -26,7 +26,7 @@ date: 2024-07-24
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 - [VSCode](https://code.visualstudio.com/download)
 
-### 便携 Tools
+### Portable Tools
 
 <!-- - [CCleaner - Portable](https://www.ccleaner.com/ccleaner/builds) -->
 
@@ -39,7 +39,7 @@ date: 2024-07-24
 - [TaskbarTools.exe](https://github.com/ewigl/notes/tree/main/static/backups)
 - [Winaero Tweaker](https://winaerotweaker.com/)
 
-### 开发环境 / 运行时 / 命令行工具
+### SDK / Runtime / CLI
 
 - [ffmpeg](https://ffmpeg.org/download.html)
 - [Git](https://git-scm.com/)
@@ -51,7 +51,7 @@ date: 2024-07-24
 - [platform-tools](https://developer.android.com/tools/releases/platform-tools)
 - [PowerShell](https://github.com/PowerShell/PowerShell/releases)
 
-### 补充
+### Additional
 
 - [AdobeCreativeCloudCleanerTool](https://helpx.adobe.com/creative-cloud/kb/cc-cleaner-tool-installation-problems.html)
 - [AutoHotKey](https://www.autohotkey.com/)
@@ -71,18 +71,18 @@ date: 2024-07-24
 
 ## Android
 
-### Outside Google Play Store
+### Outside Google Play
 
 - [KOReader](https://github.com/koreader/koreader/releases)
 - [Lucky Patcher](http://chelpus.com/luckypatcher/)
 
-### KernelSU & Apatch & 模块
+### Apatch & Modules
 
 - [APatch](https://github.com/bmax121/APatch)
-- [KernelSU](https://github.com/tiann/KernelSU)
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 - [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
   <!-- - [HideNavBar](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar) -->
+  <!-- - [KernelSU](https://github.com/tiann/KernelSU) -->
   <!-- - [Lawnchair](https://github.com/LawnchairLauncher/lawnchair/releases) -->
   <!-- - [QuickSwitch](https://github.com/skittles9823/QuickSwitch) -->
