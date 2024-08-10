@@ -11,22 +11,46 @@ description: "https://github.com/ewigl/mihomo"
 tags: ["Mihomo", "Tun", "Windows", "Android"]
 ---
 
-## 目录结构
+## 准备
 
-- custom-rules - 本地自定义规则
-- metacubexd - Web UI
-- proxies - 服务器、节点配置文件
-
-  ···
-
-- mihomo.startup.vbs - VBS 脚本，实现隐藏小黑框启动
-- mihomo.stop.bat - 停止 Mihomo
-- Mihomo StartUp.xml - Windows 任务计划程序的备份文件
-- ~~updater.bat~~ Metacubexd 已支持更新 Geo 数据文件、 Web UI、Core。
+1. 下载 [Mihomo Core](https://github.com/MetaCubeX/mihomo/releases)。
+2. 在[这里](https://github.com/Loyalsoldier/v2ray-rules-dat/releases)下载 `GeoIP.dat` 、 `GeoSite.dat`。
+3. 在[这里](https://github.com/MetaCubeX/metacubexd/releases)下载 `metacubexd`。
+4. Android 版本需要 [Box for Root](https://github.com/taamarin/box_for_magisk/releases)。
 
 ## Windows 配置
 
-1.  点击 <font color="#1f883d">Code</font> -> Download ZIP， 解压缩、放到平时安装软件的目录。
+### 目录结构
+
+```
+.
+└── D:/Apps/Mihomo/
+    ├── config.yaml
+    ├── GeoIP.dat
+    ├── GeoSite.dat
+    ├── Mihomo StartUp.xml
+    ├── mihomo-windows-amd64.exe
+    ├── mihomo.startup.vbs
+    ├── mihomo.stop.bat
+    ├── README.md
+    ├── custom-rules/
+    │   ├── direct.yaml
+    │   ├── proxy.yaml
+    │   └── reject.yaml
+    ├── metacubexd/
+    │   ├── index.html
+    │   └── ...
+    ├── proxies/
+    │   ├── Local.yaml
+    │   └── ...
+    └── ruleset/
+        ├── proxy.yaml
+        └── ...
+```
+
+### 配置流程
+
+1.  点击 <font color="#1f883d">Code</font> -> Download ZIP， 解压缩。
 2.  修改 `config.yaml`。
 
     - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接。
@@ -210,39 +234,58 @@ tags: ["Mihomo", "Tun", "Windows", "Android"]
           }
       ```
 
-3.  右键 -> 属性，修改 `mihomo-windows-amd64.exe` 的兼容性设置，勾选“以管理员权限身份运行此程序” **（Tun 模式需要管理员权限）**。
-4.  双击 `mihomo.startup.vbs` 运行，允许管理员权限。
-5.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。默认密码：`998486`，可在 `config.yaml` 中修改。
+3.  在 `mihomo-windows-amd64.exe` 上右键 -> 属性 -> 兼容性，勾选“以管理员权限身份运行此程序” **（Tun 模式需要管理员权限）**。
+4.  双击 `mihomo.startup.vbs` 运行。
+5.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
+6.  默认密码：`998486`，可在 `config.yaml` 中修改。
 
-### 开机自启并跳过 UAC
+### 开机自启
 
 1. 打开 Windows 任务计划程序
 2. 导入 `Mihomo StartUp.xml`，或新建一个任务来开机运行 `mihomo.startup.vbs`.
-3. 按需修改任务名称、文件路径 **（必须修改，除非你的路径和我一样为"D:\Apps\Mihomo"）**、触发器、条件等等。
-4. **在“常规”选项卡中， 勾选“使用最高权限运行”**。（如果不设置此选项，每次开机会跳出 UAC 窗口，除非你的 UAC 设置本来就是无警告（真的有人会这样做吗））
+3. 按需修改任务名称、**文件路径**、触发器、条件等等。
+4. **在“常规”选项卡中， 勾选“使用最高权限运行”**。（如果不设置此选项，每次启动会跳出 UAC 窗口）
 
-### 停止 Mihomo
+### 停止服务
 
 双击运行 `mihomo.stop.bat`。
 
-或者打开任务管理器，结束 `mihomo-windows-amd64.exe`.
+或打开任务管理器，结束 `mihomo-windows-amd64.exe`。
 
 ## Android 配置
 
-### Box For Root:
+### 目录结构
 
-0.  刷入 Box For Root，无需重启。
+```
+.
+└── /data/adb/box/
+    ├── bin/
+    │   └── xclash/
+    │       └── mihomo
+    └── clash/
+        ├── metacubexd/
+        ├── proxies/
+        ├── ruleset/
+        ├── config.yaml
+        ├── GeoIP.dat
+        └── GeoSite.dat
+```
+
+### 配置流程
+
+0.  刷入 Box For Root，无需立刻重启。
 1.  修改 `config.yaml`。（步骤参考 Windows 配置第二步）
 2.  下载 mihomo android arm64 版本，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
 3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)`, `GeoIP.dat`, `GeoSite.dat` 到 `/data/adb/box/calsh`.
 4.  修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
 5.  重启。
+6.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
+7.  默认密码：`998486`，可在 `config.yaml` 中修改。
 
-### BFR FAQ
+### 注意事项
 
-1.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。默认密码：`998486`，可在 `config.yaml` 中修改。
-2.  在 Magisk 或 KernelSU 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
-3.  Log 文件在 `/data/adb/box/run` 文件夹中。
+1.  在 APatch、KernelSU、Magisk 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
+2.  Log 文件在 `/data/adb/box/run` 文件夹中。
 
 ## 参考文档
 
@@ -254,6 +297,6 @@ tags: ["Mihomo", "Tun", "Windows", "Android"]
 
 [Box For Root](https://github.com/taamarin/box_for_magisk)
 
-## FBI WARNING
+## WARNING
 
-这是实现 tun 模式的自用简单配置，更多定制功能自行参考官方文档。
+这是实现 tun 模式的简单配置，更多定制功能可参考官方文档。
