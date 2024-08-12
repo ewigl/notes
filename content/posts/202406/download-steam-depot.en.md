@@ -11,7 +11,7 @@ description: "How to download Steam depot"
 tags: ["Steam"]
 ---
 
-## SteamDB Info
+## SteamDB
 
 [SteamDB](https://steamdb.info/)
 

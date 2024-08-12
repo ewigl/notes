@@ -11,7 +11,7 @@ description: "下载 Steam Depot"
 tags: ["Steam"]
 ---
 
-## SteamDB Info
+## SteamDB
 
 [SteamDB](https://steamdb.info/)
 

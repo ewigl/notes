@@ -11,11 +11,7 @@ description: "Mihomo 命令行启动参数"
 tags: ["Mihomo"]
 ---
 
-### 来源
-
-[Mihomo 源码](https://github.com/MetaCubeX/mihomo/blob/Meta/main.go)
-
-### 源码
+### [源码](https://github.com/MetaCubeX/mihomo/blob/Meta/main.go)
 
 ```go
 func init() {
@@ -34,7 +30,7 @@ func init() {
 
 ### 参数
 
-| 参数       | 参数说明                     | 备注                                                  |
+| 参数       | 说明                         | 备注                                                  |
 | ---------- | ---------------------------- | ----------------------------------------------------- |
 | `-d`       | 设置配置文件所在目录         | `-d .` 表示使用当前目录                               |
 | `-f`       | 指定配置文件                 | `-f ./config.yaml` 表示使用当前目录下的 `config.yaml` |

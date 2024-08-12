@@ -11,11 +11,7 @@ description: "Mihomo Command Line Parameters"
 tags: ["Mihomo"]
 ---
 
-### Source
-
-[Mihomo source code](https://github.com/MetaCubeX/mihomo/blob/Meta/main.go)
-
-### Code
+### [source code](https://github.com/MetaCubeX/mihomo/blob/Meta/main.go)
 
 ```go
 func init() {
