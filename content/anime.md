@@ -26,7 +26,7 @@ description: 追番列表
 > **蜜柑计划**：新一代的动漫下载站。
 >
 > - [Mikan Project Global](https://mikanani.me/)
-> - [Mikan Project CN](https://mikanproject.ime.tv/)
+> - [Mikan Project CN](https://mikanime.tv/)
 
 ## 小知识
 
