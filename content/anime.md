@@ -47,7 +47,6 @@ description: 追番列表
 | 学姐是男孩                             | 漫画 - 连载 | 恋爱 喜剧 成长 | Baha, Mikan          | -        |
 | 擅长逃跑的殿下                         | 漫画 - 连载 | 历史 喜剧      | Baha, Mikan          | -        |
 | 深夜 PUNCH                             | -           | 喜剧           | Baha, Mikan, YouTube | -        |
-| 为何我的世界被遗忘了？                 | 小说 - 连载 | 奇幻           | Baha, Mikan, YouTube | -        |
 | 我的妻子不具感情                       | 漫画 - 连载 | 温馨 家庭 科幻 | Baha, Mikan          | -        |
 | 新人大叔冒险者，被最强队伍操到死成无敌 | 小说 - 连载 | 奇幻           | Baha, Mikan, YouTube | -        |
 | 异世界失格                             | 漫画 - 连载 | 异世界 冒险    | Mikan                | -        |
