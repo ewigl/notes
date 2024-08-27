@@ -28,7 +28,7 @@ description: 追番列表
 > - [Mikan Project Global](https://mikanani.me/)
 > - [Mikan Project CN](https://mikanime.tv/)
 
-> **VCB-Studio**: 压制组
+> **VCB-Studio**: 压制组。
 >
 > - [VCB-Studio](https://vcb-s.com/)
 
@@ -58,9 +58,9 @@ description: 追番列表
 
 ## 2024 年 01 月
 
-| 番名     | 原著        | 类型      | 观看 / 下载 | 备注 |
-| -------- | ----------- | --------- | ----------- | ---- |
-| 迷宫饭店 | 漫画 - 完结 | 迷宫 喜剧 | Baha, Mikan | -    |
+| 番名   | 原著        | 类型      | 观看 / 下载 | 备注 |
+| ------ | ----------- | --------- | ----------- | ---- |
+| 迷宫饭 | 漫画 - 完结 | 迷宫 喜剧 | Baha, Mikan | -    |
 
 ## 2023 年 10 月
 
