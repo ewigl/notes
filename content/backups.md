@@ -8,11 +8,15 @@ date: 2024-07-24
 ### Basic Apps
 
 - [7zip](https://www.7-zip.org/)
-- [Adobe PhotoShop & ...](https://w14.monkrus.ws/)
+- [Adobe Series](https://w14.monkrus.ws/)
+  - Ps
+  - Pr
+  - Au
 - [Calibre](https://calibre-ebook.com/download_windows)
 - [Chrome](https://www.google.com/chrome/)
-- [Firefox](https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release) (All Version)
+- [Firefox](https://www.mozilla.org/zh-CN/firefox/all/)
 - [foobar2000](https://www.foobar2000.org/)
+  - [ESLyric](https://github.com/ESLyric/release)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
 - [IrfanView](https://www.irfanview.com/)
 - [Mihomo](https://github.com/ewigl/mihomo)
