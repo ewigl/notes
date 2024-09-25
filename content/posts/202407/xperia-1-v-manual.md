@@ -1,6 +1,6 @@
 ---
 title: "Xperia 1 V"
-date: 2024-07-08
+date: 2024-09-15
 
 cover:
   image: "images/shared/android.webp"
@@ -45,56 +45,23 @@ tags: ["Android", "Xperia"]
 - [QuickSwitch](https://github.com/skittles9823/QuickSwitch/releases)
 - [Lawnchair Nightly](https://github.com/LawnchairLauncher/lawnchair/releases)
 
-## 第三方系统
+## [LineageOS](https://wiki.lineageos.org/devices/pdx234/)
 
-### DerpFest [Unofficial](https://xdaforums.com/t/rom-14-0-unofficial-derpfest-14-for-xperia-1v-updated-06-28-2024-play-integrity-fixed.4657958/)
-
-版本：0625
+版本：0915
 
 功能：
 
-| 功能            | 详情      |
-| --------------- | --------- |
-| 大师模式        | √         |
-| 完整分辨率 / 4K | √         |
-| 全高刷新率      | √         |
-| 大师 Apps       | ApkMirror |
-| 杜比音效        | √         |
-| 相机键快速启动  | √         |
-| GApps           | √         |
-| 人脸解锁        | √         |
-| 自定义          | 丰富      |
-
-Bug：
-
-| BUG                  | 详情                           |
-| -------------------- | ------------------------------ |
-| 主题颜色不统一       | 下拉状态栏等处图标与文字黑白配 |
-| 杜比音效声音忽大忽小 | 关闭杜比音效可以解决           |
-| 自带通知音效均无声音 | 需要手动添加自定义音效、铃声   |
-
-补充：
-
-- 自带 Root 权限 - KernelSU GKI 模式，可选不带 Root 内核。
-- Play Integrity Fix 可用。
-
-### LineageOS [Official](https://wiki.lineageos.org/devices/pdx234/)
-
-版本：0804
-
-功能：
-
-| 功能            | 详情                                                              |
-| --------------- | ----------------------------------------------------------------- |
-| 大师模式        | √                                                                 |
-| 完整分辨率 / 4K | √                                                                 |
-| 全高刷新率      | √                                                                 |
-| 大师 Apps       | ApkMirror                                                         |
-| 杜比音效        | ×                                                                 |
-| 相机键快速启动  | √                                                                 |
-| GApps           | MindTheGApps                                                      |
-| 人脸解锁        | ×                                                                 |
-| 自定义          | 适中，包含：状态栏网速、电池图标、隐藏手势 💊、隐藏启动器抽屉应用 |
+| 功能            | 详情                                                  |
+| --------------- | ----------------------------------------------------- |
+| 大师模式        | √                                                     |
+| 完整分辨率 / 4K | √                                                     |
+| 全高刷新率      | √                                                     |
+| 大师 Apps       | ApkMirror                                             |
+| 杜比音效        | ×                                                     |
+| 相机键快速启动  | √                                                     |
+| GApps           | MindTheGApps                                          |
+| 人脸解锁        | ×                                                     |
+| 自定义          | 状态栏网速、电池图标、隐藏手势 💊、隐藏启动器抽屉应用 |
 
 Bug：
 
