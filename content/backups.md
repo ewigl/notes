@@ -14,7 +14,6 @@ date: 2024-07-24
   - Au
 - [Calibre](https://calibre-ebook.com/download_windows)
 - [Chrome](https://www.google.com/chrome/)
-- [Firefox](https://www.mozilla.org/zh-CN/firefox/all/)
 - [foobar2000](https://www.foobar2000.org/)
   - [ESLyric](https://github.com/ESLyric/release)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
@@ -40,7 +39,6 @@ date: 2024-07-24
 - [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
 - [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
 - [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/download.html)
-- [TaskbarTools.exe](https://github.com/ewigl/notes/tree/main/static/backups)
 - [Winaero Tweaker](https://winaerotweaker.com/)
 
 ### SDK / Runtime / CLI
