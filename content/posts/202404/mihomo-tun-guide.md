@@ -11,12 +11,28 @@ description: "https://github.com/ewigl/mihomo"
 tags: ["Mihomo", "Windows", "Android"]
 ---
 
+## 预览
+
+![00](/notes/posts/202404/images/00.png)
+![01](/notes/posts/202404/images/01.png)
+
+## 链接
+
+| 项目                                                                  | 说明                                |
+| --------------------------------------------------------------------- | ----------------------------------- |
+| [ewigl/mihomo](https://github.com/ewigl/mihomo)                       | Tun 模式配置 (本项目)               |
+| [Mihomo](https://github.com/MetaCubeX/mihomo/releases)                | Mihomo 内核                         |
+| [Rules Dat](https://github.com/Loyalsoldier/v2ray-rules-dat/releases) | GeoIP.dat、GeoSite.dat              |
+| [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)        | Web UI 控制台                       |
+| [Box for Root](https://github.com/taamarin/box_for_magisk/releases)   | Android Apatch/KernelSU/Magisk 模块 |
+
 ## 准备
 
-1. 下载 [Mihomo Core](https://github.com/MetaCubeX/mihomo/releases)。
-2. 在[这里](https://github.com/Loyalsoldier/v2ray-rules-dat/releases)下载 `GeoIP.dat` 、 `GeoSite.dat`。
-3. 在[这里](https://github.com/MetaCubeX/metacubexd/releases)下载 `metacubexd`。
-4. Android 版本需要 [Box for Root](https://github.com/taamarin/box_for_magisk/releases)。
+0. 下载本项目。
+1. 下载 Mihomo 内核。
+2. 下载 `GeoIP.dat` 、 `GeoSite.dat`。
+3. 下载 `metacubexd`。
+4. Android 配置需要 Root 并安装 `Box for Root`。
 
 ## Windows 配置
 
@@ -50,7 +66,7 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ### 配置流程
 
-1.  点击 <font color="#1f883d">Code</font> -> Download ZIP， 解压缩。
+1.  在本项目首页，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
 2.  修改 `config.yaml`。
 
     - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接，注释掉所有的 `Local`。
@@ -287,16 +303,43 @@ tags: ["Mihomo", "Windows", "Android"]
 1.  在 APatch、KernelSU、Magisk 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
 2.  Log 文件在 `/data/adb/box/run` 文件夹中。
 
-## 参考文档
+## 规则配置
 
-[Mihomo](https://github.com/MetaCubeX/mihomo)
+- 已内置简易自定义规则，修改 `custom-rules` 目录内的规则，后在 WebUI 刷新规则即可生效。
 
-[Mihomo Docs](https://wiki.metacubex.one/config/)
+  - 直连：`direct.yaml`
 
-[Mihomo Params](https://ewigl.github.io/notes/posts/202404/mihomo-params/)
+    ```yaml
+    payload:
+      # 强制 gofile.io 直连.
+      - "+.gofile.io"
+      # 强制 Steam 登陆服务器 steamserver.net 直连，影响 Steam 选择下载服务器。
+      - "+.steamserver.net"
+    ```
 
-[Box For Root](https://github.com/taamarin/box_for_magisk)
+  - 代理：`proxy.yaml`
+
+    ```yaml
+    payload:
+      # 强制 Kox Moe 走代理。
+      - "+.kox.moe"
+      - "+.mxomo.com"
+      # 强制 LinkedIn 走代理。
+      - "+.linkedin.com"
+      # 强制 Anime 字幕论坛走代理。
+      - "+.acgrip.com"
+    ```
+
+  - 拒绝：`reject.yaml`
+
+    ```yaml
+    payload:
+      # 拦截 Adobe.IO 相关请求。
+      - "+.adobe.io"
+    ```
+
+- 更进一步的自定义规则配置请参考 [Mihomo Docs](https://wiki.metacubex.one/config/rule-providers/)
 
 ## WARNING
 
-这是实现 tun 模式的简单配置，更多定制功能可参考官方文档。
+这是实现 Tun 模式的简单配置，更多定制功能请参考官方文档。
