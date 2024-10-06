@@ -8,7 +8,7 @@ cover:
 summary: Github Actions 基本使用
 description: Github Actions 基本使用
 
-tags: ["Github", "Github Actions"]
+tags: ["Github"]
 ---
 
 ## 启用 Github Actions (Fork 后)

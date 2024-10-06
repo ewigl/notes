@@ -8,7 +8,7 @@ cover:
 summary: Xperia 1 V 系统更新，Root，自定义等
 description: Xperia 1 V 系统更新，Root，自定义等
 
-tags: ["Android", "Xperia"]
+tags: ["Android"]
 ---
 
 ## 港版系统

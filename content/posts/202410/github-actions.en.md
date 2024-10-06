@@ -8,7 +8,7 @@ cover:
 summary: Github Actions
 description: Github Actions
 
-tags: ["Github", "Github Actions"]
+tags: ["Github"]
 ---
 
 ## Enable Github Actions (Forked)

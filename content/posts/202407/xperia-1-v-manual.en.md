@@ -8,7 +8,7 @@ cover:
 summary: Xperia 1 V system updating, root, customize etc.
 description: Xperia 1 V system updating, root, customize etc.
 
-tags: ["Android", "Xperia"]
+tags: ["Android"]
 ---
 
 ## Official System (HK)
