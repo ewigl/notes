@@ -17,7 +17,7 @@ tags: ["Router", "OpenWrt"]
 
 ### Optional PKGs
 
-中文语言包
+Chinese language packages
 
 ```
 luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn
@@ -58,9 +58,9 @@ fi
 
 # Set hostname & timezone
 if [ -n "$host_name" ]; then
-uci set system.hostname="$host_name"
-uci set system.timezone='CST-8'
-uci set system.zonename='Asia/Shanghai'
+uci set system.@system[0].hostname="$host_name"
+uci set system.@system[0].timezone='CST-8'
+uci set system.@system[0].zonename='Asia/Shanghai'
 uci commit system
 fi
 
@@ -80,7 +80,7 @@ uci set wireless.@wifi-device[1].disabled='0'
 uci set wireless.@wifi-device[1].country='US'
 uci set wireless.@wifi-device[1].cell_density='2'
 uci set wireless.@wifi-device[1].channel='64'
-uci set wireless.@wifi-device[1].hemode='HE160'
+uci set wireless.@wifi-device[1].htmode='HE160'
 # WIFI Interface
 uci set wireless.@wifi-iface[1].disabled='0'
 uci set wireless.@wifi-iface[1].encryption='psk2'
@@ -88,15 +88,6 @@ uci set wireless.@wifi-iface[1].ssid="$wlan_name"
 uci set wireless.@wifi-iface[1].key="$wlan_password"
 #
 uci commit wireless
-fi
-
-# Configure PPPoE
-# More options: https://openwrt.org/docs/guide-user/network/wan/wan_interface_protocols#protocol_pppoe_ppp_over_ethernet
-if [ -n "$pppoe_username" -a "$pppoe_password" ]; then
-uci set network.wan.proto=pppoe
-uci set network.wan.username="$pppoe_username"
-uci set network.wan.password="$pppoe_password"
-uci commit network
 fi
 
 echo "All done!"
