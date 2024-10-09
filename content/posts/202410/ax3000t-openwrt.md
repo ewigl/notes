@@ -3,7 +3,7 @@ title: "AX3000T X OpenWrt"
 date: 2024-10-09
 
 cover:
-  image: "images/shared/terminal.webp"
+  image: "images/shared/openwrt.webp"
   alt: "Cover"
 summary: 小米路由器 AX3000T 刷入官方 OpenWrt 教程
 description: 小米路由器 AX3000T 刷入官方 OpenWrt 教程
