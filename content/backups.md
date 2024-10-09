@@ -11,7 +11,6 @@ date: 2024-10-06
 - [Adobe Series](https://w14.monkrus.ws/)
 - [Calibre](https://calibre-ebook.com/download_windows)
 - [Chrome](https://www.google.com/chrome/)
-- [DirectX](https://www.microsoft.com/zh-cn/download/details.aspx?id=35)
 - [foobar2000](https://www.foobar2000.org/)
   - [ESLyric](https://github.com/ESLyric/release)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
@@ -39,6 +38,7 @@ date: 2024-10-06
 
 ### SDK / Runtime / CLI
 
+- [DirectX](https://www.microsoft.com/zh-cn/download/details.aspx?id=35)
 - [ffmpeg](https://ffmpeg.org/download.html)
 - [Git](https://git-scm.com/)
 - [Hugo](https://github.com/gohugoio/hugo/releases)
