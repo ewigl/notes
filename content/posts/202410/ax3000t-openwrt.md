@@ -36,9 +36,10 @@ tags: ["Router", "OpenWrt", "AX3000T"]
 
 ## OpenWrt UBoot 刷入
 
-- 使用 scp 命令在电脑与路由器之间拷贝文件时可使用 `-O` 参数。
+- 同样参考 OP 官方 Wiki。
+- 使用 scp 命令在电脑与路由器之间拷贝文件时使用 `-O` 参数。
 
-## OpenWrt 官方自定义构建
+## OpenWrt 自定义构建
 
 - 使用[固件选择器](https://firmware-selector.openwrt.org/)自定义构建固件。
 - 可选包 中文语言
