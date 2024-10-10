@@ -39,21 +39,6 @@ tags: ["Router", "OpenWrt", "AX3000T"]
 - 同样参考 OP 官方 Wiki。
 - 使用 scp 命令在电脑与路由器之间拷贝文件时使用 `-O` 参数。
 
-## OpenWrt 自定义构建
-
-- 使用[固件选择器](https://firmware-selector.openwrt.org/)自定义构建固件。
-- 可选包 中文语言
-
-```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn
-```
-
-- 可选包 curl
-
-```
-curl
-```
-
 ## OpenWrt 无线设置注意事项
 
 - 5G WIFI - 高级设置 - 国家代码设置为 US。

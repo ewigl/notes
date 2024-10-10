@@ -39,21 +39,6 @@ tags: ["Router", "OpenWrt", "AX3000T"]
 - See OP official wiki.
 - Use scp command to copy files from computer to router need using `-O` parameter.
 
-## OpenWrt Custom Build
-
-- Use [Firmware Selector](https://firmware-selector.openwrt.org/) to custom build firmware.
-- Available packages for Chinese
-
-```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn
-```
-
-- Available packages for curl
-
-```
-curl
-```
-
 ## OpenWrt Wireless Settings
 
 - 5G WIFI - Advanced Settings - Country Code Set to US。
