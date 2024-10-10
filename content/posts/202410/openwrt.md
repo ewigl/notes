@@ -93,3 +93,14 @@ fi
 echo "All done!"
 
 ```
+
+## 代理工具
+
+### OpenWrt-Mihomo (MihomoTProxy)
+
+[https://github.com/morytyann/OpenWrt-mihomo/wiki](https://github.com/morytyann/OpenWrt-mihomo/wiki)
+
+- 配置目录：/etc/mihomo/profiles
+- 运行目录： /etc/mihomo/run
+- UI 目录：/etc/mihomo/run/ui
+- 路由器代理性能开销较小，局域网代理性能开销较大。

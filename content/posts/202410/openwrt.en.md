@@ -93,3 +93,15 @@ fi
 echo "All done!"
 
 ```
+
+## Proxy Tools
+
+### OpenWrt-Mihomo (MihomoTProxy)
+
+[https://github.com/morytyann/OpenWrt-mihomo/wiki](https://github.com/morytyann/OpenWrt-mihomo/wiki)
+
+- Configuration directory: /etc/mihomo/profiles
+- Running directory: /etc/mihomo/run
+- UI directory: /etc/mihomo/run/ui
+- Router proxy has small performance impact.
+- LAN proxy has big performance impact.
