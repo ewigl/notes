@@ -17,7 +17,7 @@ tags: ["Router", "OpenWrt"]
 
 ### 可选 PKG
 
-中文语言包
+中文语言
 
 ```
 luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn
@@ -32,7 +32,25 @@ curl
 SmartDNS
 
 ```
-smartdns luci-app-smartdns luci-i18n-smartdns-zh-cn
+luci-app-smartdns luci-i18n-smartdns-zh-cn
+```
+
+SQM
+
+```
+luci-app-sqm luci-i18n-sqm-zh-cn
+```
+
+Attended Sysupgrade
+
+```
+luci-app-attendedsysupgrade luci-i18n-attendedsysupgrade-zh-cn
+```
+
+All In One
+
+```
+luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn curl luci-app-smartdns luci-i18n-smartdns-zh-cn luci-app-sqm luci-i18n-sqm-zh-cn luci-app-attendedsysupgrade luci-i18n-attendedsysupgrade-zh-cn
 ```
 
 ### uci-defaults
@@ -73,15 +91,15 @@ fi
 
 # Configure WLAN
 # More options: https://openwrt.org/docs/guide-user/network/wifi/basic#wi-fi_interfaces
-# 5G HZ WLAN @wifi-device[1]
 if [ -n "$wlan_name" -a -n "$wlan_password" -a ${#wlan_password} -ge 8 ]; then
+# 5G HZ WLAN @wifi-device[1]
 # Device
 uci set wireless.@wifi-device[1].disabled='0'
 uci set wireless.@wifi-device[1].country='US'
 uci set wireless.@wifi-device[1].cell_density='2'
 uci set wireless.@wifi-device[1].channel='64'
 uci set wireless.@wifi-device[1].htmode='HE160'
-# WIFI Interface
+# Interface
 uci set wireless.@wifi-iface[1].disabled='0'
 uci set wireless.@wifi-iface[1].encryption='psk2'
 uci set wireless.@wifi-iface[1].ssid="$wlan_name"
