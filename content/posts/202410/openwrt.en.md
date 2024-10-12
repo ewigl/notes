@@ -29,10 +29,10 @@ curl
 curl
 ```
 
-ttyd (Web Terminal)
+SmartDNS
 
 ```
-ttyd luci-app-ttyd luci-i18n-ttyd-zh-cn
+smartdns luci-app-smartdns luci-i18n-smartdns-zh-cn
 ```
 
 ### uci-defaults
