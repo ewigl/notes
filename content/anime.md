@@ -23,10 +23,15 @@ description: 追番列表
 >
 > - [动漫花园](https://www.dmhy.org/)
 
-> **蜜柑计划**：新一代的动漫下载站。
+> **蜜柑计划**：Mikan Project。新一代的动漫下载站。
 >
 > - [Mikan Project Global](https://mikanani.me/)
 > - [Mikan Project CN](https://mikanime.tv/)
+
+> **Nyaa**：Nyaa。
+>
+> - [Nyaa](https://nyaa.si/)
+> - [Sukebei (NSFW)](https://sukebei.nyaa.si/)
 
 > **VCB-Studio**: 压制组。
 >
