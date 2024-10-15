@@ -3,7 +3,7 @@ title: "AX3000T X OpenWrt"
 date: 2024-10-09
 
 cover:
-  image: "images/shared/terminal.webp"
+  image: "images/shared/openwrt.webp"
   alt: "Cover"
 summary: AX3000T X OpenWrt
 description: AX3000T X OpenWrt
