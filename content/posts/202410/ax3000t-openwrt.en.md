@@ -5,8 +5,8 @@ date: 2024-10-09
 cover:
   image: "images/shared/terminal.webp"
   alt: "Cover"
-summary:
-description:
+summary: AX3000T X OpenWrt
+description: AX3000T X OpenWrt
 
 tags: ["Router", "OpenWrt", "AX3000T"]
 ---
