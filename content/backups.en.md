@@ -11,7 +11,6 @@ date: 2024-10-06
 - [Adobe Series](https://w14.monkrus.ws/)
 - [Calibre](https://calibre-ebook.com/download_windows)
 - [Chrome](https://www.google.com/chrome/)
-- [DirectX](https://www.microsoft.com/zh-cn/download/details.aspx?id=35)
 - [foobar2000](https://www.foobar2000.org/)
   - [ESLyric](https://github.com/ESLyric/release)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
@@ -21,7 +20,7 @@ date: 2024-10-06
 - [PotPlayer](https://potplayer.daum.net/)
 - [PowerToys](https://github.com/microsoft/PowerToys/releases)
 - [qBittorrent](https://www.qbittorrent.org/)
-- [Steam](https://store.steampowered.com/)
+- [Steam](https://store.steampowered.com/about)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Telegram](https://telegram.org/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
@@ -39,6 +38,7 @@ date: 2024-10-06
 
 ### SDK / Runtime / CLI
 
+- [DirectX](https://www.microsoft.com/zh-cn/download/details.aspx?id=35)
 - [ffmpeg](https://ffmpeg.org/download.html)
 - [Git](https://git-scm.com/)
 - [Hugo](https://github.com/gohugoio/hugo/releases)
@@ -55,7 +55,6 @@ date: 2024-10-06
 - [CheatEngine](https://cheatengine.org/)
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 - [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextractgui/files/)
-- [Godot Engine](https://godotengine.org/)
 - [LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit) (Lenovo Legion Only)
 - [mkvtoolnix](https://mkvtoolnix.download/downloads.html)
 - [MS365 E5 Renew Plus](https://e5renew.com/)
@@ -77,3 +76,8 @@ date: 2024-10-06
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 - [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
+
+## Wishlist
+
+- [Ladybird](https://github.com/LadybirdBrowser/ladybird)
+- [SimpleX](https://github.com/simplex-chat/simplex-chat)

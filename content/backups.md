@@ -76,3 +76,8 @@ date: 2024-10-06
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 - [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
+
+## Wishlist
+
+- [Ladybird](https://github.com/LadybirdBrowser/ladybird)
+- [SimpleX](https://github.com/simplex-chat/simplex-chat)
