@@ -47,12 +47,6 @@ Attended Sysupgrade
 luci-app-attendedsysupgrade luci-i18n-attendedsysupgrade-zh-cn
 ```
 
-All In One
-
-```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn curl luci-app-smartdns luci-i18n-smartdns-zh-cn luci-app-sqm luci-i18n-sqm-zh-cn luci-app-attendedsysupgrade luci-i18n-attendedsysupgrade-zh-cn
-```
-
 ### uci-defaults
 
 ```sh
