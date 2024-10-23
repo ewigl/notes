@@ -79,5 +79,15 @@ date: 2024-10-06
 
 ## Wishlist
 
+### Api
+
+- [Bruno](https://github.com/usebruno/bruno)
+- [Hoppscotch](https://github.com/hoppscotch/hoppscotch)
+
+### Browser
+
 - [Ladybird](https://github.com/LadybirdBrowser/ladybird)
+
+### IM
+
 - [SimpleX](https://github.com/simplex-chat/simplex-chat)
