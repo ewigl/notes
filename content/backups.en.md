@@ -1,13 +1,13 @@
 ---
 title: Backups 📁
-date: 2024-10-06
+date: 2024-10-29
 ---
 
 ## Windows
 
 ### Basic Apps
 
-- [7zip](https://www.7-zip.org/)
+- [7zip](https://www.7-zip.org/) / [NanaZip](https://github.com/M2Team/NanaZip)
 - [Adobe Series](https://w14.monkrus.ws/)
 - [Calibre](https://calibre-ebook.com/download_windows)
 - [Chrome](https://www.google.com/chrome/)
@@ -44,9 +44,8 @@ date: 2024-10-06
 - [Hugo](https://github.com/gohugoio/hugo/releases)
 - [JDK](https://www.oracle.com/java/technologies/downloads/)
 - [MSVCR Latest](https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-- [nvm-windows](https://github.com/coreybutler/nvm-windows)
+- [nvm-windows](https://github.com/coreybutler/nvm-windows) (NodeJs version manager for Windows) / asdf
 - [platform-tools](https://developer.android.com/tools/releases/platform-tools)
-- [PowerShell](https://github.com/PowerShell/PowerShell/releases)
 
 ### Additional
 
@@ -61,7 +60,7 @@ date: 2024-10-06
 - [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)
 - [RePKG](https://github.com/notscuffed/repkg/releases)
 - [Rufus](https://github.com/pbatard/rufus/releases)
-- [Ryujinx](https://ryujinx.org/download)
+- [Ryujinx](https://ryujinx.org/) (Ceased)
 
 ## Android
 
@@ -73,7 +72,7 @@ date: 2024-10-06
 ### Apatch & Modules
 
 - [APatch](https://github.com/bmax121/APatch)
-- [Box for Root](https://github.com/taamarin/box_for_magisk)
+- [Box for Root](https://github.com/taamarin/box_for_magisk) / [box4magisk](https://github.com/CHIZI-0618/box4magisk)
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 - [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
 
