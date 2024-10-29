@@ -7,7 +7,7 @@ date: 2024-10-06
 
 ### Basic Apps
 
-- [7zip](https://www.7-zip.org/)
+- [7zip](https://www.7-zip.org/) / [NanaZip](https://github.com/M2Team/NanaZip)
 - [Adobe Series](https://w14.monkrus.ws/)
 - [Calibre](https://calibre-ebook.com/download_windows)
 - [Chrome](https://www.google.com/chrome/)
@@ -46,7 +46,6 @@ date: 2024-10-06
 - [MSVCR Latest](https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - [nvm-windows](https://github.com/coreybutler/nvm-windows)
 - [platform-tools](https://developer.android.com/tools/releases/platform-tools)
-- [PowerShell](https://github.com/PowerShell/PowerShell/releases)
 
 ### Additional
 
