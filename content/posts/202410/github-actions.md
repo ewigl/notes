@@ -32,3 +32,4 @@ tags: ["Github"]
 
 - **EMAIL**:`email@example.com`
 - **PASSWD**: `YourPassword`
+- **HOST**: 网站域名，`ikuuu.one`、`ikuuu.org`等。
