@@ -11,35 +11,37 @@ description: "下载 Steam Depot"
 tags: ["Steam"]
 ---
 
-## SteamDB
+## 使用 SteamDB 获取游戏 depot 信息
 
 [SteamDB](https://steamdb.info/)
 
-## Steam 控制台
+## 开启 Steam 控制台
+
+Win + R
 
 ```
 steam://open/console
 ```
 
-## 格式
+## Steam 控制台命令格式
 
 ```
 download_depot {APPID} {DEPOTID} {MANIFESTID}
 ```
 
-## 示例 Mirror Emoji
+## 示例：下载 Mirror Emoji
 
 ```
 download_depot 644560 1120630 5362505210744167703
 ```
 
-## 示例 SkyrimSE.exe - 1.6.640
+## 示例： 下载 SkyrimSE.exe - 1.6.640
 
 ```
 download_depot 489830 489833 5291801952219815735
 ```
 
-## 示例 Skyrim SE - 1.5.97 All
+## 示例： 下载 Skyrim SE - 1.5.97 All
 
 ```
 download_depot 489830 489831 7848722008564294070

@@ -11,7 +11,7 @@ description: "删改 Windows 特定扩展名文件默认打开方式"
 tags: ["Windows"]
 ---
 
-## 注册表编辑器
+## 打开注册表编辑器
 
 WIN + R
 
@@ -19,7 +19,7 @@ WIN + R
 regedit
 ```
 
-## 路径
+## 文件扩展名路径
 
 ```
 \HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\
