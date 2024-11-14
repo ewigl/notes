@@ -23,7 +23,7 @@ tags: ["Github"]
 
 ## 应用场景
 
-### [HIFINI 自动签到](https://github.com/ewigl/hifini-auto-checkin)
+### [HIFINI 音乐磁场 自动签到](https://github.com/ewigl/hifini-auto-checkin)
 
 - **COOKIE**: `bbs_sid=YourBbs_Sid;bbs_token=YourBbs_Token;cookie_test=YourCookieTest`
   ![02](/notes/posts/202410/images/02.png)
@@ -33,3 +33,8 @@ tags: ["Github"]
 - **EMAIL**:`email@example.com`
 - **PASSWD**: `YourPassword`
 - **HOST**: 网站域名，`ikuuu.one`、`ikuuu.org`等。
+
+### [PicAcg 哔咔漫画 自动签到](https://github.com/ewigl/picacg-auto-checkin)
+
+- **EMAIL**:`email@example.com`
+- **PASSWD**: `YourPassword`
