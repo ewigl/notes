@@ -1,5 +1,5 @@
 ---
-title: "《塞尔达传说 旷野之息》 Mod 定制"
+title: "旷野之息 Mod 自定义"
 date: 2024-10-27
 
 cover:
