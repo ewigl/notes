@@ -2,7 +2,10 @@ baseURL: https://ewigl.github.io/notes/
 title: Licht's Notes
 defaultContentLanguage: zh
 theme: PaperMod
-# paginate: 8
+pagination:
+  # disableAliases: false
+  pagerSize: 8
+  # path: page
 
 minify:
   disableXML: true
