@@ -17,7 +17,6 @@ date: 2024-10-29
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
 - [IrfanView](https://www.irfanview.com/)
 - [Mihomo](https://github.com/ewigl/mihomo)
-- [MPV](https://mpv.io/)
 - [OBS Studio](https://obsproject.com/)
 - [PotPlayer](https://potplayer.daum.net/)
 - [PowerToys](https://github.com/microsoft/PowerToys/releases)
@@ -31,7 +30,6 @@ date: 2024-10-29
 ### Portable Tools
 
 - [CCleaner - Portable](https://www.ccleaner.com/ccleaner/builds)
-- [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)
 - [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
 - [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
 - [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
@@ -54,6 +52,7 @@ date: 2024-10-29
 - [AdobeCreativeCloudCleanerTool](https://helpx.adobe.com/creative-cloud/kb/cc-cleaner-tool-installation-problems.html)
 - [Blender](https://www.blender.org/download/)
 - [CheatEngine](https://cheatengine.org/)
+- [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 - [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextractgui/files/)
 - [LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit) (Lenovo Legion Only)
@@ -62,7 +61,7 @@ date: 2024-10-29
 - [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)
 - [RePKG](https://github.com/notscuffed/repkg/releases)
 - [Rufus](https://github.com/pbatard/rufus/releases)
-- [Ryujinx](https://ryujinx.org/) (Ceased)
+- [Ryujinx](https://github.com/GreemDev/Ryujinx)
 
 ## Android
 
@@ -74,7 +73,7 @@ date: 2024-10-29
 ### Apatch & Modules
 
 - [APatch](https://github.com/bmax121/APatch)
-- [Box for Root](https://github.com/taamarin/box_for_magisk) / [box4magisk](https://github.com/CHIZI-0618/box4magisk)
+- [Box for Root](https://github.com/taamarin/box_for_magisk)
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 - [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
 
