@@ -89,6 +89,10 @@ date: 2024-10-29
 
 - [Ladybird](https://github.com/LadybirdBrowser/ladybird)
 
+### Downloader
+
+- [ABDownloadManager](https://github.com/amir1376/ab-download-manager)
+
 ### IM
 
 - [SimpleX](https://github.com/simplex-chat/simplex-chat)
