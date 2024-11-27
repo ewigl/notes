@@ -309,7 +309,10 @@ tags: ["Mihomo", "Windows", "Android"]
 1.  修改 `config.yaml`。（参考 Windows 配置流程）
 2.  下载 mihomo android arm64 版本，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
 3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)`, `GeoIP.dat`, `GeoSite.dat` 到 `/data/adb/box/calsh`.
-4.  修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
+4.  【可选】修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
+
+    你也可以使用默认的 tproxy 模式，tproxy 模式可以仅代理（或不代理）指定的应用程序，具体设置参考 BFR 的文档。
+
 5.  重启。
 6.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
 7.  默认密码：`998486`，可在 `config.yaml` 中修改。
