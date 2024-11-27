@@ -1,6 +1,6 @@
 ---
 title: "Github Actions"
-date: 2024-10-05
+date: 2024-11-27
 
 cover:
   image: "images/shared/terminal.webp"
@@ -34,7 +34,7 @@ tags: ["Github"]
 - COOKIE: `bbs_sid=YourBbs_Sid;bbs_token=YourBbs_Token...`
   ![02](/notes/posts/202410/images/02.png)
 
-### [iKuuu 自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
+### [iKuuu 爱坤呦呦 自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
 
 #### ENV
 

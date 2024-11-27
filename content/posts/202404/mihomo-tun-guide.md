@@ -5,8 +5,8 @@ date: 2024-10-03
 cover:
   image: "images/shared/keyboard-light.webp"
   alt: "Cover"
-summary: "https://github.com/ewigl/mihomo"
-description: "https://github.com/ewigl/mihomo"
+summary: "Mihomo Tun 模式配置，用于 Windows 和 Android 设备。包含简单的自定义规则。"
+description: "Mihomo Tun 模式配置，用于 Windows 和 Android 设备。包含简单的自定义规则。"
 
 tags: ["Mihomo", "Windows", "Android"]
 ---
@@ -14,6 +14,7 @@ tags: ["Mihomo", "Windows", "Android"]
 ## 预览
 
 ![00](/notes/posts/202404/images/00.png)
+
 ![01](/notes/posts/202404/images/01.png)
 
 ## 链接
@@ -32,7 +33,8 @@ tags: ["Mihomo", "Windows", "Android"]
 1. 下载 Mihomo 内核。
 2. 下载 `GeoIP.dat` 、 `GeoSite.dat`。
 3. 下载 `metacubexd`。
-4. Android 配置需要 Root 并安装 `Box for Root`。
+4. 按照下面的目录结构整理好文件。
+5. Android 配置需要 Root 并安装 `Box for Root`。
 
 ## Windows 配置
 
@@ -226,7 +228,11 @@ tags: ["Mihomo", "Windows", "Android"]
         #     interval: 7200
       ```
 
-      `Local.yaml`示例：
+      `Local.yaml` 文件内容可以通过 [订阅转换](https://acl4ssr-sub.github.io/) 服务获得，该服务可本地自建。
+
+      **进阶模式**中勾选**输出为 NodeList**选项即可仅输出节点信息。
+
+      文件示例：
 
       ```yaml
       proxies:

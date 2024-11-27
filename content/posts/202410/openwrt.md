@@ -1,6 +1,6 @@
 ---
 title: "OpenWrt"
-date: 2024-10-10
+date: 2024-11-27
 
 cover:
   image: "images/shared/openwrt.webp"
@@ -17,37 +17,31 @@ tags: ["Router", "OpenWrt"]
 
 ### 可选 PKG
 
-中文语言
+#### 中文语言
 
 ```
 luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn
 ```
 
-curl
+#### curl
 
 ```
 curl
 ```
 
-SmartDNS
+#### SmartDNS
 
 ```
 luci-app-smartdns luci-i18n-smartdns-zh-cn
 ```
 
-SQM
-
-```
-luci-app-sqm luci-i18n-sqm-zh-cn
-```
-
-Attended Sysupgrade
+#### Attended Sysupgrade
 
 ```
 luci-app-attendedsysupgrade luci-i18n-attendedsysupgrade-zh-cn
 ```
 
-### uci-defaults
+### 自定义构建配置 (uci-defaults)
 
 ```sh
 # Beware! This script will be in /rom/etc/uci-defaults/ as part of the image.
@@ -105,6 +99,43 @@ fi
 echo "All done!"
 
 ```
+
+## AX3000T 相关
+
+### 基本信息
+
+| Model      | AX3000T                                                                                      |
+| ---------- | -------------------------------------------------------------------------------------------- |
+| CPU        | MediaTek MT7981B                                                                             |
+| Arch       | ARMv8 Processor rev 4 / AArch64 Cortex-A53                                                   |
+| Platform   | Mediatek/Filogic                                                                             |
+| Flash Size | 128 MB                                                                                       |
+| RAM        | 256 MB                                                                                       |
+| Wiki       | [https://openwrt.org/inbox/toh/xiaomi/ax3000t](https://openwrt.org/inbox/toh/xiaomi/ax3000t) |
+
+### 刷入过程
+
+1. 参考 OpenWrt Wiki 官方教程，使用 [XMiR-Patcher](https://github.com/openwrt-xiaomi/xmir-patcher) 按照提示即可刷入 OpenWrt。
+
+### 注意事项
+
+- AX3000T 新版本（生产日期约为 202408 后的批次）硬件不同，系统出厂版本为 1.0.84 +，暂无 OpenWrt 可用。
+- OP 官方教程无需降级，支持 1.0.64 及以下官方固件版本直接刷机。
+- 使用 XMiR-Patcher 备份过程中可能出现 Timed Out 的问题。
+  解决方法：[https://github.com/openwrt-xiaomi/xmir-patcher/issues/9#issuecomment-2209618296](https://github.com/openwrt-xiaomi/xmir-patcher/issues/9#issuecomment-2209618296)。
+  Timeout 设置为 90 并使用额外功能菜单中的单独备份模式分别备份各个分区。
+
+### UBoot 刷入
+
+- 同样参考 OP 官方 Wiki。
+- 使用 scp 命令在电脑与路由器之间拷贝文件时使用 `-O` 参数。
+
+### 注意事项
+
+- 5G WIFI - 高级设置 - 国家代码设置为 US。
+- 信号覆盖密度酌情设置（前进四）。
+- 常规设置最大传输功率可选 24 dBm 或自动（前进四）。
+- 选择 AU 等国家代码可能会因为频率过高 (超过 6GHZ) 导致搜索不到 5G 信号。
 
 ## 代理工具
 
