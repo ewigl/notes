@@ -1,6 +1,6 @@
 ---
 title: "Mihomo Tun 模式配置"
-date: 2024-10-03
+date: 2024-12-05
 
 cover:
   image: "images/shared/keyboard-light.webp"
@@ -29,22 +29,32 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ## 链接
 
-| 项目                                                                  | 说明                                |
-| --------------------------------------------------------------------- | ----------------------------------- |
-| [ewigl/mihomo](https://github.com/ewigl/mihomo)                       | Tun 模式配置 (本项目)               |
-| [Mihomo](https://github.com/MetaCubeX/mihomo/releases)                | Mihomo 内核                         |
-| [Rules Dat](https://github.com/Loyalsoldier/v2ray-rules-dat/releases) | GeoIP.dat、GeoSite.dat              |
-| [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)        | Web UI 控制台                       |
-| [Box for Root](https://github.com/taamarin/box_for_magisk/releases)   | Android Apatch/KernelSU/Magisk 模块 |
+| 项目                                                                | 说明                                |
+| ------------------------------------------------------------------- | ----------------------------------- |
+| [ewigl/mihomo](https://github.com/ewigl/mihomo)                     | Tun 模式配置 (本项目)               |
+| [Mihomo](https://github.com/MetaCubeX/mihomo/releases)              | Mihomo 内核                         |
+| [GeoIP](https://github.com/MetaCubeX/meta-rules-dat/releases)       | geoip.metadb                        |
+| [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)      | Web UI 控制台                       |
+| [Box for Root](https://github.com/taamarin/box_for_magisk/releases) | Android Apatch/KernelSU/Magisk 模块 |
 
 ## 准备
 
-0. 下载本项目。
-1. 下载 Mihomo 内核。
-2. 下载 `GeoIP.dat` 、 `GeoSite.dat`。
+### Windows
+
+1. 下载 Mihomo Windows 内核。
+
+### Android
+
+1. 通过 Magisk / KernelSU / Apatch 获取设备 root 权限。
+2. 下载 `Box for Root`。
+3. 下载 Mihomo Android 内核。
+
+### 共通
+
+1. 下载本项目。
+2. 下载 `geoip.metadb`。
 3. 下载 `metacubexd`。
-4. 按照下面的目录结构整理好文件。
-5. Android 配置需要 Root 并安装 `Box for Root`。
+4. 按照目录结构整理好文件。
 
 ## Windows 配置
 
@@ -54,8 +64,7 @@ tags: ["Mihomo", "Windows", "Android"]
 .
 └── D:/Apps/Mihomo/
     ├── config.yaml
-    ├── GeoIP.dat
-    ├── GeoSite.dat
+    ├── geoip.metadb
     ├── mihomo-windows-amd64.exe
     ├── mihomo.start.vbs
     ├── Mihomo.Startup.xml
@@ -81,66 +90,20 @@ tags: ["Mihomo", "Windows", "Android"]
 1.  在本项目首页，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
 2.  修改 `config.yaml`。
 
-    - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接，注释掉所有的 `Local`。
+    - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接，注释掉 `Local` 部分。
 
-      `config.yaml`片段示例：
+      `config.yaml`文件片段示例：
 
       ```yaml
-      proxy-groups:
-        - name: 🚀
-          type: select
-          proxies:
-            - 🇺🇸 美国
-            - 🇭🇰 香港
-            - 🇨🇳 台湾
-            - 🇸🇬 狮城
-            - 🇯🇵 日本
-            - 🇺🇳 全球
-
-        # Regions
-        - name: 🇺🇸 美国
-          type: select
-          use:
-            # - Local
-            - Subscription
-          filter: "US|🇺🇸|美国"
-
-        - name: 🇭🇰 香港
-          type: select
-          use:
-            # - Local
-            - Subscription
-          filter: "HK|🇭🇰|香港"
-
-        - name: 🇨🇳 台湾
-          type: select
-          use:
-            # - Local
-            - Subscription
-          filter: "TW|🇨🇳|🇹🇼|台湾"
-
-        - name: 🇸🇬 狮城
-          type: select
-          use:
-            # - Local
-            - Subscription
-          filter: "SG|🇸🇬|新加坡|狮城"
-
-        - name: 🇯🇵 日本
-          type: select
-          use:
-            # - Local
-            - Subscription
-          filter: "JP|🇯🇵|日本"
-
-        - name: 🇺🇳 全球
-          type: select
-          use:
-            # - Local
-            - Subscription
+      used-in-proxy-groups: &used-in-proxy-groups
+        type: select
+        use:
+          # 注释掉 Local
+          # - Local
+          - Subscription
 
       proxy-providers:
-        # 注释掉 “Local:” 部分
+        # 注释掉 Local 部分
         # Local:
         #   type: file
         #   path: ./proxies/Local.yaml
@@ -160,89 +123,10 @@ tags: ["Mihomo", "Windows", "Android"]
             interval: 7200
       ```
 
-    - 如果使用自建服务器或在本地存储服务器信息，创建 `proxies` 文件夹，在 `proxies` 内创建 `Local.yaml` 文件。
+    - 如果在本地存储服务器信息，无需修改 `config.yaml`。创建 `proxies` 文件夹，在 `proxies` 内创建 `Local.yaml` 文件。
+      `Local.yaml` 文件内容可以通过 [订阅转换](https://acl4ssr-sub.github.io/) 服务获得。
 
-      `config.yaml` 中注释掉所有的 `Subscription`，片段示例：
-
-      ```yaml
-      proxy-groups:
-        - name: 🚀
-          type: select
-          proxies:
-            - 🇺🇸 美国
-            - 🇭🇰 香港
-            - 🇨🇳 台湾
-            - 🇸🇬 狮城
-            - 🇯🇵 日本
-            - 🇺🇳 全球
-
-        # Regions
-        - name: 🇺🇸 美国
-          type: select
-          use:
-            - Local
-            # - Subscription
-          filter: "US|🇺🇸|美国"
-
-        - name: 🇭🇰 香港
-          type: select
-          use:
-            - Local
-            # - Subscription
-          filter: "HK|🇭🇰|香港"
-
-        - name: 🇨🇳 台湾
-          type: select
-          use:
-            - Local
-            # - Subscription
-          filter: "TW|🇨🇳|🇹🇼|台湾"
-
-        - name: 🇸🇬 狮城
-          type: select
-          use:
-            - Local
-            # - Subscription
-          filter: "SG|🇸🇬|新加坡|狮城"
-
-        - name: 🇯🇵 日本
-          type: select
-          use:
-            - Local
-            # - Subscription
-          filter: "JP|🇯🇵|日本"
-
-        - name: 🇺🇳 全球
-          type: select
-          use:
-            - Local
-            # - Subscription
-
-      proxy-providers:
-        Local:
-          type: file
-          path: ./proxies/Local.yaml
-          health-check:
-            enable: true
-            url: http://www.gstatic.com/generate_204
-            interval: 7200
-
-        # Subscription:
-        #   type: http
-        #   # your subscription url here
-        #   url: https://your.subscription.url
-        #   path: ./proxies/Subscription.yaml
-        #   health-check:
-        #     enable: true
-        #     url: http://www.gstatic.com/generate_204
-        #     interval: 7200
-      ```
-
-      `Local.yaml` 文件内容可以通过 [订阅转换](https://acl4ssr-sub.github.io/) 服务获得，该服务可本地自建。
-
-      **进阶模式**中勾选**输出为 NodeList**选项即可仅输出节点信息。
-
-      文件示例：
+      `Local.yaml` 文件内容示例：
 
       ```yaml
       proxies:
@@ -299,16 +183,15 @@ tags: ["Mihomo", "Windows", "Android"]
         ├── proxies/
         ├── ruleset/
         ├── config.yaml
-        ├── GeoIP.dat
-        └── GeoSite.dat
+        └── geoip.metadb
 ```
 
 ### 配置流程
 
 0.  刷入 Box For Root，无需立刻重启。
 1.  修改 `config.yaml`。（参考 Windows 配置流程）
-2.  下载 mihomo android arm64 版本，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
-3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)`, `GeoIP.dat`, `GeoSite.dat` 到 `/data/adb/box/calsh`.
+2.  下载 mihomo android 版本内核，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
+3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)`, `geoip.metadb` 到 `/data/adb/box/calsh`.
 4.  【可选】修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
 
     你也可以使用默认的 tproxy 模式，tproxy 模式可以仅代理（或不代理）指定的应用程序，具体设置参考 BFR 的文档。
@@ -331,7 +214,7 @@ tags: ["Mihomo", "Windows", "Android"]
     ```yaml
     payload:
       # 强制 gofile.io 直连.
-      - "+.gofile.io"
+      # - "+.gofile.io"
       # 强制 Steam 登陆服务器 steamserver.net 直连，影响 Steam 选择下载服务器。
       - "+.steamserver.net"
     ```
