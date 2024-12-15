@@ -22,15 +22,6 @@ tags: ["Android"]
 4. 运行 NewFlasher。
 5. **询问是否 keep data 时输入 `y` 保存数据！！！**
 
-### ROOT - KSU
-
-0. 下载 [UnSIN](https://xdaforums.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v2-0.3128106/)
-1. 在固件目录中找到 `init_boot_X-FLASH-ALL-25B1.sin`
-2. 将 sin 文件拖动到 `unsin.exe` 得到 `init_boot_X-FLASH-ALL-25B1.img`
-3. 使用 kernelSU app 修补 `init_boot_X-FLASH-ALL-25B1.img` 得到 `kernelsu***.img`
-4. 重启到 fastboot 模式, 执行 `fastboot flash init_boot kernelsu***.img`
-5. 重启
-
 ### 隐藏 VOLTE、VONR 图标
 
 **每次更新系统后需要重新操作**
@@ -54,7 +45,7 @@ tags: ["Android"]
 | 功能            | 详情                                                  |
 | --------------- | ----------------------------------------------------- |
 | 大师模式        | √                                                     |
-| 完整分辨率 / 4K | √                                                     |
+| 完整分辨率 / 4K | √ 存在 Bug                                            |
 | 全高刷新率      | √                                                     |
 | 大师 Apps       | ApkMirror                                             |
 | 杜比音效        | ×                                                     |
