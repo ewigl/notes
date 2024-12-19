@@ -34,6 +34,9 @@ tags: ["Github"]
 - COOKIE: `bbs_sid=YourBbs_Sid;bbs_token=YourBbs_Token...`
   ![02](/notes/posts/202410/images/02.png)
 
+- SIGN: `YourSign`
+  ![04](/notes/posts/202410/images/04.png)
+
 ### [iKuuu 爱坤呦呦 自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
 
 #### ENV
