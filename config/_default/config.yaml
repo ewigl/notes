@@ -101,7 +101,7 @@ languages:
         - name: Tags 🔖
           url: tags/
           weight: 30
-        - name: apps 📁
+        - name: Apps 📁
           url: apps/
           weight: 40
         - name: Expectation 🌟
