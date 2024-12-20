@@ -78,7 +78,7 @@ languages:
           url: anime/
           weight: 50
         - name: 期望 🌟
-          url: Expectation/
+          url: expectation/
           weight: 60
         - name: 关于 ♏
           url: about/
