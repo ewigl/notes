@@ -1,5 +1,5 @@
 ---
-title: Backups 📁
+title: Apps 📁
 date: 2024-12-15
 ---
 

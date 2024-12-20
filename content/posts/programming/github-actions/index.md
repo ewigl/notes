@@ -13,13 +13,13 @@ tags: ["Github"]
 
 ## 启用 Github Actions (Fork 后)
 
-![03](/notes/posts/202410/images/03.png)
+![03](/notes/posts/programming/github-actions/images/03.png)
 
 ## 配置 Environment Secrets
 
-![00](/notes/posts/202410/images/00.png)
+![00](/notes/posts/programming/github-actions/images/00.png)
 
-![01](/notes/posts/202410/images/01.png)
+![01](/notes/posts/programming/github-actions/images/01.png)
 
 ## 应用场景
 
@@ -32,10 +32,10 @@ tags: ["Github"]
 #### Secrets
 
 - COOKIE: `bbs_sid=YourBbs_Sid;bbs_token=YourBbs_Token...`
-  ![02](/notes/posts/202410/images/02.png)
+  ![02](/notes/posts/programming/github-actions/images/02.png)
 
 - SIGN: `YourSign`
-  ![04](/notes/posts/202410/images/04.png)
+  ![04](/notes/posts/programming/github-actions/images/04.png)
 
 ### [iKuuu 爱坤呦呦 自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
 

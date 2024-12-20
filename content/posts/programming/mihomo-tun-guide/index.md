@@ -23,9 +23,9 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ## 预览
 
-![00](/notes/posts/202404/images/00.png)
+![00](/notes/posts/programming/mihomo-tun-guide/images/00.png)
 
-![01](/notes/posts/202404/images/01.png)
+![01](/notes/posts/programming/mihomo-tun-guide/images/01.png)
 
 ## 链接
 

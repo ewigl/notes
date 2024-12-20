@@ -64,22 +64,25 @@ languages:
       main:
         - name: 搜索 🔍
           url: search/
-          weight: 2
+          weight: 10
         - name: 归档 📚
           url: archives/
-          weight: 5
+          weight: 20
         - name: 标签 🔖
           url: tags/
-          weight: 6
-        - name: 备份 📁
-          url: backups/
-          weight: 7
+          weight: 30
+        - name: 应用 📁
+          url: apps/
+          weight: 40
         - name: 番剧 📺
           url: anime/
-          weight: 8
+          weight: 50
+        - name: 期望 🌟
+          url: Expectation/
+          weight: 60
         - name: 关于 ♏
           url: about/
-          weight: 9
+          weight: 70
 
   en:
     languageCode: en
@@ -91,19 +94,19 @@ languages:
       main:
         - name: Search 🔍
           url: search/
-          weight: 2
+          weight: 10
         - name: Archives 📚
           url: archives/
-          weight: 5
+          weight: 20
         - name: Tags 🔖
           url: tags/
-          weight: 6
-        - name: Backups 📁
-          url: backups/
-          weight: 7
-        # - name: Anime 📺
-        #   url: anime/
-        #   weight: 8
+          weight: 30
+        - name: apps 📁
+          url: apps/
+          weight: 40
+        - name: Expectation 🌟
+          url: expectation/
+          weight: 50
         - name: About ♏
           url: about/
-          weight: 9
+          weight: 60
