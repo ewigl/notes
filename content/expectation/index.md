@@ -10,7 +10,7 @@ date: 2024-12-20
 | CITY: The Animation | 2025 | [Fandom Wiki](https://citymanga.fandom.com/wiki/CITY:_The_Animation)                                        |
 | 葬送的芙丽莲 第二季 | -    | [Official Site](https://frieren-anime.jp/news/3262/) [YouTube](https://www.youtube.com/watch?v=DknvOzqQCTo) |
 
-## 游戏
+## 游戏 (Not on Steam)
 
 | 标题                 | 时间                             | 信息                                                                                                                                       |
 | -------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
