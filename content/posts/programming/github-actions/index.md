@@ -31,7 +31,8 @@ tags: ["Github"]
 
 #### Secrets
 
-- COOKIE: `bbs_sid=YourBbs_Sid;bbs_token=YourBbs_Token...`
+- COOKIE: 打开 HIFINI 网站控制台，输入`document.cookie`，回车获取。（不包含引号）
+
   ![02](/notes/posts/programming/github-actions/images/02.png)
 
 ### [iKuuu 爱坤呦呦 自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
