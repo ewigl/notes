@@ -21,6 +21,8 @@ tags: ["Github"]
 
 ![01](/notes/posts/programming/github-actions/images/01.png)
 
+![07](/notes/posts/programming/github-actions/images/07.png)
+
 ## 查看运行结果
 
 ![05](/notes/posts/programming/github-actions/images/05.png)
