@@ -11,21 +11,27 @@ description: Github Actions 基本使用
 tags: ["Github"]
 ---
 
-## 启用 Github Actions (Fork 后)
+## 启用 Actions
 
 ![03](/notes/posts/programming/github-actions/images/03.png)
 
-## 配置 Environment Secrets
+## 配置环境及 Secrets
 
 ![00](/notes/posts/programming/github-actions/images/00.png)
 
 ![01](/notes/posts/programming/github-actions/images/01.png)
 
+## 查看运行结果
+
+![05](/notes/posts/programming/github-actions/images/05.png)
+
+![06](/notes/posts/programming/github-actions/images/06.png)
+
 ## 应用场景
 
-### [HIFINI 音乐磁场 自动签到](https://github.com/ewigl/hifini-auto-checkin)
+### [HIFINI 音乐磁场](https://github.com/ewigl/hifini-auto-checkin)
 
-#### ENV
+#### Environment
 
 `HIFINI`
 
@@ -35,9 +41,9 @@ tags: ["Github"]
 
   ![02](/notes/posts/programming/github-actions/images/02.png)
 
-### [iKuuu 爱坤呦呦 自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
+### [iKuuu 爱坤呦呦](https://github.com/ewigl/ikuuu-auto-checkin)
 
-#### ENV
+#### Environment
 
 `IKUUU`
 
@@ -47,9 +53,9 @@ tags: ["Github"]
 - PASSWD: `YourPassword`
 - HOST: 网站域名，`ikuuu.one`、`ikuuu.org`等。
 
-### [PicAcg 哔咔漫画 自动签到](https://github.com/ewigl/picacg-auto-checkin)
+### [PicAcg 哔咔漫画](https://github.com/ewigl/picacg-auto-checkin)
 
-#### ENV
+#### Environment
 
 `PICACG`
 
