@@ -13,8 +13,9 @@ date: 2024-12-20
 
 ## 游戏 (Not on Steam)
 
-| 标题                 | 时间                             | 信息                                                                                                                                       |
-| -------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| GTA VI               | -                                | [Trailer](https://www.youtube.com/watch?v=QdBZY2fkU-0)                                                                                     |
-| The Elder Scrolls VI | -                                | [Teaser](https://www.youtube.com/watch?v=OkFdqqyI8y4)                                                                                      |
-| VaM2                 | 1st beta release on January 2025 | [Forum](https://www.youtube.com/watch?v=ZV3y0GtL2dY) [Discord Channel](https://discord.com/channels/363274293112602636/909075760323629067) |
+| 标题                 | 时间                             | 信息                                                                                                                                                                       |
+| -------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GTA VI               | -                                | [Trailer](https://www.youtube.com/watch?v=QdBZY2fkU-0)                                                                                                                     |
+| Skyblivion           | 2025                             | [BlueSky](https://bsky.app/profile/skyblivion.com/post/3lemhpynqos27) [X](https://x.com/TESRSkyblivion/status/1874130163434479738) [YouTube](https://youtu.be/LwUibq6wBn4) |
+| The Elder Scrolls VI | -                                | [Teaser](https://www.youtube.com/watch?v=OkFdqqyI8y4)                                                                                                                      |
+| VaM2                 | 1st beta release on January 2025 | [Discord Channel](https://discord.com/channels/363274293112602636/909075760323629067) [Forum](https://hub.virtamate.com/wiki/vam2_updates/)                                |
