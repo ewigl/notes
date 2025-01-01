@@ -5,11 +5,11 @@ date: 2024-12-20
 
 ## 动漫
 
-| 标题                                                             | 时间       | 信息                                                                                                                               |
-| ---------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| CITY: The Animation                                              | 2025       | [Fandom Wiki](https://citymanga.fandom.com/wiki/CITY:_The_Animation) [X](https://x.com/city_anime_info/status/1837465256358035620) |
-| 蓝光版《夏目友人帳 漆 5》 第十一話 ・第十二話 ・第十三話(特別編) | 2025.04.23 | [Bangumi](https://bangumi.tv/ep/1408770) [Aniplex](https://www.aniplex.co.jp/natsume/season7/)                                     |
-| 葬送的芙丽莲 第二季                                              | -          | [Official Site](https://frieren-anime.jp/news/3262/) [YouTube](https://www.youtube.com/watch?v=DknvOzqQCTo)                        |
+| 标题                                                             | 时间       | 信息                                                                                                                     |
+| ---------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------ |
+| CITY: The Animation                                              | 2025       | [Official Site](https://city-the-animation.com/news/?id=1) [X](https://x.com/city_anime_info/status/1837465256358035620) |
+| 蓝光版《夏目友人帳 漆 5》 第十一話 ・第十二話 ・第十三話(特別編) | 2025.04.23 | [Bangumi](https://bangumi.tv/ep/1408770) [Aniplex](https://www.aniplex.co.jp/natsume/season7/)                           |
+| 葬送的芙丽莲 第二季                                              | -          | [Official Site](https://frieren-anime.jp/news/3262/) [YouTube](https://www.youtube.com/watch?v=DknvOzqQCTo)              |
 
 ## 游戏 (Not on Steam)
 
