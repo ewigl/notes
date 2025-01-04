@@ -33,7 +33,6 @@ tags: ["Mihomo", "Windows", "Android"]
 | ------------------------------------------------------------------- | ----------------------------------- |
 | [ewigl/mihomo](https://github.com/ewigl/mihomo)                     | Tun 模式配置 (本项目)               |
 | [Mihomo](https://github.com/MetaCubeX/mihomo/releases)              | Mihomo 内核                         |
-| [GeoIP](https://github.com/MetaCubeX/meta-rules-dat/releases)       | geoip.metadb                        |
 | [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)      | Web UI 控制台                       |
 | [Box for Root](https://github.com/taamarin/box_for_magisk/releases) | Android Apatch/KernelSU/Magisk 模块 |
 
@@ -64,7 +63,6 @@ tags: ["Mihomo", "Windows", "Android"]
 .
 └── D:/Apps/Mihomo/
     ├── config.yaml
-    ├── geoip.metadb
     ├── mihomo-windows-amd64.exe
     ├── mihomo.start.vbs
     ├── Mihomo.Startup.xml
@@ -182,8 +180,7 @@ tags: ["Mihomo", "Windows", "Android"]
         ├── metacubexd/
         ├── proxies/
         ├── ruleset/
-        ├── config.yaml
-        └── geoip.metadb
+        └── config.yaml
 ```
 
 ### 配置流程
