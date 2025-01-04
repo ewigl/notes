@@ -36,9 +36,9 @@ tags: ["Android"]
 - [QuickSwitch](https://github.com/skittles9823/QuickSwitch/releases)
 - [Lawnchair Nightly](https://github.com/LawnchairLauncher/lawnchair/releases)
 
-## [LineageOS](https://wiki.lineageos.org/devices/pdx234/)
+## [LineageOS 22.1](https://wiki.lineageos.org/devices/pdx234/)
 
-版本：0915
+版本: 20250101
 
 ### 功能
 
@@ -61,11 +61,10 @@ tags: ["Android"]
 | 美团无法使用，部分银行 App 无法使用 | 梆梆加固                           |
 | 指纹图标指示器位置不对              | 仅完整分辨率模式（4K）下有这个问题 |
 | 短信对话页面需要返回两次            | 仅完整分辨率模式（4K）下有这个问题 |
-| 短信通知无快速“已读”操作            | 特性...                            |
 
 ### 补充
 
-- 可使用 APatch 获取 Root 权限。
+- 可使用 Magisk 获取 Root 权限。
 - Play Integrity Fix 可用。
 
 ## 注意事项
