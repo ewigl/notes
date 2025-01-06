@@ -20,6 +20,7 @@ tags: ["Mihomo", "Windows", "Android"]
 - Tun 模式对 PC 的性能影响几乎可以忽略不计。
 - Tun 模式 / 透明代理模式会略微增加 Android 设备耗电。优点是可以常驻代理，且无前台程序。
 - 无 GUI 软件，使用 Mihomo 内核自带 Tun 模式。使用浏览器通过 WebUI 控制代理设置。
+- 内置常用规则。
 
 ## 预览
 
