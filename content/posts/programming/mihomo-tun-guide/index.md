@@ -13,13 +13,13 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ## 介绍
 
-- 系统代理模式默认无法代理命令行程序（小黑框）、UWP 应用等。
-- Tun 模式的原理是虚拟网卡，因此可以代理所有系统网络流量。
-- 相较于使用路由器进行局域网代理，Tun 模式不会影响局域网中其他设备。
+> Github: https://github.com/ewigl/mihomo
+
+- Tun 模式使用虚拟网卡，因此可以代理所有系统网络流量，包括 CLI 与 UWP 应用。
+- 相较于使用路由器进行局域网代理，Tun 模式不会影响局域网中其他设备，也不用额外设置网关。
 - Tun 模式对 PC 的性能影响几乎可以忽略不计。
 - Tun 模式 / 透明代理模式会略微增加 Android 设备耗电。优点是可以常驻代理，且无前台程序。
-- 本项目无 GUI 软件。即不需要额外的软件，直接运行 Mihomo 内核即可实现 Tun 模式。
-- 使用浏览器通过 WebUI 即可控制代理设置。
+- 无 GUI 软件，使用 Mihomo 内核自带 Tun 模式。使用浏览器通过 WebUI 控制代理设置。
 
 ## 预览
 
@@ -51,9 +51,8 @@ tags: ["Mihomo", "Windows", "Android"]
 ### 共通
 
 1. 下载本项目。
-2. 下载 `geoip.metadb`。
-3. 下载 `metacubexd`。
-4. 按照目录结构整理好文件。
+2. 下载 `metacubexd`。
+3. 按照目录结构整理好现有文件。
 
 ## Windows 配置
 
@@ -85,7 +84,7 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ### 配置流程
 
-1.  在本项目首页，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
+1.  在本项目 Github 仓库页面，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
 2.  修改 `config.yaml`。
 
     - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接，注释掉 `Local` 部分。
@@ -188,7 +187,7 @@ tags: ["Mihomo", "Windows", "Android"]
 0.  刷入 Box For Root，无需立刻重启。
 1.  修改 `config.yaml`。（参考 Windows 配置流程）
 2.  下载 mihomo android 版本内核，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
-3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)`, `geoip.metadb` 到 `/data/adb/box/calsh`.
+3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)` 到 `/data/adb/box/calsh`.
 4.  【可选】修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
 
     你也可以使用默认的 tproxy 模式，tproxy 模式可以仅代理（或不代理）指定的应用程序，具体设置参考 BFR 的文档。
@@ -199,8 +198,9 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ### 注意事项
 
-1.  在 APatch、KernelSU、Magisk 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
-2.  Log 文件在 `/data/adb/box/run` 文件夹中。
+1.  在 APatch、KernelSU 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
+2.  在 Magisk 的模块管理界面, 可以通过操作按钮开关代理。
+3.  Log 文件在 `/data/adb/box/run` 文件夹中。
 
 ## 规则配置
 
@@ -241,4 +241,4 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ## WARNING
 
-这是实现 Tun 模式的简单配置，更多定制功能请参考官方文档。
+这是实现 Tun 模式的简单配置，使用默认 DNS，使用 MetaCubeX 默认规则集，更多定制功能请参考官方文档。
