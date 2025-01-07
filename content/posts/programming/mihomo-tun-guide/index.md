@@ -88,18 +88,11 @@ tags: ["Mihomo", "Windows", "Android"]
 1.  在本项目 Github 仓库页面，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
 2.  修改 `config.yaml`。
 
-    - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接，注释掉 `Local` 部分。
+    - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接，注释掉 `Local` 部分。可以添加多个订阅。
 
       `config.yaml`文件片段示例：
 
       ```yaml
-      used-in-proxy-groups: &used-in-proxy-groups
-        type: select
-        use:
-          # 注释掉 Local
-          # - Local
-          - Subscription
-
       proxy-providers:
         # 注释掉 Local 部分
         # Local:
@@ -114,6 +107,16 @@ tags: ["Mihomo", "Windows", "Android"]
           type: http
           # 订阅链接填这
           url: https://your.subscription.url
+          path: ./proxies/Subscription.yaml
+          health-check:
+            enable: true
+            url: http://www.gstatic.com/generate_204
+            interval: 7200
+
+        Subscription2:
+          type: http
+          # 订阅链接填这
+          url: https://your.subscription.url.2
           path: ./proxies/Subscription.yaml
           health-check:
             enable: true
