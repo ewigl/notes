@@ -31,7 +31,7 @@ tags: ["Github"]
 
 #### Secrets
 
-1. **COOKIE**: 打开 HIFINI 网站控制台，输入`document.cookie`，回车获取。（不包含引号）
+1. **COOKIE**: 打开 HIFINI 网站并登陆账号。打开浏览器控制台，输入`document.cookie`，回车获取。（不包含引号）
 
 ![02](/notes/posts/programming/github-actions/images/02.png)
 
