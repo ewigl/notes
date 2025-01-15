@@ -5,8 +5,8 @@ date: 2024-12-05
 cover:
   image: "images/shared/keyboard-light.webp"
   alt: "Cover"
-summary: "Mihomo Tun 模式配置，用于 Windows 和 Android 设备。包含简单的自定义规则。"
-description: "Mihomo Tun 模式配置，用于 Windows 和 Android 设备。包含简单的自定义规则。"
+summary: "Mihomo Tun 模式配置，用于 Windows 和 Android 设备。包含自定义规则。"
+description: "Mihomo Tun 模式配置，用于 Windows 和 Android 设备。包含自定义规则。"
 
 tags: ["Mihomo", "Windows", "Android"]
 ---
@@ -37,14 +37,6 @@ tags: ["Mihomo", "Windows", "Android"]
 | [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)      | Web UI 控制台                       |
 | [Box for Root](https://github.com/taamarin/box_for_magisk/releases) | Android Apatch/KernelSU/Magisk 模块 |
 
-## 准备
-
-### Windows
-
-1. 下载 Mihomo Windows 内核。
-
-### Android
-
 1. 通过 Magisk / KernelSU / Apatch 获取设备 root 权限。
 2. 下载 `Box for Root`。
 3. 下载 Mihomo Android 内核。
@@ -56,6 +48,11 @@ tags: ["Mihomo", "Windows", "Android"]
 3. 按照目录结构整理好现有文件。
 
 ## Windows 配置
+
+1. 下载 [ewigl/mihomo](https://github.com/ewigl/mihomo)。在项目 Github 仓库页面，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
+2. 下载 [Mihomo Windows](https://github.com/MetaCubeX/mihomo/releases) 内核（mihomo-windows-amd64-v\*\*\*.zip）并解压缩。
+3. 下载 [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)，解压缩放到 Mihomo 目录。
+4. 整理现有文件到如下目录结构。
 
 ### 目录结构
 
@@ -79,14 +76,12 @@ tags: ["Mihomo", "Windows", "Android"]
     │   ├── Local.yaml
     │   └── ...
     └── ruleset/
-        ├── proxy.yaml
         └── ...
 ```
 
 ### 配置流程
 
-1.  在本项目 Github 仓库页面，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
-2.  修改 `config.yaml`。
+1.  修改 `config.yaml`。
 
     - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接，注释掉 `Local` 部分。可以添加多个订阅。
 
@@ -151,10 +146,10 @@ tags: ["Mihomo", "Windows", "Android"]
           }
       ```
 
-3.  在 `mihomo-windows-amd64.exe` 上右键 -> 属性 -> 兼容性，勾选“以管理员权限身份运行此程序” **（Tun 模式需要管理员权限）**。
-4.  双击 `mihomo.start.vbs` 运行。
-5.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
-6.  默认密码：`998486`，可在 `config.yaml` 中修改。
+2.  在 `mihomo-windows-amd64.exe` 上右键 -> 属性 -> 兼容性，勾选“以管理员权限身份运行此程序” **（Tun 模式需要管理员权限）**。
+3.  双击 `mihomo.start.vbs` 运行。
+4.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
+5.  默认密码：`998486`，可在 `config.yaml` 中修改。
 
 ### 开机自启
 
@@ -163,13 +158,20 @@ tags: ["Mihomo", "Windows", "Android"]
 3. 按需修改任务名称、**文件路径**、触发器、条件等等。
 4. **在“常规”选项卡中， 勾选“使用最高权限运行”**。（如果不设置此选项，每次启动会跳出 UAC 窗口）
 
-### 停止服务
+### 停止运行
 
 双击运行 `mihomo.stop.bat`。
 
 或打开任务管理器，结束 `mihomo-windows-amd64.exe`。
 
 ## Android 配置
+
+0. 下载 [Box for Root](https://github.com/taamarin/box_for_magisk/releases)，使用 Magisk/KernelSU/Apatch 刷入 Box For Root，**无需立刻重启**。
+1. 下载 [ewigl/mihomo](https://github.com/ewigl/mihomo)。在项目 Github 仓库页面，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
+2. 【Android】设备只需要项目中的 custom-rules 文件夹以及 config.yaml 文件。
+3. 下载 [Mihomo Android](https://github.com/MetaCubeX/mihomo/releases) 内核（mihomo-android-arm64-v8-v\*\*\*.gz）并解压缩得到一个无扩展名的文件。
+4. 下载 [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)，解压缩放到 Mihomo 目录。
+5. 整理现有文件到如下目录结构（需要重命名 `mihomo-android-arm64-v8` 为 `mihomo`，`/data/adb/box/`为绝对路径）。
 
 ### 目录结构
 
@@ -180,6 +182,7 @@ tags: ["Mihomo", "Windows", "Android"]
     │   └── xclash/
     │       └── mihomo
     └── clash/
+        ├── custom-rules/
         ├── metacubexd/
         ├── proxies/
         ├── ruleset/
@@ -188,17 +191,12 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ### 配置流程
 
-0.  刷入 Box For Root，无需立刻重启。
 1.  修改 `config.yaml`。（参考 Windows 配置流程）
-2.  下载 mihomo android 版本内核，解压缩并重命名为 `mihomo`。复制 `mihomo` 到 `/data/adb/box/bin/xclash`.
-3.  复制 `custom-rules`, `metacubexd`, `proxies(可选)` 到 `/data/adb/box/calsh`.
-4.  【可选】修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
+2.  【可选】修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。或者使用默认的 tproxy 模式，tproxy 模式可以仅代理（或不代理）指定的应用程序，具体设置参考 BFR 的文档。
 
-    你也可以使用默认的 tproxy 模式，tproxy 模式可以仅代理（或不代理）指定的应用程序，具体设置参考 BFR 的文档。
-
-5.  重启。
-6.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
-7.  默认密码：`998486`，可在 `config.yaml` 中修改。
+3.  重启。
+4.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
+5.  默认密码：`998486`，可在 `config.yaml` 中修改。
 
 ### 注意事项
 
