@@ -28,25 +28,6 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ![01](/notes/posts/programming/mihomo-tun-guide/images/01.png)
 
-## 链接
-
-| 项目                                                                | 说明                                |
-| ------------------------------------------------------------------- | ----------------------------------- |
-| [ewigl/mihomo](https://github.com/ewigl/mihomo)                     | Tun 模式配置 (本项目)               |
-| [Mihomo](https://github.com/MetaCubeX/mihomo/releases)              | Mihomo 内核                         |
-| [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)      | Web UI 控制台                       |
-| [Box for Root](https://github.com/taamarin/box_for_magisk/releases) | Android Apatch/KernelSU/Magisk 模块 |
-
-1. 通过 Magisk / KernelSU / Apatch 获取设备 root 权限。
-2. 下载 `Box for Root`。
-3. 下载 Mihomo Android 内核。
-
-### 共通
-
-1. 下载本项目。
-2. 下载 `metacubexd`。
-3. 按照目录结构整理好现有文件。
-
 ## Windows 配置
 
 1. 下载 [ewigl/mihomo](https://github.com/ewigl/mihomo)。在项目 Github 仓库页面，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
