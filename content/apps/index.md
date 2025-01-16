@@ -90,18 +90,12 @@ date: 2024-12-15
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 - [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext)
 
-## Wishlist
+## WaitList
 
 ### Api
 
 - [Bruno](https://github.com/usebruno/bruno)
 - [Hoppscotch](https://github.com/hoppscotch/hoppscotch)
-
-### Browser
-
-- [Ladybird](https://github.com/LadybirdBrowser/ladybird)
-
-### Downloader
 
 ### IM
 

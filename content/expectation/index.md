@@ -1,6 +1,6 @@
 ---
 title: 期望 🌟
-date: 2024-12-20
+date: 2025-01-16
 ---
 
 ## 动漫
@@ -13,9 +13,15 @@ date: 2024-12-20
 
 ## 游戏 (Not on Steam)
 
-| 标题                 | 时间                             | 信息                                                                                                                                                                       |
-| -------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GTA VI               | -                                | [Trailer](https://www.youtube.com/watch?v=QdBZY2fkU-0)                                                                                                                     |
-| Skyblivion           | 2025                             | [BlueSky](https://bsky.app/profile/skyblivion.com/post/3lemhpynqos27) [X](https://x.com/TESRSkyblivion/status/1874130163434479738) [YouTube](https://youtu.be/LwUibq6wBn4) |
-| The Elder Scrolls VI | -                                | [Teaser](https://www.youtube.com/watch?v=OkFdqqyI8y4)                                                                                                                      |
-| VaM2                 | 1st beta release on January 2025 | [Discord Channel](https://discord.com/channels/363274293112602636/909075760323629067) [Forum](https://hub.virtamate.com/wiki/vam2_updates/)                                |
+| 标题                 | 时间                                          | 信息                                                                                                                                                                       |
+| -------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GTA VI               | 2025 年登陆 PlayStation 5 和 Xbox Series X\|S | [Rockstar Games](https://www.rockstargames.com/zh/VI) [Trailer](https://www.youtube.com/watch?v=QdBZY2fkU-0)                                                               |
+| Skyblivion           | 2025                                          | [BlueSky](https://bsky.app/profile/skyblivion.com/post/3lemhpynqos27) [X](https://x.com/TESRSkyblivion/status/1874130163434479738) [YouTube](https://youtu.be/LwUibq6wBn4) |
+| The Elder Scrolls VI | -                                             | [Teaser](https://www.youtube.com/watch?v=OkFdqqyI8y4)                                                                                                                      |
+| VaM2                 | 1st beta release on January 2025              | [Discord Channel](https://discord.com/channels/363274293112602636/909075760323629067) [Forum](https://hub.virtamate.com/wiki/vam2_updates/)                                |
+
+## 应用
+
+| 标题     | 时间                                                               | 信息                                                  |
+| -------- | ------------------------------------------------------------------ | ----------------------------------------------------- |
+| Ladybird | targeting Summer 2026 for a first Alpha version on Linux and macOS | [GitHub](https://github.com/LadybirdBrowser/ladybird) |
