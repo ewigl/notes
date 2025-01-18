@@ -1,6 +1,6 @@
 ---
 title: 应用 📁
-date: 2024-12-15
+date: 2025-01-18
 description: 常用应用列表备份。
 ---
 
@@ -124,3 +124,4 @@ description: 常用应用列表备份。
 ## 系统 / 优化
 
 - [AtlasOS](https://github.com/Atlas-OS/Atlas)
+- [Ventory](https://github.com/ventoy/Ventoy)
