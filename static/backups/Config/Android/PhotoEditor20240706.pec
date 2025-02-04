@@ -1,0 +1,7 @@
+PhotoEditor:Config:1
+Window.ShowStatusBar	1
+Home.Save.GalleryFilename	IMG_{#date#}_{#time#}
+Home.Save.GalleryLocation	1:content://com.android.externalstorage.documents/tree/primary%3APictures%2FEdit
+Home.Tab	
+Theme	system
+Storage.Backup.Uri	content://com.android.externalstorage.documents/document/primary%3APictures%2FEdit%2FPhotoEditor20240706.pec
