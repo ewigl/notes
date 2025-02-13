@@ -13,13 +13,10 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ## 介绍
 
-> Github: https://github.com/ewigl/mihomo
+> Github 仓库: https://github.com/ewigl/mihomo
 
-- Tun 模式使用虚拟网卡，因此可以代理所有系统网络流量，包括 CLI 与 UWP 应用。
-- 相较于使用路由器进行局域网代理，Tun 模式不会影响局域网中其他设备，也不用额外设置网关。
-- Tun 模式对 PC 的性能影响几乎可以忽略不计。
-- Tun 模式 / 透明代理模式会略微增加 Android 设备耗电。优点是可以常驻代理，且无前台程序。
-- 无 GUI 软件，使用 Mihomo 内核自带 Tun 模式。使用浏览器通过 WebUI 控制代理设置。
+- 无需额外软件使用 Mihomo 的方法，默认使用 Mihomo 内核自带 Tun 模式。
+- 通过浏览器控制代理设置。
 - 内置常用规则。
 
 ## 预览
@@ -30,10 +27,9 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ## Windows 配置
 
-1. 下载 [ewigl/mihomo](https://github.com/ewigl/mihomo)。在项目 Github 仓库页面，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
-2. 下载 [Mihomo Windows](https://github.com/MetaCubeX/mihomo/releases) 内核（mihomo-windows-amd64-v\*\*\*.zip）并解压缩。
-3. 下载 [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)，解压缩放到 Mihomo 目录。
-4. 整理现有文件到如下目录结构。
+1. 从 [Release](https://github.com/ewigl/mihomo/releases/tag/latest) 下载 MihomoWindows.zip。
+2. 解压缩。
+3. 整理现有文件到如下目录结构。
 
 ### 目录结构
 
@@ -83,7 +79,6 @@ tags: ["Mihomo", "Windows", "Android"]
           type: http
           # 订阅链接填这
           url: https://your.subscription.url
-          path: ./proxies/Subscription.yaml
           health-check:
             enable: true
             url: http://www.gstatic.com/generate_204
@@ -93,7 +88,6 @@ tags: ["Mihomo", "Windows", "Android"]
           type: http
           # 订阅链接填这
           url: https://your.subscription.url.2
-          path: ./proxies/Subscription.yaml
           health-check:
             enable: true
             url: http://www.gstatic.com/generate_204
@@ -147,12 +141,11 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ## Android 配置
 
-0. 下载 [Box for Root](https://github.com/taamarin/box_for_magisk/releases)，使用 Magisk/KernelSU/Apatch 刷入 Box For Root，**无需立刻重启**。
-1. 下载 [ewigl/mihomo](https://github.com/ewigl/mihomo)。在项目 Github 仓库页面，点击 <font color="#1f883d">Code</font> -> Download ZIP 将项目下载到本地，解压缩。
-2. 【Android】设备只需要项目中的 custom-rules 文件夹以及 config.yaml 文件。
-3. 下载 [Mihomo Android](https://github.com/MetaCubeX/mihomo/releases) 内核（mihomo-android-arm64-v8-v\*\*\*.gz）并解压缩得到一个无扩展名的文件。
-4. 下载 [Metacubexd](https://github.com/MetaCubeX/metacubexd/releases)，解压缩放到 Mihomo 目录。
-5. 整理现有文件到如下目录结构（需要重命名 `mihomo-android-arm64-v8` 为 `mihomo`，`/data/adb/box/`为绝对路径）。
+0. 获取手机 Root 权限。
+1. 下载 [Box for Root](https://github.com/taamarin/box_for_magisk/releases)，使用 Magisk / KernelSU / Apatch 刷入 Box For Root，**无需立刻重启**。
+2. 从 [Release](https://github.com/ewigl/mihomo/releases/tag/latest) 下载 MihomoAndroid.zip。
+3. 解压缩。
+4. 整理现有文件到如下目录结构，`/data/adb/box/`为绝对路径）。
 
 ### 目录结构
 
