@@ -3,15 +3,18 @@ title: 期望 🌟
 date: 2025-01-16
 ---
 
-## 动漫
+## 影视
 
-| 标题                                                             | 时间       | 信息                                                                                                                     |
-| ---------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------ |
-| CITY: The Animation                                              | 2025       | [Official Site](https://city-the-animation.com/news/?id=1) [X](https://x.com/city_anime_info/status/1837465256358035620) |
-| 蓝光版《夏目友人帳 漆 5》 第十一話 ・第十二話 ・第十三話(特別編) | 2025.04.23 | [Bangumi](https://bangumi.tv/ep/1408770) [Aniplex](https://www.aniplex.co.jp/natsume/season7/)                           |
-| 葬送的芙丽莲 第二季                                              | -          | [Official Site](https://frieren-anime.jp/news/3262/) [YouTube](https://www.youtube.com/watch?v=DknvOzqQCTo)              |
+| 标题                                                             | 时间                             | 信息                                                                                                                     |
+| ---------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| CITY: The Animation                                              | 2025                             | [Official Site](https://city-the-animation.com/news/?id=1) [X](https://x.com/city_anime_info/status/1837465256358035620) |
+| 蓝光版《夏目友人帳 漆 5》 第十一話 ・第十二話 ・第十三話(特別編) | 2025.04.23                       | [Bangumi](https://bangumi.tv/ep/1408770) [Aniplex](https://www.aniplex.co.jp/natsume/season7/)                           |
+| 驯龙高手（真人电影）                                             | 2025 年 6 月 13 日（美国、台湾） | [Official Trailer](https://youtu.be/22w7z_lT6YM/)                                                                        |
+| 葬送的芙丽莲 第二季                                              | -                                | [Official Site](https://frieren-anime.jp/news/3262/) [YouTube](https://www.youtube.com/watch?v=DknvOzqQCTo)              |
 
-## 游戏 (Not on Steam)
+## 游戏
+
+> 暂无 Steam 页面的游戏
 
 | 标题                           | 时间                                          | 信息                                                                                                                                                                       |
 | ------------------------------ | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
