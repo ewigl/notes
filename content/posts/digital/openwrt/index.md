@@ -5,8 +5,8 @@ date: 2024-11-27
 cover:
   image: "images/shared/openwrt.webp"
   alt: "Cover"
-summary: OpenWrt 定制
-description: OpenWrt 定制
+summary: OpenWrt 自定义
+description: OpenWrt 自定义
 
 tags: ["Router", "OpenWrt"]
 ---
@@ -23,22 +23,10 @@ tags: ["Router", "OpenWrt"]
 luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn
 ```
 
-#### curl
-
-```
-curl
-```
-
 #### SmartDNS
 
 ```
 luci-app-smartdns luci-i18n-smartdns-zh-cn
-```
-
-#### Attended Sysupgrade
-
-```
-luci-app-attendedsysupgrade luci-i18n-attendedsysupgrade-zh-cn
 ```
 
 ### 自定义构建配置 (uci-defaults)
