@@ -1,12 +1,12 @@
 ---
-title: "下载 Steam Depot"
+title: "使用 Steam Console 下载 Depot"
 date: 2024-06-23
 
 cover:
   image: "images/shared/steam.webp"
   alt: "Cover"
-summary: "下载 Steam Depot"
-description: "下载 Steam Depot"
+summary: "下载旧版本游戏或者单独下载 DLC 等额外内容。"
+description: "下载旧版本游戏或者单独下载 DLC 等额外内容。"
 
 tags: ["Steam"]
 ---

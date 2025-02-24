@@ -1,5 +1,5 @@
 ---
-title: "OpenWrt"
+title: "OpenWrt 定制"
 date: 2025-02-20
 
 cover:

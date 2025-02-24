@@ -1,12 +1,12 @@
 ---
-title: "Xperia 1 V 手册"
+title: "索尼 Xperia 1 V 定制"
 date: 2024-09-15
 
 cover:
   image: "images/shared/android.webp"
   alt: "Cover"
-summary: Xperia 1 V 系统更新，Root，自定义等。
-description: Xperia 1 V 系统更新，Root，自定义等。
+summary: Xperia 1 V 系统更新，LineageOS，Root，自定义等。
+description: Xperia 1 V 系统更新，LineageOS，Root，自定义等。
 
 tags: ["Android"]
 ---
@@ -66,10 +66,14 @@ tags: ["Android"]
 
 ### 补充
 
-- 可使用 Magisk 获取 Root 权限。KernelSU 与 APatch 暂时不可用，原因不明。
+- 可使用 Magisk 修补 init_boot 获取 Root 权限。
+- KernelSU 暂时未知。
+- 使用 APatch 修补 boot 后刷入会导致屏幕触控失灵。使用 scrcpy 进入系统桌面发现 root 权限可以正常工作。
 - Play Integrity Fix 可用。
 
 ## 注意事项
+
+> 如果系统未正确识别以下模式，需要在设备管理器处手动指定驱动程序。
 
 - 音量上 + 电源 = Bootloader - 蓝色灯
 - 音量下 + 电源 = SOMC Flash Mode - 绿色灯

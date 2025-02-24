@@ -1,12 +1,12 @@
 ---
-title: "Github Actions"
+title: "Github Actions 简介"
 date: 2024-11-27
 
 cover:
   image: "images/shared/terminal.webp"
   alt: "Cover"
-summary: Github Actions 基本使用
-description: Github Actions 基本使用
+summary: Github Actions 基本使用。
+description: Github Actions 基本使用。
 
 tags: ["Github"]
 ---

@@ -1,5 +1,5 @@
 ---
-title: "隐藏 Windows 设置"
+title: "使用组策略隐藏 Windows 设置项"
 date: 2024-06-02T22:40:58+08:00
 
 cover:

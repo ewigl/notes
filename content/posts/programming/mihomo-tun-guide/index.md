@@ -1,5 +1,5 @@
 ---
-title: "Mihomo Tun 模式配置"
+title: "Mihomo 配置"
 date: 2024-12-05
 
 cover:
