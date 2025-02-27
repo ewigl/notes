@@ -47,39 +47,9 @@ tags: ["Android"]
 
 ## 3rd Party System
 
-### DerpFest [Unofficial](https://xdaforums.com/t/rom-14-0-unofficial-derpfest-14-for-xperia-1v-updated-06-28-2024-play-integrity-fixed.4657958/)
-
-Version: 0625
-
-Features:
-
-| Feature                   | Detail    |
-| ------------------------- | --------- |
-| Creator Mode              | ✓         |
-| 4K Fullscreen             | ✓         |
-| 120HZ Refresh Rate Global | ✓         |
-| Pro Apps                  | ApkMirror |
-| Dolby Audio               | ✓         |
-| Camera Button Fast Start  | ✓         |
-| GApps                     | ✓         |
-| Face Unlock               | ✓         |
-| Customization             | Rich      |
-
-Bug:
-| Bug | Detail |
-| ----------------------- | --------- |
-| Theme Colors Unmatch | Status Bar etc |
-| Dolby Audio Volume unstabel | solved by... turn it off |
-| Default Notifactions and Rings HAVE no sound | added music works |
-
-PS:
-
-- root included by default, offers no root version boot.img.
-- Play Integrity Fixed by Module.
-
 ### LineageOS [Official](https://wiki.lineageos.org/devices/pdx234/)
 
-Version: 0728
+Version: Latest
 
 Features:
 
@@ -102,12 +72,11 @@ Bug:
 | Some Bank Apps Not work                                    | Chinese Apps Reinforcement     |
 | Fingerprint Indicator on wrong location                    | Full Resulotion (4K) Mode only |
 | Need to back twice in Message app to back to previous view | Full Resulotion (4K) Mode only |
-| Message app's notifaction bar has no "read" button         | or it is meant to be?          |
+| cant recive messages sometime                              | reboot to fix                  |
 
 PS:
 
-- No Ksu Support, can be rooted by falshing boot.img provided by DerpFest.
-- can be rooted by APatch.
+- can be rooted by Magisk init_boot.
 - Play Integrity Fixed by modules.
 
 ## Notes

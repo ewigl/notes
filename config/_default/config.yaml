@@ -104,9 +104,6 @@ languages:
         - name: Apps 📁
           url: apps/
           weight: 40
-        - name: Expectation 🌟
-          url: expectation/
-          weight: 50
         - name: About ♏
           url: about/
           weight: 60
