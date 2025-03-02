@@ -23,10 +23,16 @@ tags: ["Router", "OpenWrt"]
 luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn
 ```
 
+### Iperf3
+
+```
+iperf3
+```
+
 #### SmartDNS
 
 ```
-luci-app-smartdns luci-i18n-smartdns-zh-cn
+luci-i18n-smartdns-zh-cn
 ```
 
 ### 自定义构建配置 (uci-defaults)
