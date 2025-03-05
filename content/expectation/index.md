@@ -12,7 +12,7 @@ description: Living Hope.
 | 孤独摇滚 第二季                                                  | -                        | [Official Site](https://bocchi.rocks/omnibus/news/?article_id=67179) [X](https://x.com/BTR_anime/status/1890727010978132322) |
 | 蓝光版《夏目友人帳 漆 5》 第十一話 ・第十二話 ・第十三話(特別編) | 2025.04.23               | [Official Site](https://www.aniplex.co.jp/natsume/season7/)                                                                  |
 | 驯龙高手（真人电影）                                             | 2025.06.13（美国、台湾） | [YouTube](https://youtu.be/22w7z_lT6YM/)                                                                                     |
-| 葬送的芙丽莲 第二季                                              | -                        | [Official Site](https://frieren-anime.jp/news/3262/) [YouTube](https://www.youtube.com/watch?v=DknvOzqQCTo)                  |
+| 葬送的芙丽莲 第二季                                              | 2026.01                  | [Official Site](https://frieren-anime.jp/) [YouTube](https://www.youtube.com/watch?v=-xW3fjM26vY)                            |
 
 ## 游戏
 
