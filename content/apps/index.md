@@ -9,7 +9,7 @@ description: 常用应用列表备份。
 ### 基础应用
 
 - [7zip](https://www.7-zip.org/) / [NanaZip](https://github.com/M2Team/NanaZip)
-- [Adobe Series](https://w14.monkrus.ws/)
+- [Adobe Series](https://vk.com/monkrus)
   - Ps
   - Pr
   - Au
