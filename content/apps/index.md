@@ -13,9 +13,9 @@ description: 常用应用列表备份。
   - Ps
   - Pr
   - Au
-- [Calibre](https://calibre-ebook.com/download_windows)
+- [Calibre](https://calibre-ebook.com/download)
 - [Chrome](https://www.google.com/chrome/)
-- [Firefox](https://www.mozilla.org/zh-CN/firefox/all/) (备用)
+- [Firefox](https://www.mozilla.org/zh-CN/firefox/all/)
 - [foobar2000](https://www.foobar2000.org/)
   - [ESLyric](https://github.com/ESLyric/release)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
@@ -29,6 +29,7 @@ description: 常用应用列表备份。
 - [qBittorrent](https://www.qbittorrent.org/)
 - [Steam](https://store.steampowered.com/about)
 - [Sublime Text](https://www.sublimetext.com/)
+  - [License Key](https://gist.github.com/skoqaq/3f3e8f28e23c881143cef9cf49d821ff)
 - [Telegram](https://telegram.org/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 - [VS Code](https://code.visualstudio.com/download)
@@ -64,7 +65,7 @@ description: 常用应用列表备份。
 #### 创作
 
 - [Blender](https://www.blender.org/download/)
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) (AI)
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 - [MS365 E5 Renew Plus](https://e5renew.com/)
 - [Mocreak](https://github.com/OdysseusYuan/Mocreak) / [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)
 
@@ -75,6 +76,7 @@ description: 常用应用列表备份。
 - [LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit) (Lenovo Legion Only)
 - [RePKG](https://github.com/notscuffed/repkg/releases)
 - [Rufus](https://github.com/pbatard/rufus/releases)
+- [Ventory](https://github.com/ventoy/Ventoy)
 
 #### 影音
 
@@ -84,7 +86,7 @@ description: 常用应用列表备份。
 #### 游戏
 
 - [CheatEngine](https://cheatengine.org/)
-- [Ryujinx](https://github.com/GreemDev/Ryujinx)
+- [Ryujinx](https://github.com/Ryubing/)
 
 ## Android
 
@@ -98,8 +100,8 @@ description: 常用应用列表备份。
 ### Root 权限 & 模块
 
 - [APatch](https://github.com/bmax121/APatch)
-- [Magisk](https://github.com/topjohnwu/Magisk)
 - [KernelSU](https://github.com/tiann/KernelSU)
+- [Magisk](https://github.com/topjohnwu/Magisk)
 
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
 - [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
@@ -124,4 +126,3 @@ description: 常用应用列表备份。
 ## 系统 / 优化
 
 - [AtlasOS](https://github.com/Atlas-OS/Atlas)
-- [Ventory](https://github.com/ventoy/Ventoy)
