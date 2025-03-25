@@ -8,7 +8,7 @@ description: Living Hope.
 
 | 标题                                                             | 时间                     | 信息                                                                                                                         |
 | ---------------------------------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| CITY: The Animation                                              | 2025.07                  | [Official Site](https://city-the-animation.com/news/?id=12) [X](https://x.com/city_anime_info)                               |
+| CITY: The Animation                                              | 2025.07.06               | [Official Site](https://city-the-animation.com/news/?id=12) [X](https://x.com/city_anime_info)                               |
 | 孤独摇滚 第二季                                                  | -                        | [Official Site](https://bocchi.rocks/omnibus/news/?article_id=67179) [X](https://x.com/BTR_anime/status/1890727010978132322) |
 | 蓝光版《夏目友人帳 漆 5》 第十一話 ・第十二話 ・第十三話(特別編) | 2025.04.23               | [Official Site](https://www.aniplex.co.jp/natsume/season7/)                                                                  |
 | 驯龙高手（真人电影）                                             | 2025.06.13（美国、台湾） | [YouTube](https://youtu.be/22w7z_lT6YM/)                                                                                     |

@@ -18,6 +18,7 @@ tags: ["Github"]
 > - [HIFINI 音乐磁场 定时自动签到](https://github.com/ewigl/hifini-auto-checkin)
 > - [iKuuu 定时自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
 > - [PicACG 哔咔漫画 定时自动签到](https://github.com/ewigl/picacg-auto-checkin)
+> - [ZodGame 定时自动签到](https://github.com/ewigl/zodgame-auto-checkin)
 
 ## Fork 仓库
 
@@ -37,25 +38,35 @@ tags: ["Github"]
 
 ### 环境变量
 
-- **HIFINI 音乐磁场:**
+- **HIFINI 音乐磁场**
 
   Environment: `HIFINI`
 
-  Secrets: `COOKIE`(打开 HIFINI 网站并登陆账号。打开浏览器控制台，输入`document.cookie`，回车获取。不包含引号)
+  Secrets: `COOKIE`(打开 HIFINI 网站并登陆账号。打开浏览器控制台，输入 document.cookie，回车获取。不包含引号)
 
   ![02](/notes/posts/programming/github-actions/images/02.png)
 
-- **iKuuu:**
+- **iKuuu**
 
   Environment: `IKUUU`
 
-  Secrets: `EMAIL`(邮箱)，`PASSWD`(密码)，`HOST` (可以不配置，iKuuu 域名，默认是`ikuuu.one`)
+  Secrets: `EMAIL`(邮箱)，`PASSWD`(密码)，`HOST` (可以不配置，iKuuu 域名，默认是 ikuuu.one)
 
-- **PicAcg 哔咔漫画:**
+- **PicAcg 哔咔漫画**
 
   Environment: `PICACG`
 
   Secrets: `EMAIL`(邮箱)，`PASSWD`(密码)
+
+- **ZodGame**
+
+  Environment: `ZODGAME`
+
+  Secrets: `COOKIE`(不能使用 document.cookie 方式获取，必须从网络请求标头中获取。)，`FORMHASH`(打开 ZodGame 网站并登陆账号。打开浏览器控制台，输入 document.querySelector('[name=formhash]').value，回车获取。)
+
+  ![11](/notes/posts/programming/github-actions/images/11.png)
+
+  ![12](/notes/posts/programming/github-actions/images/12.png)
 
 ### 配置流程
 
