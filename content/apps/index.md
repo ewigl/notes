@@ -74,6 +74,7 @@ description: 常用应用列表备份。
 - [AdobeCreativeCloudCleanerTool](https://helpx.adobe.com/creative-cloud/kb/cc-cleaner-tool-installation-problems.html)
 - [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)
 - [LenovoLegionToolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit) (Lenovo Legion Only)
+- [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)
 - [RePKG](https://github.com/notscuffed/repkg/releases)
 - [Rufus](https://github.com/pbatard/rufus/releases)
 - [Ventory](https://github.com/ventoy/Ventoy)
