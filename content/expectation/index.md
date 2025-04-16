@@ -1,7 +1,7 @@
 ---
 title: 期望 🌟
-date: 2025-01-16
-description: Living Hope.
+date: 2025-04-16
+description: 未来可期。
 ---
 
 ## 影视
@@ -18,11 +18,10 @@ description: Living Hope.
 
 ## 游戏
 
-> 暂无 Steam 页面的游戏
-
 | 标题                           | 时间                                       | 信息                                                                                                                                                                       |
 | ------------------------------ | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | GTA VI                         | 2025 （PlayStation 5 和 Xbox Series X\|S） | [Rockstar Games](https://www.rockstargames.com/zh/VI) [Trailer](https://www.youtube.com/watch?v=QdBZY2fkU-0)                                                               |
+| 武士 零 DLC                    | -                                          | [Steam News](https://store.steampowered.com/news/app/460950/view/668329375662343343)                                                                                       |
 | Skyblivion                     | 2025                                       | [BlueSky](https://bsky.app/profile/skyblivion.com/post/3lemhpynqos27) [X](https://x.com/TESRSkyblivion/status/1874130163434479738) [YouTube](https://youtu.be/LwUibq6wBn4) |
 | The Elder Scrolls VI           | -                                          | [Teaser](https://www.youtube.com/watch?v=OkFdqqyI8y4)                                                                                                                      |
 | 影之刃 零 / Phantom Blade Zero | 2025 （年内公布发售日期）                  | [Bilibili](https://www.bilibili.com/video/BV1UpwaeNESx/)                                                                                                                   |
