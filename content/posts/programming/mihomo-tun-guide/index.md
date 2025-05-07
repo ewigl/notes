@@ -27,7 +27,7 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ## Windows 配置
 
-1. 从 [Release](https://github.com/ewigl/mihomo/releases/tag/latest) 下载 MihomoWindows.zip。
+1. 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 MihomoWindows.zip。
 2. 解压缩。
 3. 整理现有文件到如下目录结构。
 
@@ -143,7 +143,7 @@ tags: ["Mihomo", "Windows", "Android"]
 
 0. 获取手机 Root 权限。
 1. 下载 [Box for Root](https://github.com/taamarin/box_for_magisk/releases)，使用 Magisk / KernelSU / Apatch 刷入 Box For Root，**无需立刻重启**。
-2. 从 [Release](https://github.com/ewigl/mihomo/releases/tag/latest) 下载 MihomoAndroid.zip。
+2. 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 MihomoAndroid.zip。
 3. 解压缩。
 4. 整理现有文件到如下目录结构，`/data/adb/box/`为绝对路径。
 
