@@ -15,8 +15,8 @@ tags: ["Mihomo", "Windows", "Android"]
 
 > Github 仓库: https://github.com/ewigl/mihomo
 
-- 无需额外软件使用 Mihomo 的方法，默认使用 Mihomo 内核自带 Tun 模式。
-- 通过浏览器控制代理设置。
+- 单独运行 Mihomo 内核。
+- 通过浏览器管理代理。
 - 内置常用规则。
 
 ## 预览
@@ -174,8 +174,8 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ### 注意事项
 
-1.  在 APatch、KernelSU 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
-2.  在 Magisk 的模块管理界面, 可以通过操作按钮开关代理。
+1.  在 APatch 的模块管理界面，启用或停用该模块可以控制内核的启动、停止。无需重启，立即生效。
+2.  在 Magisk、KernelSU 的模块管理界面, 可以通过操作按钮开关代理。
 3.  Log 文件在 `/data/adb/box/run` 文件夹中。
 
 ## 规则配置
