@@ -27,6 +27,8 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ![02](/notes/posts/programming/mihomo-tun-guide/images/02.png)
 
+![03](/notes/posts/programming/mihomo-tun-guide/images/03.png)
+
 ## Windows 配置
 
 1. 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 MihomoWindows.zip。
