@@ -74,12 +74,12 @@ languages:
         - name: 应用 📁
           url: apps/
           weight: 40
-        - name: 番剧 📺
-          url: anime/
-          weight: 50
-        - name: 期望 🌟
-          url: expectation/
-          weight: 60
+        # - name: 番剧 📺
+        #   url: anime/
+        #   weight: 50
+        # - name: 期望 🌟
+        #   url: expectation/
+          # weight: 60
         - name: 关于 ♏
           url: about/
           weight: 70
