@@ -31,7 +31,7 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ## Windows 配置
 
-1. 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 MihomoWindows.zip。
+1. 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 windows-\*.zip。
 2. 解压缩。
 3. 整理现有文件到如下目录结构。
 
@@ -45,19 +45,15 @@ tags: ["Mihomo", "Windows", "Android"]
     ├── mihomo.start.vbs
     ├── Mihomo.Startup.xml
     ├── mihomo.stop.bat
-    ├── README.md
     ├── custom-rules/
     │   ├── direct.yaml
     │   ├── proxy.yaml
     │   └── reject.yaml
-    ├── metacubexd/
+    ├── zashboard/
     │   ├── index.html
     │   └── ...
-    ├── proxies/
-    │   ├── Local.yaml
-    │   └── ...
-    └── ruleset/
-        └── ...
+    └── proxies/
+        └── Local.yaml
 ```
 
 ### 配置流程
@@ -132,6 +128,8 @@ tags: ["Mihomo", "Windows", "Android"]
 
 ### 开机自启
 
+> 需注意设置正确的文件路径。
+
 1. 打开 Windows 任务计划程序
 2. 导入 `Mihomo.Startup.xml`，或新建一个任务来开机运行 `mihomo.start.vbs`.
 3. 按需修改任务名称、**文件路径**、触发器、条件等等。
@@ -147,7 +145,7 @@ tags: ["Mihomo", "Windows", "Android"]
 
 0. 获取手机 Root 权限。
 1. 下载 [Box for Root](https://github.com/taamarin/box_for_magisk/releases)，使用 Magisk / KernelSU / Apatch 刷入 Box For Root，**无需立刻重启**。
-2. 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 MihomoAndroid.zip。
+2. 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 android-\*.zip。
 3. 解压缩。
 4. 整理现有文件到如下目录结构，`/data/adb/box/`为绝对路径。
 
@@ -161,9 +159,8 @@ tags: ["Mihomo", "Windows", "Android"]
     │       └── mihomo
     └── clash/
         ├── custom-rules/
-        ├── metacubexd/
         ├── proxies/
-        ├── ruleset/
+        ├── zashboard/
         └── config.yaml
 ```
 
