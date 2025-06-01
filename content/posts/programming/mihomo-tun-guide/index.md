@@ -167,8 +167,7 @@ tags: ["Mihomo", "Windows", "Android"]
 ### 配置流程
 
 1.  修改 `config.yaml`。（参考 Windows 配置流程）
-2.  【可选】修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。或者使用默认的 tproxy 模式，tproxy 模式可以仅代理（或不代理）指定的应用程序，具体设置参考 BFR 的文档。
-
+2.  【可选】修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
 3.  重启。
 4.  控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
 5.  默认密码：`998486`，可在 `config.yaml` 中修改。
