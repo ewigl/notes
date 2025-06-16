@@ -105,7 +105,9 @@ description: 常用应用列表备份。
 - [Magisk](https://github.com/topjohnwu/Magisk)
 
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
-- [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
+- [Integrity-Box](https://github.com/MeowDump/Integrity-Box)
+- [~~PlayIntegrityFix~~](https://github.com/chiteroman/PlayIntegrityFix)
+- [TrickyStore](https://github.com/5ec1cff/TrickyStore)
 
 ## 等待列表
 
