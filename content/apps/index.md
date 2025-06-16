@@ -87,7 +87,7 @@ description: 常用应用列表备份。
 #### 游戏
 
 - [CheatEngine](https://cheatengine.org/)
-- [Ryujinx](https://github.com/Ryubing/)
+- [Ryujinx](https://github.com/Ryubing/) / [Git Repo](https://git.ryujinx.app/ryubing/ryujinx)
 
 ## Android
 
