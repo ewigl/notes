@@ -47,7 +47,7 @@ params:
 
   homeInfoParams:
     Title: Licht's Notes
-    Content: Welcome👋
+    Content: 👋 Welcome!
 
   socialIcons:
     - name: Github
@@ -79,7 +79,7 @@ languages:
         #   weight: 50
         # - name: 期望 🌟
         #   url: expectation/
-          # weight: 60
+        # weight: 60
         - name: 关于 ♏
           url: about/
           weight: 70
