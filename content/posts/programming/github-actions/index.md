@@ -1,5 +1,5 @@
 ---
-title: "Github Actions 自动任务"
+title: "Github Actions"
 date: 2025-03-23
 
 cover:
@@ -11,14 +11,14 @@ description: 无需个人服务器，利用 GitHub Actions 执行自动任务。
 tags: ["Github"]
 ---
 
-> 示例项目:
+> 示例:
 >
-> - ~~[HIFINI 音乐磁场 定时自动签到](https://github.com/ewigl/hifini-auto-checkin)~~
+> - [HIFITI 音乐磁场 定时自动签到](https://github.com/ewigl/hifiti-auto-checkin)
 > - [iKuuu 机场 定时自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
 > - [PicACG 哔咔漫画 定时自动签到](https://github.com/ewigl/picacg-auto-checkin)
 > - [ZodGame 定时自动签到](https://github.com/ewigl/zodgame-auto-checkin)
 
-## 示例项目用法
+## 用法
 
 ### 1. Fork 仓库
 
@@ -34,35 +34,25 @@ tags: ["Github"]
 
 ![03](/notes/posts/programming/github-actions/images/03.png)
 
-### 3. 配置环境变量
+### 3. 配置 Actions 变量
 
-在自己仓库的左上角找到 Settings 标签页，选择 Environments。新建一个环境。
+| Actions | Secrets         | 说明                                                                                                                         |
+| ------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| HIFITI  | COOKIES         | 多个账号 cookie 之间使用英文逗号`,`分隔。                                                                                    |
+| IKUUU   | EMAIL PASSWD    | 邮箱、密码。 可选 Secrets：HOST（iKuuu 域名，默认是 ikuuu.one）                                                              |
+| PICACG  | EMAIL PASSWD    | 邮箱、密码。                                                                                                                 |
+| ZODGAME | COOKIE FORMHASH | COOKIE 必须从网络请求标头中获取。FORMHASH 在浏览器控制台中输入 `document.querySelector('[name=formhash]').value`，回车获取。 |
 
-**仓库对应的环境：**
-
-| 项目            | 环境变量 |
-| --------------- | -------- |
-| iKuuu 机场      | IKUUU    |
-| PicACG 哔咔漫画 | PICACG   |
-| ZodGame         | ZODGAME  |
-
-![00](/notes/posts/programming/github-actions/images/00.png)
-
-点击新建的环境进入环境配置页面，在这里新建 Secrets 。
+在仓库的左上角找到 Settings 标签页，选择 Secrets and variables。新建 Actions 变量。
 
 ![01](/notes/posts/programming/github-actions/images/01.png)
 
-![07](/notes/posts/programming/github-actions/images/07.png)
+![02](/notes/posts/programming/github-actions/images/02.png)
 
-**环境对应的 Secrets：**
+<!-- ![11](/notes/posts/programming/github-actions/images/11.png)
+![12](/notes/posts/programming/github-actions/images/12.png) -->
 
-| 环境    | Secrets         | 说明                                                                                                                                                                                                                                                        |
-| ------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IKUUU   | EMAIL PASSWD    | 邮箱、密码。 可选 Secrets：HOST（iKuuu 域名，默认是 ikuuu.one）                                                                                                                                                                                             |
-| PICACG  | EMAIL PASSWD    | 邮箱、密码。                                                                                                                                                                                                                                                |
-| ZODGAME | COOKIE FORMHASH | COOKIE 必须从网络请求标头中获取。 ![11](/notes/posts/programming/github-actions/images/11.png) FORMHASH 需要打开浏览器控制台，输入 document.querySelector('[name=formhash]').value，回车获取。 ![12](/notes/posts/programming/github-actions/images/12.png) |
-
-## 示例项目 FAQ
+## FAQ
 
 ### 手动触发任务
 
