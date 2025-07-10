@@ -39,10 +39,8 @@ tags: ["Android"]
 
 ### 补充
 
-- 可使用 Magisk 修补 init_boot 获取 Root 权限，难以隐藏。
-- 可自主编译 KernelSU 内核获取 root 权限。
-- APatch 会导致屏幕触控失灵。相关 Issue： https://github.com/bmax121/APatch/issues/934
-- Integrity-Box 可用。
+- Magisk 可用，Apatch 可用。
+- KernelSU 需要自行编译。
 
 ## 注意事项
 
