@@ -13,7 +13,7 @@ tags: ["Github"]
 
 > 示例项目:
 >
-> - [HIFINI 音乐磁场 定时自动签到](https://github.com/ewigl/hifini-auto-checkin)
+> - ~~[HIFINI 音乐磁场 定时自动签到](https://github.com/ewigl/hifini-auto-checkin)~~
 > - [iKuuu 机场 定时自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
 > - [PicACG 哔咔漫画 定时自动签到](https://github.com/ewigl/picacg-auto-checkin)
 > - [ZodGame 定时自动签到](https://github.com/ewigl/zodgame-auto-checkin)
@@ -42,7 +42,6 @@ tags: ["Github"]
 
 | 项目            | 环境变量 |
 | --------------- | -------- |
-| HIFINI 音乐磁场 | HIFINI   |
 | iKuuu 机场      | IKUUU    |
 | PicACG 哔咔漫画 | PICACG   |
 | ZodGame         | ZODGAME  |
@@ -59,7 +58,6 @@ tags: ["Github"]
 
 | 环境    | Secrets         | 说明                                                                                                                                                                                                                                                        |
 | ------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HIFINI  | COOKIE          | 打开 HIFINI 网站并登陆账号。打开浏览器控制台，输入 document.cookie，回车获取。不包含引号。 ![02](/notes/posts/programming/github-actions/images/02.png)                                                                                                     |
 | IKUUU   | EMAIL PASSWD    | 邮箱、密码。 可选 Secrets：HOST（iKuuu 域名，默认是 ikuuu.one）                                                                                                                                                                                             |
 | PICACG  | EMAIL PASSWD    | 邮箱、密码。                                                                                                                                                                                                                                                |
 | ZODGAME | COOKIE FORMHASH | COOKIE 必须从网络请求标头中获取。 ![11](/notes/posts/programming/github-actions/images/11.png) FORMHASH 需要打开浏览器控制台，输入 document.querySelector('[name=formhash]').value，回车获取。 ![12](/notes/posts/programming/github-actions/images/12.png) |
