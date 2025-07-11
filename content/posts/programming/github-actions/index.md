@@ -36,13 +36,6 @@ tags: ["Github"]
 
 ### 3. 配置 Actions 变量
 
-| Actions | Secrets         | 说明                                                                                                                         |
-| ------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| HIFITI  | COOKIES         | 多个账号 cookie 之间使用英文逗号`,`分隔。                                                                                    |
-| IKUUU   | EMAIL PASSWD    | 邮箱、密码。 可选 Secrets：HOST（iKuuu 域名，默认是 ikuuu.one）                                                              |
-| PICACG  | EMAIL PASSWD    | 邮箱、密码。                                                                                                                 |
-| ZODGAME | COOKIE FORMHASH | COOKIE 必须从网络请求标头中获取。FORMHASH 在浏览器控制台中输入 `document.querySelector('[name=formhash]').value`，回车获取。 |
-
 在仓库的左上角找到 Settings 标签页，选择 Secrets and variables。新建 Actions 变量。
 
 ![01](/notes/posts/programming/github-actions/images/01.png)
