@@ -59,4 +59,6 @@ tags: ["Github"]
 
 修改 Checkin.yml 中的时间表即可，希望运行多次添加多行 crontab 即可。
 
+时区为 UTC。且 GitHub Actions 定时任务存在时间延迟。尽量避免将时间设置在高峰时段（零点、八点九点等整点时段）。
+
 ![10](/notes/posts/programming/github-actions/images/10.png)
