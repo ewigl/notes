@@ -1,0 +1,109 @@
+baseURL: https://ewigl.github.io/notes/
+title: Licht's Notes
+defaultContentLanguage: zh
+theme: PaperMod
+pagination:
+  # disableAliases: false
+  pagerSize: 8
+  # path: page
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    # - RSS
+    - JSON
+
+params:
+  author: Licht
+
+  cover:
+    # hidden: true # hide everywhere but not in structured data
+    # hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  ShowReadingTime: false
+  displayFullLangName: true
+  # hideSummary: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowPageNums: true
+  ShowToc: true
+
+  disableSpecial1stPost: true
+
+  hideFooter: true
+
+  assets:
+    favicon: ./favicon.ico
+
+  label:
+    text: Licht
+    icon: ./images/logo.png
+    iconHeight: 32
+
+  homeInfoParams:
+    Title: Licht's Notes
+    Content: 👋 Welcome!
+
+  socialIcons:
+    - name: Github
+      url: https://github.com/ewigl
+
+languages:
+  zh:
+    languageCode: zh
+    languageName: 中文
+    weight: 1
+    taxonomies:
+      tag: tags
+    menu:
+      main:
+        - name: 搜索 🔍
+          url: search/
+          weight: 10
+        - name: 归档 📚
+          url: archives/
+          weight: 20
+        - name: 标签 🔖
+          url: tags/
+          weight: 30
+        - name: 应用 📁
+          url: apps/
+          weight: 40
+        # - name: 番剧 📺
+        #   url: anime/
+        #   weight: 50
+        # - name: 期望 🌟
+        #   url: expectation/
+        # weight: 60
+        - name: 关于 ♏
+          url: about/
+          weight: 70
+
+  en:
+    languageCode: en
+    languageName: English
+    weight: 2
+    taxonomies:
+      tag: tags
+    menu:
+      main:
+        - name: Search 🔍
+          url: search/
+          weight: 10
+        - name: Archives 📚
+          url: archives/
+          weight: 20
+        - name: Tags 🔖
+          url: tags/
+          weight: 30
+        - name: Apps 📁
+          url: apps/
+          weight: 40
+        - name: About ♏
+          url: about/
+          weight: 60
