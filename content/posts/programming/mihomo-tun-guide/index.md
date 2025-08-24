@@ -17,7 +17,7 @@ https://github.com/ewigl/mihomo
 
 ## 预览
 
-![00](/notes/posts/programming/mihomo-tun-guide/images/00.png)
+<!-- ![00](/notes/posts/programming/mihomo-tun-guide/images/00.png) -->
 
 ![01](/notes/posts/programming/mihomo-tun-guide/images/01.png)
 
@@ -40,10 +40,6 @@ https://github.com/ewigl/mihomo
     ├── mihomo.start.vbs
     ├── Mihomo.Startup.xml
     ├── mihomo.stop.bat
-    ├── custom-rules/
-    │   ├── direct.yaml
-    │   ├── proxy.yaml
-    │   └── reject.yaml
     ├── zashboard/
     │   ├── index.html
     │   └── ...
@@ -55,68 +51,32 @@ https://github.com/ewigl/mihomo
 
 1.  修改 `config.yaml`。
 
-    - 如果使用订阅服务，在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接，注释掉 `Local` 部分。可以添加多个订阅。
+    - 添加订阅链接：在 `config.yaml` 文件中的 `Subscription` 中填上订阅链接，有多个订阅复制多份即可，名称不能重复。
 
       `config.yaml`文件片段示例：
 
       ```yaml
-      proxy-providers:
-        # 注释掉 Local 部分
-        # Local:
-        #   type: file
-        #   path: ./proxies/Local.yaml
-        #   health-check:
-        #     enable: true
-        #     url: http://www.gstatic.com/generate_204
-        #     interval: 7200
+      订阅1:
+        type: http
+        url: 这里填订阅链接
+        health-check:
+          enable: true
+          url: http://www.gstatic.com/generate_204
+          interval: 7200
 
-        Subscription:
-          type: http
-          url: 这里填订阅链接
-          health-check:
-            enable: true
-            url: http://www.gstatic.com/generate_204
-            interval: 7200
-
-        订阅名称随意，不重复即可:
-          type: http
-          url: 这里填订阅链接
-          health-check:
-            enable: true
-            url: http://www.gstatic.com/generate_204
-            interval: 7200
+      订阅10086:
+        type: http
+        url: 这里填订阅链接
+        health-check:
+          enable: true
+          url: http://www.gstatic.com/generate_204
+          interval: 7200
       ```
 
-    - 如果希望在本地存储节点信息，无需修改 `config.yaml`。创建 `proxies` 文件夹，在 `proxies` 内创建 `Local.yaml` 文件。`Local.yaml` 文件内容可以通过 [ACL4SSR](https://acl4ssr-sub.github.io/) 等订阅转换服务获得（勾选“仅输出节点信息”）。
-
-      `Local.yaml` 文件内容示例：
-
-      ```yaml
-      proxies:
-        - {
-            name: 🇭🇰 HongKong Example,
-            server: hongkong.server.example,
-            port: 12345,
-            type: ss,
-            cipher: chacha20-ietf-poly1305,
-            password: 123456789,
-            udp: true,
-          }
-        - {
-            name: 🇭🇰 HongKong 示例,
-            server: 香港.节点.示例,
-            port: 12345,
-            type: ss,
-            cipher: chacha20-ietf-poly1305,
-            password: 123456789,
-            udp: true,
-          }
-      ```
-
-1.  在 `mihomo-windows-amd64.exe` 上右键 -> 属性 -> 兼容性，勾选“以管理员权限身份运行此程序” **（Tun 模式需要管理员权限）**。
-1.  双击 `mihomo.start.vbs` 运行。
-1.  浏览器访问控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
-1.  默认密码：`998486`，可在 `config.yaml` 中修改。
+2.  在 `mihomo-windows-amd64.exe` 上右键 -> 属性 -> 兼容性，勾选“以管理员权限身份运行此程序” **（Tun 模式需要管理员权限）**。
+3.  双击 `mihomo.start.vbs` 运行。
+4.  浏览器访问控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
+5.  默认密码：`998486`，可在 `config.yaml` 中修改。
 
 ### 开机自启
 
@@ -150,7 +110,6 @@ https://github.com/ewigl/mihomo
     │   └── xclash/
     │       └── mihomo
     └── clash/
-        ├── custom-rules/
         ├── proxies/
         ├── zashboard/
         └── config.yaml
@@ -168,35 +127,6 @@ https://github.com/ewigl/mihomo
 
 2.  在 APatch、Magisk、KernelSU 的模块管理界面, 可以通过“执行”按钮开关 mihomo。
 3.  Log 文件在 `/data/adb/box/run` 文件夹中。
-
-## 规则配置
-
-- 自定义规则具有最高优先级，可以按照需求修改。规则位于 `custom-rules` 目录内，修改后在 WebUI 刷新规则即可生效。规则示例：
-
-  - 直连：`direct.yaml`
-
-    ```yaml
-    payload:
-      # 强制 Steam 登陆服务器 steamserver.net 直连，影响 Steam 选择下载服务器。
-      - "+.steamserver.net"
-    ```
-
-  - 代理：`proxy.yaml`
-
-    ```yaml
-    payload:
-      # 强制 Kox Moe 走代理。
-      - "+.kox.moe"
-      - "+.mxomo.com"
-    ```
-
-  - 拒绝：`reject.yaml`
-
-    ```yaml
-    payload:
-      # 强制拦截 Adobe.IO 相关请求。
-      - "+.adobe.io"
-    ```
 
 ## WARNING
 
