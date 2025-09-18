@@ -39,7 +39,7 @@ tags: ["Android"]
 
 ### 补充
 
-- Magisk 可用，Apatch 可用。
+- Magisk 可用，Apatch 不可用。
 - KernelSU 需要自行编译。
 
 ## 注意事项
