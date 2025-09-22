@@ -1,6 +1,6 @@
 ---
 title: 应用 📁
-date: 2025-01-18
+date: 2025-09-22
 description: 常用应用列表备份。
 ---
 
@@ -15,7 +15,6 @@ description: 常用应用列表备份。
   - Au
 - [Calibre](https://calibre-ebook.com/download)
 - [Chrome](https://www.google.com/chrome/)
-- [Firefox](https://www.mozilla.org/zh-CN/firefox/all/)
 - [foobar2000](https://www.foobar2000.org/)
   - [ESLyric](https://github.com/ESLyric/release)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
@@ -29,16 +28,13 @@ description: 常用应用列表备份。
 - [qBittorrent](https://www.qbittorrent.org/)
 - [Steam](https://store.steampowered.com/about)
 - [Sublime Text](https://www.sublimetext.com/)
-  - [License Key](https://gist.github.com/skoqaq/3f3e8f28e23c881143cef9cf49d821ff)
 - [Telegram](https://telegram.org/)
 - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 - [VS Code](https://code.visualstudio.com/download)
 
 ### 便携应用
 
-- [CCleaner - Portable](https://www.ccleaner.com/ccleaner/builds)
 - [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
-- [realesrgan-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
 - [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
 - [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/download.html)
 - [Winaero Tweaker](https://winaerotweaker.com/)
@@ -65,8 +61,6 @@ description: 常用应用列表备份。
 #### 创作
 
 - [Blender](https://www.blender.org/download/)
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
-- [MS365 E5 Renew Plus](https://e5renew.com/)
 - [Mocreak](https://github.com/OdysseusYuan/Mocreak) / [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)
 
 #### 工具
@@ -95,36 +89,22 @@ description: 常用应用列表备份。
 
 - [F-Droid](https://f-droid.org/)
 - [KOReader](https://github.com/koreader/koreader/releases)
-- [Lucky Patcher](http://chelpus.com/luckypatcher/)
 - [Shelter](https://f-droid.org/packages/net.typeblog.shelter/)
 
 ### Root 权限 & 模块
 
 - [APatch](https://github.com/bmax121/APatch)
 - [KernelSU](https://github.com/tiann/KernelSU)
-- [Magisk](https://github.com/topjohnwu/Magisk)
 
 - [Box for Root](https://github.com/taamarin/box_for_magisk)
-- [Integrity-Box](https://github.com/MeowDump/Integrity-Box)
-- [~~PlayIntegrityFix~~](https://github.com/chiteroman/PlayIntegrityFix)
+
+#### Integrity
+
 - [TrickyStore](https://github.com/5ec1cff/TrickyStore)
-
-## 等待列表
-
-> 等待体验
-
-### Api 工具
-
-- [Bruno](https://github.com/usebruno/bruno)
-- [Hoppscotch](https://github.com/hoppscotch/hoppscotch)
-
-### 即时通讯
-
-- [SimpleX](https://github.com/simplex-chat/simplex-chat)
-
-### 网络社交
-
-- [Matrix](https://matrix.org/)
+- TrickyStore Addon
+- Play integrity Fix [Inject]
+- ReZygisk
+- Yuri Keybox Manager
 
 ## 系统 / 优化
 

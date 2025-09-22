@@ -1,6 +1,6 @@
 ---
 title: "索尼 Xperia 1 V 定制"
-date: 2024-09-15
+date: 2024-09-22
 
 cover:
   image: "images/shared/android.webp"
@@ -39,8 +39,8 @@ tags: ["Android"]
 
 ### 补充
 
-- Magisk 可用，Apatch 不可用。
-- KernelSU 需要自行编译。
+- Apatch 不可用。kernelSU 需自编译。
+- 使用音量上下 + 电源键强制重启。
 
 ## 注意事项
 
