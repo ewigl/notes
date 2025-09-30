@@ -113,8 +113,6 @@ echo "All done!"
 
 ### 注意事项
 
-- ~~AX3000T 新版本（生产日期约为 202408 后的批次）硬件不同，系统出厂版本为 1.0.84 +，暂无 OpenWrt 可用。~~
-- v24.10.0 已更新硬件支持 https://openwrt.org/inbox/toh/xiaomi/ax3000t#hardware_support_status
 - 使用 XMiR-Patcher 备份过程中可能出现 Timed Out 的问题。
 
   解决方法：[GitHub Issue](https://github.com/openwrt-xiaomi/xmir-patcher/issues/9#issuecomment-2209618296)。
@@ -129,8 +127,8 @@ echo "All done!"
 ### 注意事项
 
 - 5G WIFI - 高级设置 - 国家代码设置为 US。
-- 信号覆盖密度酌情设置（前进四）。
-- 常规设置最大传输功率可选 24 dBm 或自动（前进四）。
+- 信号覆盖密度酌情设置。
+- 常规设置最大传输功率可选 24 dBm 或自动。
 - 选择 AU 等国家代码可能会因为频率过高 (超过 6GHZ) 导致搜索不到 5G 信号。
 
 ## 其他 PKG
