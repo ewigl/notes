@@ -17,22 +17,10 @@ tags: ["Router", "OpenWrt"]
 
 ### 可选 PKG
 
-#### 中文语言
+#### 中文语言、iperf3、SmartDNS
 
 ```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn
-```
-
-### Iperf3
-
-```
-iperf3
-```
-
-#### SmartDNS
-
-```
-luci-i18n-smartdns-zh-cn
+luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn iperf3 luci-i18n-smartdns-zh-cn
 ```
 
 ### 自定义构建配置 (uci-defaults)
