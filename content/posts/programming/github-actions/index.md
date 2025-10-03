@@ -5,8 +5,8 @@ date: 2025-03-23
 cover:
   image: "images/shared/terminal.webp"
   alt: "Cover"
-summary: 无需个人服务器，利用 GitHub Actions 执行自动任务。
-description: 无需个人服务器，利用 GitHub Actions 执行自动任务。
+summary: 利用 GitHub Actions 执行自动任务。
+description: 利用 GitHub Actions 执行自动任务。
 
 tags: ["Github"]
 ---

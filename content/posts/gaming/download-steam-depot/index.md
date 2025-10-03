@@ -1,5 +1,5 @@
 ---
-title: "使用 Steam Console 下载 Depot"
+title: "使用 Steam Console 下载 Depots"
 date: 2024-06-23
 
 cover:

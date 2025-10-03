@@ -1,5 +1,5 @@
 ---
-title: "OpenWrt 定制编译过程"
+title: "OpenWrt 自定义"
 date: 2025-02-20
 
 cover:

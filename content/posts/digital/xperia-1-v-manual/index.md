@@ -1,5 +1,5 @@
 ---
-title: "索尼 Xperia 1 V 定制"
+title: "索尼 Xperia 1 V 自定义"
 date: 2024-09-22
 
 cover:
