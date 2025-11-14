@@ -17,11 +17,11 @@ https://github.com/ewigl/mihomo
 
 ## 预览
 
-<!-- ![00](/notes/posts/programming/mihomo-tun-guide/images/00.png) -->
+![00](/notes/posts/programming/mihomo-tun-guide/images/00.png)
 
 ![01](/notes/posts/programming/mihomo-tun-guide/images/01.png)
 
-![02](/notes/posts/programming/mihomo-tun-guide/images/02.png)
+<!-- ![02](/notes/posts/programming/mihomo-tun-guide/images/02.png) -->
 
 ![03](/notes/posts/programming/mihomo-tun-guide/images/03.png)
 
@@ -76,7 +76,6 @@ https://github.com/ewigl/mihomo
 2.  在 `mihomo-windows-amd64.exe` 上右键 -> 属性 -> 兼容性，勾选“以管理员权限身份运行此程序” **（Tun 模式需要管理员权限）**。
 3.  双击 `mihomo.start.vbs` 运行。
 4.  浏览器访问控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
-5.  默认密码：`998486`，可在 `config.yaml` 中修改。
 
 ### 开机自启
 
@@ -121,7 +120,6 @@ https://github.com/ewigl/mihomo
 2.  【可选】修改 `/data/adb/box` 中的 `settings.ini`，将 `network_mode` 设置为 “tun”。
 3.  重启。
 4.  浏览器访问控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
-5.  默认密码：`998486`，可在 `config.yaml` 中修改。
 
 ### 注意事项
 
