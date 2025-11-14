@@ -39,7 +39,9 @@ tags: ["Android"]
 
 ### Root
 
-- SukiSU Ultra: [XDA](https://xdaforums.com/t/kernel-lineageos-23-0-16-0-pdx234-pdx237-sukisu-ultra-susfs-custom-kernel-for-sony-xperia-1-v-5-v.4763763/#post-90337572), [GitHub](https://github.com/spacealtctrl/a16_sony_sm8550_SukiSU_SUSFS)
+- SukiSU Ultra: [XDA](https://xdaforums.com/posts/90326019/), [GitHub](https://github.com/spacealtctrl/a16_sony_sm8550_SukiSU_SUSFS)
+- APatch 待测试。
+- Magisk 待测试。
 
 ## 备注
 
