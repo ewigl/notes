@@ -1,12 +1,12 @@
 ---
-title: "OpenWrt 自定义"
+title: "OpenWrt"
 date: 2025-02-20
 
 cover:
   image: "images/shared/openwrt.webp"
   alt: "Cover"
-summary: OpenWrt 自定义
-description: OpenWrt 自定义
+summary: OpenWrt 相关记录
+description: OpenWrt 相关记录
 
 tags: ["Router", "OpenWrt"]
 ---
@@ -15,7 +15,7 @@ tags: ["Router", "OpenWrt"]
 
 [https://firmware-selector.openwrt.org/](https://firmware-selector.openwrt.org/)
 
-### 可选 PKG
+### 自定义 PKG
 
 #### 中文语言、iperf3、SmartDNS
 
@@ -23,7 +23,7 @@ tags: ["Router", "OpenWrt"]
 luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn iperf3 luci-i18n-smartdns-zh-cn
 ```
 
-### 自定义构建配置 (uci-defaults)
+### 自定义初始化脚本 (uci-defaults)
 
 ```sh
 # Beware! This script will be in /rom/etc/uci-defaults/ as part of the image.
@@ -109,17 +109,16 @@ echo "All done!"
 
 ### UBoot 刷入
 
-- 同样参考 OP 官方 Wiki。
-- 使用 scp 命令在电脑与路由器之间拷贝文件时使用 `-O` 参数。
+- 参考 OP 官方 Wiki。使用 scp 命令在电脑与路由器之间简单拷贝文件时注意使用 `-O` 参数。
 
-### 注意事项
+### 可选设置
 
 - 5G WIFI - 高级设置 - 国家代码设置为 US。
 - 信号覆盖密度酌情设置。
 - 常规设置最大传输功率可选 24 dBm 或自动。
-- 选择 AU 等国家代码可能会因为频率过高 (超过 6GHZ) 导致搜索不到 5G 信号。
+- 选择 AU 等国家代码可能会因为频率过高 (超过 6GHZ) 导致终端设备搜索不到 5G 信号。
 
-## 其他 PKG
+## 其他 PKG 备注
 
 ### OpenWrt-nikki
 
