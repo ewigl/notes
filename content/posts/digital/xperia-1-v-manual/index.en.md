@@ -39,7 +39,7 @@ Version: `Latest`
 ### Root
 
 - SukiSU Ultra: [XDA](https://xdaforums.com/posts/90326019/), [GitHub](https://github.com/spacealtctrl/a16_sony_sm8550_SukiSU_SUSFS)
-- APatch not tested yet.
+- APatch.
 - Magisk not tested yet.
 
 ## Notes

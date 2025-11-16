@@ -39,8 +39,8 @@ tags: ["Android"]
 
 ### Root
 
-- SukiSU Ultra: [XDA](https://xdaforums.com/posts/90326019/), [GitHub](https://github.com/spacealtctrl/a16_sony_sm8550_SukiSU_SUSFS)
-- APatch 待测试。
+- [SukiSU Ultra](https://github.com/sukisu-ultra/sukisu-ultra): [XDA](https://xdaforums.com/posts/90326019/), [GitHub](https://github.com/spacealtctrl/a16_sony_sm8550_SukiSU_SUSFS)
+- [APatch](https://github.com/bmax121/APatch) 正常。
 - Magisk 待测试。
 
 ## 备注
