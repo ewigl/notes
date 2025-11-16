@@ -43,6 +43,20 @@ tags: ["Android"]
 - [APatch](https://github.com/bmax121/APatch) 正常。
 - Magisk 待测试。
 
+### 修复 Play Integrity
+
+依次安装:
+
+- [ReZygisk](https://github.com/PerformanC/ReZygisk/releases)
+- [Play integrity Fix](https://github.com/KOWX712/PlayIntegrityFix/releases)
+- [TrickyStore](https://github.com/5ec1cff/TrickyStore)
+- [TrickyStore Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases)
+- [Yuri Keybox Manager](https://github.com/YurikeyDev/yurikey/releases)
+
+重启
+
+"执行" Yuri Keybox Manager。
+
 ## 备注
 
 - 使用音量上下 + 电源键强制重启。
