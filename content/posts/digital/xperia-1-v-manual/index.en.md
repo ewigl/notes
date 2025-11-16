@@ -20,7 +20,7 @@ Version: `Latest`
 | Functions                                | Details                           |
 | ---------------------------------------- | --------------------------------- |
 | Creator Mode（BT.2020 and 10 bit color） | √                                 |
-| 4K                                       | √ with glitchs                    |
+| 4K                                       | √ with glitches                   |
 | Full High Refresh Rate                   | √                                 |
 | Master Apps                              | ApkMirror                         |
 | Dobly                                    | ×                                 |
