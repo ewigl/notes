@@ -43,6 +43,10 @@ tags: ["Android"]
 - [APatch](https://github.com/bmax121/APatch) 正常。
 - Magisk 待测试。
 
+补充:
+
+SukiSU Ultra + Susfs 环境下 12306 在 play 商店无法下载，Apatch 正常，原因暂时不明。
+
 ### 修复 Play Integrity
 
 依次安装:
