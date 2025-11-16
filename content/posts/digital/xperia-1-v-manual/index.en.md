@@ -33,7 +33,7 @@ Version: `Latest`
 | BUG                                                        | Details                         |
 | ---------------------------------------------------------- | ------------------------------- |
 | Some Bank Apps Not work                                    | Some Chinese Apps Reinforcement |
-| Fingerprint Indicator on wrong location                    | Full Resulotion (4K) Mode only  |
+| Fingerprint Indicator at wrong position                    | Full Resulotion (4K) Mode only  |
 | Need to back twice in Message app to back to previous view | Full Resulotion (4K) Mode only  |
 
 ### Root
